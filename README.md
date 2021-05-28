@@ -55,6 +55,7 @@ Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specif
 * __Yi-cyrl:__ fixed in SemiBold Italic
 * __General:__ Remapped Bold/BoldItalic as ExtraBold/Italic
 * __General 2:__ Created new Bold/BoldItalic
+* __1:__ Changed back to tabular
 ---
 
 
