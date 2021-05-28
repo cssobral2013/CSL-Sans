@@ -1,6 +1,6 @@
-# HMI Sans Font
+# CSL Sans Font
 
-__HMI Sans is an open-source font based on IBM Plex__
+__CSL Sans is an open-source font based on IBM Plex and HMI Sans__
 
 Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specific characters of IBM Plex.
 
@@ -13,7 +13,7 @@ Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specif
 
 ---
 
-#### Sans
+#### HMI Sans
 * __a:__ removed spur, right padding of lowercase h
 * __a (feminine ordinal):__ removed spur, right padding decreased
 * __J:__ removed arm
@@ -33,7 +33,7 @@ Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specif
 
 ---
 
-#### Sans Italic
+#### HMI Sans Italic
 * __g:__ single-story default, remove alternatives, right padding decreased by 10
 * __J:__ removed arm
 * __I:__ remove feet, padding same as left of L
@@ -50,13 +50,13 @@ Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specif
 
 ---
 
-#### Mono Italic
+#### CSL Sans
 
+* __Yi-cyrl:__ fixed in SemiBold Italic
+* __General:__ Remapped Bold/BoldItalic as ExtraBold/Italic
+* __General 2:__ Created new Bold/BoldItalic
 ---
 
-#### Mono Italic
-
----
 
 ### Roadmap
 * __Symbols:__ refactor arrows as carets
