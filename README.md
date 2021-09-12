@@ -57,6 +57,7 @@ Derived from IBM Plex, HMI Sans neutralizes some of the most unique brand-specif
 * __General 2:__ Created new Bold/BoldItalic
 * __1:__ Changed back to tabular
 * __g:__ Reinstated double-storey (romans only)
+* __Q:__ Changed crossbar to diagonal
 
 ---
 
