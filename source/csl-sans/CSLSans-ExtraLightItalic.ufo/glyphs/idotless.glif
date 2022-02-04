@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idotless" format="2">
+  <advance width="242"/>
+  <unicode hex="0131"/>
+  <outline>
+    <contour>
+      <point x="89" y="0" type="line"/>
+      <point x="56" y="0"/>
+      <point x="56" y="28" type="qcurve"/>
+      <point x="56" y="37"/>
+      <point x="150" y="508" type="qcurve"/>
+      <point x="184" y="508" type="line"/>
+      <point x="89" y="31" type="line"/>
+      <point x="171" y="31" type="line"/>
+      <point x="165" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

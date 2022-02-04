@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="crossmark" format="2">
+  <advance width="912"/>
+  <unicode hex="274C"/>
+  <outline>
+    <contour>
+      <point x="748" y="20" type="line"/>
+      <point x="785" y="57" type="line"/>
+      <point x="493" y="349" type="line"/>
+      <point x="785" y="641" type="line"/>
+      <point x="748" y="678" type="line"/>
+      <point x="456" y="386" type="line"/>
+      <point x="164" y="678" type="line"/>
+      <point x="127" y="641" type="line"/>
+      <point x="419" y="349" type="line"/>
+      <point x="127" y="57" type="line"/>
+      <point x="164" y="20" type="line"/>
+      <point x="456" y="312" type="line"/>
+    </contour>
+  </outline>
+</glyph>

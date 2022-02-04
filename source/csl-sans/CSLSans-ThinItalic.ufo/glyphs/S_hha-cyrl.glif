@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Shha-cyrl" format="2">
+  <advance width="607"/>
+  <unicode hex="04BA"/>
+  <outline>
+    <contour>
+      <point x="493" y="0" type="line"/>
+      <point x="526" y="164"/>
+      <point x="535" y="219"/>
+      <point x="535" y="248" type="qcurve"/>
+      <point x="535" y="421"/>
+      <point x="332" y="421" type="qcurve"/>
+      <point x="232" y="421"/>
+      <point x="156" y="392" type="qcurve"/>
+      <point x="154" y="392" type="line"/>
+      <point x="216" y="698" type="line"/>
+      <point x="194" y="698" type="line"/>
+      <point x="54" y="0" type="line"/>
+      <point x="76" y="0" type="line"/>
+      <point x="150" y="372" type="line"/>
+      <point x="228" y="401"/>
+      <point x="328" y="401" type="qcurve"/>
+      <point x="427" y="401"/>
+      <point x="513" y="323"/>
+      <point x="513" y="248" type="qcurve"/>
+      <point x="513" y="194"/>
+      <point x="494" y="115" type="qcurve"/>
+      <point x="471" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

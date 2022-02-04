@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sigma-grek" format="2">
+  <advance width="560"/>
+  <unicode hex="03C3"/>
+  <outline>
+    <contour>
+      <point x="429" y="463" type="line"/>
+      <point x="427" y="458" type="line"/>
+      <point x="458" y="432"/>
+      <point x="491" y="360"/>
+      <point x="491" y="315" type="qcurve"/>
+      <point x="491" y="252"/>
+      <point x="455" y="134"/>
+      <point x="388" y="43"/>
+      <point x="292" y="-12"/>
+      <point x="232" y="-12" type="qcurve"/>
+      <point x="151" y="-12"/>
+      <point x="53" y="95"/>
+      <point x="53" y="188" type="qcurve"/>
+      <point x="53" y="252"/>
+      <point x="91" y="370"/>
+      <point x="160" y="459"/>
+      <point x="258" y="512"/>
+      <point x="318" y="512" type="qcurve"/>
+      <point x="571" y="512" type="line"/>
+      <point x="562" y="463" type="line"/>
+    </contour>
+    <contour>
+      <point x="318" y="463" type="line"/>
+      <point x="244" y="463"/>
+      <point x="141" y="367"/>
+      <point x="124" y="279" type="qcurve"/>
+      <point x="113" y="230" type="line"/>
+      <point x="111" y="216"/>
+      <point x="109" y="189"/>
+      <point x="109" y="174" type="qcurve"/>
+      <point x="109" y="115"/>
+      <point x="174" y="37"/>
+      <point x="239" y="37" type="qcurve"/>
+      <point x="306" y="37"/>
+      <point x="402" y="133"/>
+      <point x="419" y="221" type="qcurve"/>
+      <point x="428" y="267" type="line"/>
+      <point x="430" y="280"/>
+      <point x="435" y="308"/>
+      <point x="435" y="322" type="qcurve"/>
+      <point x="435" y="370"/>
+      <point x="414" y="434"/>
+      <point x="385" y="463" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

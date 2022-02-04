@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Em-cyrl" format="2">
+  <advance width="816"/>
+  <unicode hex="041C"/>
+  <outline>
+    <contour>
+      <point x="733" y="0" type="line"/>
+      <point x="613" y="0" type="line"/>
+      <point x="613" y="509" type="line"/>
+      <point x="609" y="509" type="line"/>
+      <point x="555" y="399" type="line"/>
+      <point x="408" y="131" type="line"/>
+      <point x="261" y="399" type="line"/>
+      <point x="207" y="511" type="line"/>
+      <point x="203" y="511" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="83" y="0" type="line"/>
+      <point x="83" y="698" type="line"/>
+      <point x="226" y="698" type="line"/>
+      <point x="408" y="352" type="line"/>
+      <point x="412" y="352" type="line"/>
+      <point x="593" y="698" type="line"/>
+      <point x="733" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>

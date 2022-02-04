@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greekanoteleia" format="2">
+  <advance width="292"/>
+  <unicode hex="0387"/>
+  <outline>
+    <contour>
+      <point x="146" y="394" type="qcurve"/>
+      <point x="114" y="394"/>
+      <point x="85" y="426"/>
+      <point x="85" y="452" type="qcurve"/>
+      <point x="85" y="465" type="line"/>
+      <point x="85" y="491"/>
+      <point x="114" y="523"/>
+      <point x="146" y="523" type="qcurve"/>
+      <point x="178" y="523"/>
+      <point x="207" y="491"/>
+      <point x="207" y="465" type="qcurve"/>
+      <point x="207" y="452" type="line"/>
+      <point x="207" y="426"/>
+      <point x="178" y="394"/>
+    </contour>
+  </outline>
+</glyph>

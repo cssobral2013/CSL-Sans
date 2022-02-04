@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonosmod-grek" format="2">
+  <advance width="589"/>
+  <unicode hex="0384"/>
+  <outline>
+    <contour>
+      <point x="396" y="580" type="line"/>
+      <point x="316" y="605" type="line"/>
+      <point x="386" y="806" type="line"/>
+      <point x="499" y="778" type="line"/>
+    </contour>
+  </outline>
+</glyph>

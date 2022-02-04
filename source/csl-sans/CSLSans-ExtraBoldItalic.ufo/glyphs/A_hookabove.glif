@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ahookabove" format="2">
+  <advance width="658"/>
+  <unicode hex="1EA2"/>
+  <outline>
+    <contour>
+      <point x="441" y="0" type="line"/>
+      <point x="425" y="170" type="line"/>
+      <point x="202" y="170" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="-35" y="0" type="line"/>
+      <point x="324" y="698" type="line"/>
+      <point x="509" y="698" type="line"/>
+      <point x="588" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="394" y="567" type="line"/>
+      <point x="386" y="567" type="line"/>
+      <point x="259" y="291" type="line"/>
+      <point x="415" y="291" type="line"/>
+    </contour>
+    <contour>
+      <point x="400" y="765" type="line"/>
+      <point x="449" y="858" type="line"/>
+      <point x="332" y="858" type="line"/>
+      <point x="352" y="962" type="line"/>
+      <point x="498" y="962" type="line"/>
+      <point x="537" y="962"/>
+      <point x="576" y="929"/>
+      <point x="576" y="905" type="qcurve"/>
+      <point x="576" y="873"/>
+      <point x="547" y="824"/>
+      <point x="525" y="797" type="qcurve"/>
+      <point x="469" y="731" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kipsign" format="2">
+  <advance width="658"/>
+  <unicode hex="20AD"/>
+  <outline>
+    <contour>
+      <point x="432" y="0" type="line"/>
+      <point x="287" y="296" type="line"/>
+      <point x="240" y="296" type="line"/>
+      <point x="182" y="0" type="line"/>
+      <point x="43" y="0" type="line"/>
+      <point x="102" y="296" type="line"/>
+      <point x="17" y="296" type="line"/>
+      <point x="40" y="409" type="line"/>
+      <point x="125" y="409" type="line"/>
+      <point x="183" y="698" type="line"/>
+      <point x="322" y="698" type="line"/>
+      <point x="263" y="409" type="line"/>
+      <point x="307" y="409" type="line"/>
+      <point x="551" y="698" type="line"/>
+      <point x="711" y="698" type="line"/>
+      <point x="456" y="409" type="line"/>
+      <point x="629" y="409" type="line"/>
+      <point x="606" y="296" type="line"/>
+      <point x="432" y="296" type="line"/>
+      <point x="583" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

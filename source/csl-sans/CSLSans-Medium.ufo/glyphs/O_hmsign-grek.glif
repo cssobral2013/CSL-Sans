@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ohmsign-grek" format="2">
+  <advance width="716"/>
+  <unicode hex="2126"/>
+  <outline>
+    <contour>
+      <point x="664" y="0" type="line"/>
+      <point x="664" y="91" type="line"/>
+      <point x="505" y="91" type="line"/>
+      <point x="505" y="101" type="line"/>
+      <point x="573" y="136"/>
+      <point x="659" y="279"/>
+      <point x="659" y="384" type="qcurve"/>
+      <point x="659" y="466"/>
+      <point x="595" y="616"/>
+      <point x="462" y="710"/>
+      <point x="358" y="710" type="qcurve"/>
+      <point x="258" y="710"/>
+      <point x="124" y="618"/>
+      <point x="57" y="470"/>
+      <point x="57" y="384" type="qcurve"/>
+      <point x="57" y="276"/>
+      <point x="146" y="135"/>
+      <point x="211" y="101" type="qcurve"/>
+      <point x="211" y="91" type="line"/>
+      <point x="52" y="91" type="line"/>
+      <point x="52" y="0" type="line"/>
+      <point x="299" y="0" type="line"/>
+      <point x="299" y="139" type="line"/>
+      <point x="251" y="158"/>
+      <point x="177" y="271"/>
+      <point x="177" y="336" type="qcurve"/>
+      <point x="177" y="429" type="line"/>
+      <point x="177" y="473"/>
+      <point x="219" y="556"/>
+      <point x="300" y="609"/>
+      <point x="358" y="609" type="qcurve"/>
+      <point x="415" y="609"/>
+      <point x="496" y="556"/>
+      <point x="539" y="474"/>
+      <point x="539" y="429" type="qcurve"/>
+      <point x="539" y="336" type="line"/>
+      <point x="539" y="271"/>
+      <point x="465" y="158"/>
+      <point x="417" y="139" type="qcurve"/>
+      <point x="417" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresis-cyrl" format="2">
+  <advance width="685"/>
+  <unicode hex="04D2"/>
+  <outline>
+    <contour>
+      <point x="665" y="0" type="line"/>
+      <point x="438" y="698" type="line"/>
+      <point x="250" y="698" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="174" y="0" type="line"/>
+      <point x="224" y="166" type="line"/>
+      <point x="457" y="166" type="line"/>
+      <point x="507" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="420" y="295" type="line"/>
+      <point x="260" y="295" type="line"/>
+      <point x="337" y="560" type="line"/>
+      <point x="342" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="229" y="761" type="qcurve"/>
+      <point x="309" y="761"/>
+      <point x="309" y="824" type="qcurve"/>
+      <point x="309" y="849" type="line"/>
+      <point x="309" y="912"/>
+      <point x="229" y="912" type="qcurve"/>
+      <point x="149" y="912"/>
+      <point x="149" y="849" type="qcurve"/>
+      <point x="149" y="824" type="line"/>
+      <point x="149" y="761"/>
+    </contour>
+    <contour>
+      <point x="449" y="761" type="qcurve"/>
+      <point x="529" y="761"/>
+      <point x="529" y="824" type="qcurve"/>
+      <point x="529" y="849" type="line"/>
+      <point x="529" y="912"/>
+      <point x="449" y="912" type="qcurve"/>
+      <point x="369" y="912"/>
+      <point x="369" y="849" type="qcurve"/>
+      <point x="369" y="824" type="line"/>
+      <point x="369" y="761"/>
+    </contour>
+  </outline>
+</glyph>

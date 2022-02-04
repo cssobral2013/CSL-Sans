@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Umacron-cyrl" format="2">
+  <advance width="587"/>
+  <unicode hex="04EE"/>
+  <outline>
+    <contour>
+      <point x="214" y="0" type="line"/>
+      <point x="253" y="0"/>
+      <point x="294" y="26"/>
+      <point x="308" y="62" type="qcurve"/>
+      <point x="563" y="698" type="line"/>
+      <point x="501" y="698" type="line"/>
+      <point x="355" y="332" type="line"/>
+      <point x="316" y="227" type="line"/>
+      <point x="312" y="227" type="line"/>
+      <point x="266" y="330" type="line"/>
+      <point x="89" y="698" type="line"/>
+      <point x="24" y="698" type="line"/>
+      <point x="287" y="153" type="line"/>
+      <point x="247" y="53" type="line"/>
+      <point x="149" y="53" type="line"/>
+      <point x="149" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="440" y="819" type="line"/>
+      <point x="440" y="868" type="line"/>
+      <point x="168" y="868" type="line"/>
+      <point x="168" y="819" type="line"/>
+    </contour>
+  </outline>
+</glyph>

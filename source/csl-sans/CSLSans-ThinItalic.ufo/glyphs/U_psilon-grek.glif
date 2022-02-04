@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilon-grek" format="2">
+  <advance width="540"/>
+  <unicode hex="03A5"/>
+  <outline>
+    <contour>
+      <point x="347" y="0" type="line"/>
+      <point x="406" y="294" type="line"/>
+      <point x="248" y="698" type="line"/>
+      <point x="271" y="698" type="line"/>
+      <point x="419" y="320" type="line"/>
+      <point x="422" y="320" type="line"/>
+      <point x="722" y="698" type="line"/>
+      <point x="748" y="698" type="line"/>
+      <point x="428" y="294" type="line"/>
+      <point x="369" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

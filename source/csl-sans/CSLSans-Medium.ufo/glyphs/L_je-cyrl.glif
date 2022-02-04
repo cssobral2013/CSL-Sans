@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lje-cyrl" format="2">
+  <advance width="1028"/>
+  <unicode hex="0409"/>
+  <outline>
+    <contour>
+      <point x="57" y="-3" type="line"/>
+      <point x="100" y="-3"/>
+      <point x="160" y="20"/>
+      <point x="186" y="45" type="qcurve"/>
+      <point x="228" y="82"/>
+      <point x="279" y="272"/>
+      <point x="279" y="480" type="qcurve"/>
+      <point x="279" y="598" type="line"/>
+      <point x="485" y="598" type="line"/>
+      <point x="485" y="0" type="line"/>
+      <point x="789" y="0" type="line"/>
+      <point x="885" y="0"/>
+      <point x="991" y="115"/>
+      <point x="991" y="215" type="qcurve"/>
+      <point x="991" y="315"/>
+      <point x="885" y="430"/>
+      <point x="789" y="430" type="qcurve"/>
+      <point x="598" y="430" type="line"/>
+      <point x="598" y="698" type="line"/>
+      <point x="170" y="698" type="line"/>
+      <point x="170" y="493" type="line"/>
+      <point x="170" y="304"/>
+      <point x="131" y="136"/>
+      <point x="91" y="100" type="qcurve"/>
+      <point x="14" y="100" type="line"/>
+      <point x="14" y="-3" type="line"/>
+    </contour>
+    <contour>
+      <point x="781" y="99" type="qcurve"/>
+      <point x="598" y="99" type="line"/>
+      <point x="598" y="331" type="line"/>
+      <point x="781" y="331" type="line"/>
+      <point x="824" y="331"/>
+      <point x="872" y="285"/>
+      <point x="872" y="239" type="qcurve"/>
+      <point x="872" y="191" type="line"/>
+      <point x="872" y="100"/>
+    </contour>
+  </outline>
+</glyph>

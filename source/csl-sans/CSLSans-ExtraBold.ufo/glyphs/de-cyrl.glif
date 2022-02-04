@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="de-cyrl" format="2">
+  <advance width="658"/>
+  <unicode hex="0434"/>
+  <outline>
+    <contour>
+      <point x="643" y="-140" type="line"/>
+      <point x="643" y="115" type="line"/>
+      <point x="553" y="115" type="line"/>
+      <point x="553" y="525" type="line"/>
+      <point x="131" y="525" type="line"/>
+      <point x="131" y="376" type="line"/>
+      <point x="131" y="274"/>
+      <point x="105" y="152"/>
+      <point x="79" y="115" type="qcurve"/>
+      <point x="10" y="115" type="line"/>
+      <point x="10" y="-140" type="line"/>
+      <point x="144" y="-140" type="line"/>
+      <point x="144" y="0" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="509" y="-140" type="line"/>
+    </contour>
+    <contour>
+      <point x="405" y="115" type="line"/>
+      <point x="234" y="115" type="line"/>
+      <point x="250" y="144"/>
+      <point x="273" y="260"/>
+      <point x="273" y="368" type="qcurve"/>
+      <point x="273" y="410" type="line"/>
+      <point x="405" y="410" type="line"/>
+    </contour>
+  </outline>
+</glyph>

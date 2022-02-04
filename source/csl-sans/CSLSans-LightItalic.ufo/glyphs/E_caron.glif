@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="2">
+  <advance width="560"/>
+  <unicode hex="011A"/>
+  <outline>
+    <contour>
+      <point x="453" y="0" type="line"/>
+      <point x="463" y="52" type="line"/>
+      <point x="114" y="52" type="line"/>
+      <point x="169" y="329" type="line"/>
+      <point x="484" y="329" type="line"/>
+      <point x="494" y="380" type="line"/>
+      <point x="179" y="380" type="line"/>
+      <point x="233" y="646" type="line"/>
+      <point x="572" y="646" type="line"/>
+      <point x="583" y="698" type="line"/>
+      <point x="185" y="698" type="line"/>
+      <point x="45" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="429" y="774" type="line"/>
+      <point x="572" y="913" type="line"/>
+      <point x="542" y="937" type="line"/>
+      <point x="399" y="816" type="line"/>
+      <point x="303" y="937" type="line"/>
+      <point x="271" y="914" type="line"/>
+      <point x="362" y="774" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lamda-grek" format="2">
+  <advance width="620"/>
+  <unicode hex="039B"/>
+  <outline>
+    <contour>
+      <point x="458" y="698" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="410" y="330" type="line"/>
+      <point x="382" y="602" type="line"/>
+      <point x="376" y="602" type="line"/>
+      <point x="244" y="336" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="-29" y="0" type="line"/>
+      <point x="337" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yeru-cyrl" format="2">
+  <advance width="922"/>
+  <unicode hex="042B"/>
+  <outline>
+    <contour>
+      <point x="403" y="0" type="qcurve"/>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="698" type="line"/>
+      <point x="219" y="698" type="line"/>
+      <point x="219" y="441" type="line"/>
+      <point x="403" y="441" type="line"/>
+      <point x="498" y="441"/>
+      <point x="612" y="322"/>
+      <point x="612" y="220" type="qcurve"/>
+      <point x="612" y="125"/>
+      <point x="506" y="0"/>
+    </contour>
+    <contour>
+      <point x="388" y="121" type="line"/>
+      <point x="467" y="121"/>
+      <point x="467" y="198" type="qcurve"/>
+      <point x="467" y="243" type="line"/>
+      <point x="467" y="284"/>
+      <point x="423" y="320"/>
+      <point x="388" y="320" type="qcurve"/>
+      <point x="219" y="320" type="line"/>
+      <point x="219" y="121" type="line"/>
+    </contour>
+    <contour>
+      <point x="842" y="0" type="line"/>
+      <point x="703" y="0" type="line"/>
+      <point x="703" y="698" type="line"/>
+      <point x="842" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildemod" format="2">
+  <advance width="600"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="375" y="603" type="qcurve"/>
+      <point x="345" y="603"/>
+      <point x="299" y="626"/>
+      <point x="273" y="634" type="qcurve"/>
+      <point x="244" y="647"/>
+      <point x="221" y="647" type="qcurve"/>
+      <point x="203" y="647"/>
+      <point x="177" y="633"/>
+      <point x="163" y="621" type="qcurve"/>
+      <point x="114" y="684" type="line"/>
+      <point x="153" y="746"/>
+      <point x="225" y="746" type="qcurve"/>
+      <point x="255" y="746"/>
+      <point x="302" y="723"/>
+      <point x="327" y="715" type="qcurve"/>
+      <point x="356" y="702"/>
+      <point x="379" y="702" type="qcurve"/>
+      <point x="412" y="702"/>
+      <point x="437" y="728" type="qcurve"/>
+      <point x="486" y="665" type="line"/>
+      <point x="448" y="603"/>
+    </contour>
+  </outline>
+</glyph>

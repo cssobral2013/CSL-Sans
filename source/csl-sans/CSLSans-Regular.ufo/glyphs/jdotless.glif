@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jdotless" format="2">
+  <advance width="250"/>
+  <unicode hex="0237"/>
+  <outline>
+    <contour>
+      <point x="53" y="-200" type="line"/>
+      <point x="111" y="-200"/>
+      <point x="165" y="-134"/>
+      <point x="165" y="-80" type="qcurve"/>
+      <point x="165" y="516" type="line"/>
+      <point x="85" y="516" type="line"/>
+      <point x="85" y="-130" type="line"/>
+      <point x="1" y="-130" type="line"/>
+      <point x="1" y="-200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

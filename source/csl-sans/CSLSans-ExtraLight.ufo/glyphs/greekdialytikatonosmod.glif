@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greekdialytikatonosmod" format="2">
+  <advance width="600"/>
+  <unicode hex="0385"/>
+  <outline>
+    <contour>
+      <point x="203" y="636" type="qcurve"/>
+      <point x="188" y="636"/>
+      <point x="175" y="652"/>
+      <point x="175" y="663" type="qcurve"/>
+      <point x="175" y="671" type="line"/>
+      <point x="175" y="682"/>
+      <point x="188" y="698"/>
+      <point x="203" y="698" type="qcurve"/>
+      <point x="218" y="698"/>
+      <point x="231" y="682"/>
+      <point x="231" y="671" type="qcurve"/>
+      <point x="231" y="663" type="line"/>
+      <point x="231" y="652"/>
+      <point x="218" y="636"/>
+    </contour>
+    <contour>
+      <point x="397" y="636" type="qcurve"/>
+      <point x="382" y="636"/>
+      <point x="369" y="652"/>
+      <point x="369" y="663" type="qcurve"/>
+      <point x="369" y="671" type="line"/>
+      <point x="369" y="682"/>
+      <point x="382" y="698"/>
+      <point x="397" y="698" type="qcurve"/>
+      <point x="412" y="698"/>
+      <point x="425" y="682"/>
+      <point x="425" y="671" type="qcurve"/>
+      <point x="425" y="663" type="line"/>
+      <point x="425" y="652"/>
+      <point x="412" y="636"/>
+    </contour>
+    <contour>
+      <point x="281" y="587" type="line"/>
+      <point x="257" y="593" type="line"/>
+      <point x="316" y="758" type="line"/>
+      <point x="349" y="749" type="line"/>
+    </contour>
+  </outline>
+</glyph>

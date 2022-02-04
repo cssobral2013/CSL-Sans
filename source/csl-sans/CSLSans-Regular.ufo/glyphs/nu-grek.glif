@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nu-grek" format="2">
+  <advance width="511"/>
+  <unicode hex="03BD"/>
+  <outline>
+    <contour>
+      <point x="213" y="0" type="line"/>
+      <point x="64" y="446" type="line"/>
+      <point x="10" y="446" type="line"/>
+      <point x="10" y="516" type="line"/>
+      <point x="55" y="516" type="line"/>
+      <point x="88" y="516"/>
+      <point x="130" y="491"/>
+      <point x="141" y="457" type="qcurve"/>
+      <point x="205" y="259" type="line"/>
+      <point x="258" y="84" type="line"/>
+      <point x="263" y="84" type="line"/>
+      <point x="321" y="259" type="line"/>
+      <point x="416" y="516" type="line"/>
+      <point x="493" y="516" type="line"/>
+      <point x="306" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

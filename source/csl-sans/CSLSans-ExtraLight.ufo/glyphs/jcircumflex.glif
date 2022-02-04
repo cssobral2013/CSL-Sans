@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="jcircumflex" format="2">
+  <advance width="235"/>
+  <unicode hex="0135"/>
+  <outline>
+    <contour>
+      <point x="87" y="-200" type="line"/>
+      <point x="135" y="-200"/>
+      <point x="135" y="-149" type="qcurve"/>
+      <point x="135" y="508" type="line"/>
+      <point x="100" y="508" type="line"/>
+      <point x="100" y="-169" type="line"/>
+      <point x="15" y="-169" type="line"/>
+      <point x="15" y="-200" type="line"/>
+    </contour>
+    <contour>
+      <point x="242" y="597" type="line"/>
+      <point x="263" y="613" type="line"/>
+      <point x="139" y="748" type="line"/>
+      <point x="97" y="748" type="line"/>
+      <point x="-27" y="613" type="line"/>
+      <point x="-6" y="597" type="line"/>
+      <point x="118" y="722" type="line"/>
+    </contour>
+  </outline>
+</glyph>

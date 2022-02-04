@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tugriksign" format="2">
+  <advance width="606"/>
+  <unicode hex="20AE"/>
+  <outline>
+    <contour>
+      <point x="366" y="0" type="line"/>
+      <point x="240" y="0" type="line"/>
+      <point x="240" y="151" type="line"/>
+      <point x="115" y="92" type="line"/>
+      <point x="115" y="174" type="line"/>
+      <point x="240" y="233" type="line"/>
+      <point x="240" y="310" type="line"/>
+      <point x="115" y="250" type="line"/>
+      <point x="115" y="332" type="line"/>
+      <point x="240" y="392" type="line"/>
+      <point x="240" y="594" type="line"/>
+      <point x="38" y="594" type="line"/>
+      <point x="38" y="698" type="line"/>
+      <point x="568" y="698" type="line"/>
+      <point x="568" y="594" type="line"/>
+      <point x="366" y="594" type="line"/>
+      <point x="366" y="452" type="line"/>
+      <point x="492" y="511" type="line"/>
+      <point x="492" y="429" type="line"/>
+      <point x="366" y="370" type="line"/>
+      <point x="366" y="293" type="line"/>
+      <point x="492" y="354" type="line"/>
+      <point x="492" y="272" type="line"/>
+      <point x="366" y="211" type="line"/>
+    </contour>
+  </outline>
+</glyph>

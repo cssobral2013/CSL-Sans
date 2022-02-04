@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eta-grek" format="2">
+  <advance width="698"/>
+  <unicode hex="0397"/>
+  <outline>
+    <contour>
+      <point x="489" y="292" type="line"/>
+      <point x="221" y="292" type="line"/>
+      <point x="162" y="0" type="line"/>
+      <point x="24" y="0" type="line"/>
+      <point x="164" y="698" type="line"/>
+      <point x="302" y="698" type="line"/>
+      <point x="246" y="414" type="line"/>
+      <point x="514" y="414" type="line"/>
+      <point x="570" y="698" type="line"/>
+      <point x="709" y="698" type="line"/>
+      <point x="569" y="0" type="line"/>
+      <point x="430" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

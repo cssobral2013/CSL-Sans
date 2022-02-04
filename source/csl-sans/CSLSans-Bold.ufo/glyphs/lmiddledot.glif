@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lmiddledot" format="2">
+  <advance width="431"/>
+  <unicode hex="0140"/>
+  <outline>
+    <contour>
+      <point x="352" y="270" type="qcurve"/>
+      <point x="270" y="270"/>
+      <point x="270" y="336" type="qcurve"/>
+      <point x="270" y="361" type="line"/>
+      <point x="270" y="427"/>
+      <point x="352" y="427" type="qcurve"/>
+      <point x="434" y="427"/>
+      <point x="434" y="361" type="qcurve"/>
+      <point x="434" y="336" type="line"/>
+      <point x="434" y="270"/>
+    </contour>
+    <contour>
+      <point x="275" y="0" type="line"/>
+      <point x="207" y="0" type="line"/>
+      <point x="72" y="0"/>
+      <point x="72" y="132" type="qcurve"/>
+      <point x="72" y="740" type="line"/>
+      <point x="207" y="740" type="line"/>
+      <point x="207" y="106" type="line"/>
+      <point x="275" y="106" type="line"/>
+    </contour>
+  </outline>
+</glyph>

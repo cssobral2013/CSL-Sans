@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jcircumflex" format="2">
+  <advance width="532"/>
+  <unicode hex="0134"/>
+  <outline>
+    <contour>
+      <point x="203" y="715" type="line"/>
+      <point x="247" y="751"/>
+      <point x="331" y="829"/>
+      <point x="366" y="877" type="qcurve"/>
+      <point x="486" y="928" type="line"/>
+      <point x="489" y="915"/>
+      <point x="493" y="905" type="qcurve"/>
+      <point x="558" y="736" type="line"/>
+      <point x="540" y="720"/>
+      <point x="504" y="689"/>
+      <point x="486" y="675" type="qcurve"/>
+      <point x="475" y="683"/>
+      <point x="452" y="702"/>
+      <point x="440" y="713" type="qcurve"/>
+      <point x="422" y="728"/>
+      <point x="392" y="765"/>
+      <point x="378" y="785" type="qcurve"/>
+      <point x="322" y="742" type="line"/>
+      <point x="304" y="719"/>
+      <point x="277" y="680"/>
+      <point x="266" y="664" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="212" y="183" type="qcurve"/>
+      <point x="241" y="184"/>
+      <point x="287" y="223"/>
+      <point x="297" y="268" type="qcurve"/>
+      <point x="396" y="722" type="line"/>
+      <point x="536" y="722" type="line"/>
+      <point x="452" y="250" type="line"/>
+      <point x="435" y="165"/>
+      <point x="329" y="67"/>
+      <point x="239" y="66" type="qcurve"/>
+      <point x="192" y="67"/>
+      <point x="122" y="97"/>
+      <point x="74" y="147"/>
+      <point x="45" y="212"/>
+      <point x="41" y="250" type="qcurve"/>
+      <point x="152" y="263" type="line"/>
+      <point x="154" y="225"/>
+      <point x="180" y="182"/>
+    </contour>
+  </outline>
+</glyph>

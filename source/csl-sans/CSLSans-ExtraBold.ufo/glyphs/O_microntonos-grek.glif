@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omicrontonos-grek" format="2">
+  <advance width="756"/>
+  <unicode hex="038C"/>
+  <outline>
+    <contour>
+      <point x="399" y="-12" type="qcurve"/>
+      <point x="330" y="-12"/>
+      <point x="216" y="34"/>
+      <point x="136" y="125"/>
+      <point x="92" y="260"/>
+      <point x="92" y="349" type="qcurve"/>
+      <point x="92" y="438"/>
+      <point x="136" y="573"/>
+      <point x="216" y="664"/>
+      <point x="330" y="710"/>
+      <point x="399" y="710" type="qcurve"/>
+      <point x="468" y="710"/>
+      <point x="582" y="664"/>
+      <point x="662" y="573"/>
+      <point x="706" y="438"/>
+      <point x="706" y="349" type="qcurve"/>
+      <point x="706" y="260"/>
+      <point x="662" y="125"/>
+      <point x="582" y="34"/>
+      <point x="468" y="-12"/>
+    </contour>
+    <contour>
+      <point x="399" y="123" type="qcurve"/>
+      <point x="468" y="123"/>
+      <point x="545" y="213"/>
+      <point x="545" y="297" type="qcurve"/>
+      <point x="545" y="401" type="line"/>
+      <point x="545" y="485"/>
+      <point x="468" y="575"/>
+      <point x="399" y="575" type="qcurve"/>
+      <point x="330" y="575"/>
+      <point x="253" y="485"/>
+      <point x="253" y="401" type="qcurve"/>
+      <point x="253" y="297" type="line"/>
+      <point x="253" y="213"/>
+      <point x="330" y="123"/>
+    </contour>
+    <contour>
+      <point x="80" y="579" type="line"/>
+      <point x="-15" y="593" type="line"/>
+      <point x="20" y="816" type="line"/>
+      <point x="153" y="796" type="line"/>
+    </contour>
+  </outline>
+</glyph>

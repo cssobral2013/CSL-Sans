@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tau-grek" format="2">
+  <advance width="552"/>
+  <unicode hex="03A4"/>
+  <outline>
+    <contour>
+      <point x="512" y="646" type="line"/>
+      <point x="383" y="0" type="line"/>
+      <point x="325" y="0" type="line"/>
+      <point x="454" y="646" type="line"/>
+      <point x="227" y="646" type="line"/>
+      <point x="237" y="698" type="line"/>
+      <point x="750" y="698" type="line"/>
+      <point x="739" y="646" type="line"/>
+    </contour>
+  </outline>
+</glyph>

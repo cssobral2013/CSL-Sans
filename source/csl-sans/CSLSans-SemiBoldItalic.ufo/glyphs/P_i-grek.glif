@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pi-grek" format="2">
+  <advance width="678"/>
+  <unicode hex="03A0"/>
+  <outline>
+    <contour>
+      <point x="169" y="698" type="line"/>
+      <point x="681" y="698" type="line"/>
+      <point x="540" y="0" type="line"/>
+      <point x="427" y="0" type="line"/>
+      <point x="547" y="597" type="line"/>
+      <point x="262" y="597" type="line"/>
+      <point x="142" y="0" type="line"/>
+      <point x="29" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

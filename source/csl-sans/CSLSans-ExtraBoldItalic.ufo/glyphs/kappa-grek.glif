@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kappa-grek" format="2">
+  <advance width="553"/>
+  <unicode hex="03BA"/>
+  <outline>
+    <contour>
+      <point x="258" y="217" type="line"/>
+      <point x="179" y="148" type="line"/>
+      <point x="150" y="0" type="line"/>
+      <point x="16" y="0" type="line"/>
+      <point x="121" y="524" type="line"/>
+      <point x="255" y="524" type="line"/>
+      <point x="208" y="296" type="line"/>
+      <point x="215" y="296" type="line"/>
+      <point x="289" y="380" type="line"/>
+      <point x="404" y="489" type="line"/>
+      <point x="427" y="510"/>
+      <point x="468" y="524"/>
+      <point x="500" y="524" type="qcurve"/>
+      <point x="567" y="524" type="line"/>
+      <point x="545" y="416" type="line"/>
+      <point x="486" y="416" type="line"/>
+      <point x="360" y="302" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="344" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

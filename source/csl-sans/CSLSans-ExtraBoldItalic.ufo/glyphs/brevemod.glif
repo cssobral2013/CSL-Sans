@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevemod" format="2">
+  <advance width="586"/>
+  <unicode hex="02D8"/>
+  <outline>
+    <contour>
+      <point x="305" y="581" type="qcurve"/>
+      <point x="267" y="581"/>
+      <point x="209" y="610"/>
+      <point x="168" y="656"/>
+      <point x="143" y="716"/>
+      <point x="139" y="747" type="qcurve"/>
+      <point x="216" y="787" type="line"/>
+      <point x="233" y="750" type="line"/>
+      <point x="248" y="715"/>
+      <point x="281" y="678"/>
+      <point x="312" y="678" type="qcurve"/>
+      <point x="343" y="678"/>
+      <point x="389" y="720"/>
+      <point x="419" y="762" type="qcurve"/>
+      <point x="438" y="787" type="line"/>
+      <point x="517" y="743" type="line"/>
+      <point x="500" y="710"/>
+      <point x="457" y="652"/>
+      <point x="404" y="607"/>
+      <point x="341" y="581"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Enghe-cyrl" format="2">
+  <advance width="903"/>
+  <unicode hex="04A4"/>
+  <outline>
+    <contour>
+      <point x="468" y="0" type="line"/>
+      <point x="536" y="338" type="line"/>
+      <point x="154" y="338" type="line"/>
+      <point x="86" y="0" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="190" y="698" type="line"/>
+      <point x="226" y="698" type="line"/>
+      <point x="161" y="370" type="line"/>
+      <point x="542" y="370" type="line"/>
+      <point x="608" y="698" type="line"/>
+      <point x="954" y="698" type="line"/>
+      <point x="947" y="666" type="line"/>
+      <point x="638" y="666" type="line"/>
+      <point x="504" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

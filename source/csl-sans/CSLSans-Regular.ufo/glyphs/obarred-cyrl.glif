@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="obarred-cyrl" format="2">
+  <advance width="560"/>
+  <unicode hex="04E9"/>
+  <outline>
+    <contour>
+      <point x="280" y="-12" type="qcurve"/>
+      <point x="384" y="-12"/>
+      <point x="448" y="62" type="qcurve"/>
+      <point x="513" y="134"/>
+      <point x="513" y="258" type="qcurve"/>
+      <point x="513" y="380"/>
+      <point x="384" y="528"/>
+      <point x="280" y="528" type="qcurve"/>
+      <point x="177" y="528"/>
+      <point x="47" y="380"/>
+      <point x="47" y="258" type="qcurve"/>
+      <point x="47" y="134"/>
+      <point x="112" y="62" type="qcurve"/>
+      <point x="177" y="-12"/>
+    </contour>
+    <contour>
+      <point x="280" y="59" type="qcurve"/>
+      <point x="214" y="59"/>
+      <point x="133" y="139"/>
+      <point x="133" y="221" type="qcurve"/>
+      <point x="133" y="231" type="line"/>
+      <point x="427" y="231" type="line"/>
+      <point x="427" y="221" type="line"/>
+      <point x="427" y="139"/>
+      <point x="346" y="59"/>
+    </contour>
+    <contour>
+      <point x="427" y="293" type="qcurve"/>
+      <point x="133" y="293" type="line"/>
+      <point x="133" y="377"/>
+      <point x="214" y="457"/>
+      <point x="280" y="457" type="qcurve"/>
+      <point x="346" y="457"/>
+      <point x="427" y="377"/>
+    </contour>
+  </outline>
+</glyph>

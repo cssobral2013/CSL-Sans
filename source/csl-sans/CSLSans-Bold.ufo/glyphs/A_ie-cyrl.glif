@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aie-cyrl" format="2">
+  <advance width="956"/>
+  <unicode hex="04D4"/>
+  <outline>
+    <contour>
+      <point x="900" y="0" type="line"/>
+      <point x="434" y="0" type="line"/>
+      <point x="434" y="173" type="line"/>
+      <point x="222" y="173" type="line"/>
+      <point x="139" y="0" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="344" y="698" type="line"/>
+      <point x="900" y="698" type="line"/>
+      <point x="900" y="575" type="line"/>
+      <point x="572" y="575" type="line"/>
+      <point x="572" y="415" type="line"/>
+      <point x="859" y="415" type="line"/>
+      <point x="859" y="292" type="line"/>
+      <point x="572" y="292" type="line"/>
+      <point x="572" y="123" type="line"/>
+      <point x="900" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="434" y="292" type="line"/>
+      <point x="434" y="575" type="line"/>
+      <point x="413" y="575" type="line"/>
+      <point x="278" y="292" type="line"/>
+    </contour>
+  </outline>
+</glyph>

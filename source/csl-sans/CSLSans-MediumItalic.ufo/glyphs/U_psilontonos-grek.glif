@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilontonos-grek" format="2">
+  <advance width="693"/>
+  <unicode hex="038E"/>
+  <outline>
+    <contour>
+      <point x="297" y="0" type="line"/>
+      <point x="352" y="272" type="line"/>
+      <point x="205" y="698" type="line"/>
+      <point x="304" y="698" type="line"/>
+      <point x="414" y="369" type="line"/>
+      <point x="420" y="369" type="line"/>
+      <point x="658" y="698" type="line"/>
+      <point x="767" y="698" type="line"/>
+      <point x="448" y="269" type="line"/>
+      <point x="394" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="583" type="line"/>
+      <point x="56" y="600" type="line"/>
+      <point x="121" y="789" type="line"/>
+      <point x="208" y="767" type="line"/>
+    </contour>
+  </outline>
+</glyph>

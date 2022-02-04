@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Bashkirka-cyrl" format="2">
+  <advance width="771"/>
+  <unicode hex="04A0"/>
+  <outline>
+    <contour>
+      <point x="731" y="0" type="line"/>
+      <point x="731" y="135" type="line"/>
+      <point x="669" y="135" type="line"/>
+      <point x="587" y="294" type="line"/>
+      <point x="561" y="350"/>
+      <point x="510" y="357" type="qcurve"/>
+      <point x="510" y="363" type="line"/>
+      <point x="556" y="376"/>
+      <point x="583" y="427" type="qcurve"/>
+      <point x="655" y="563" type="line"/>
+      <point x="717" y="563" type="line"/>
+      <point x="717" y="698" type="line"/>
+      <point x="655" y="698" type="line"/>
+      <point x="610" y="698"/>
+      <point x="551" y="658"/>
+      <point x="530" y="615" type="qcurve"/>
+      <point x="426" y="420" type="line"/>
+      <point x="325" y="420" type="line"/>
+      <point x="325" y="698" type="line"/>
+      <point x="22" y="698" type="line"/>
+      <point x="22" y="563" type="line"/>
+      <point x="173" y="563" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="325" y="0" type="line"/>
+      <point x="325" y="286" type="line"/>
+      <point x="426" y="286" type="line"/>
+      <point x="530" y="85" type="line"/>
+      <point x="554" y="37"/>
+      <point x="610" y="0"/>
+      <point x="652" y="0" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>
