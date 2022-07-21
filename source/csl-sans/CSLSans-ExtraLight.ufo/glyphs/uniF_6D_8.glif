@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF6D8" format="2">
+  <unicode hex="F6D8"/>
+  <outline>
+    <contour>
+      <point x="-121" y="851" type="line"/>
+      <point x="-90" y="868" type="line"/>
+      <point x="15" y="710" type="line"/>
+      <point x="-8" y="697" type="line"/>
+    </contour>
+    <contour>
+      <point x="-93" y="625" type="qcurve" smooth="yes"/>
+      <point x="-122" y="625"/>
+      <point x="-122" y="652" type="qcurve" smooth="yes"/>
+      <point x="-122" y="660" type="line" smooth="yes"/>
+      <point x="-122" y="687"/>
+      <point x="-93" y="687" type="qcurve" smooth="yes"/>
+      <point x="-64" y="687"/>
+      <point x="-64" y="660" type="qcurve" smooth="yes"/>
+      <point x="-64" y="652" type="line" smooth="yes"/>
+      <point x="-64" y="625"/>
+    </contour>
+    <contour>
+      <point x="93" y="625" type="qcurve" smooth="yes"/>
+      <point x="64" y="625"/>
+      <point x="64" y="652" type="qcurve" smooth="yes"/>
+      <point x="64" y="660" type="line" smooth="yes"/>
+      <point x="64" y="687"/>
+      <point x="93" y="687" type="qcurve" smooth="yes"/>
+      <point x="122" y="687"/>
+      <point x="122" y="660" type="qcurve" smooth="yes"/>
+      <point x="122" y="652" type="line" smooth="yes"/>
+      <point x="122" y="625"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,8 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="AEacute" format="2">
   <advance width="956"/>
   <unicode hex="01FC"/>
   <outline>
+    <contour>
+      <point x="602" y="743" type="line"/>
+      <point x="521" y="782" type="line"/>
+      <point x="617" y="972" type="line"/>
+      <point x="731" y="916" type="line"/>
+    </contour>
     <contour>
       <point x="900" y="0" type="line"/>
       <point x="434" y="0" type="line"/>
@@ -26,12 +32,6 @@
       <point x="434" y="575" type="line"/>
       <point x="413" y="575" type="line"/>
       <point x="278" y="292" type="line"/>
-    </contour>
-    <contour>
-      <point x="602" y="743" type="line"/>
-      <point x="521" y="782" type="line"/>
-      <point x="617" y="972" type="line"/>
-      <point x="731" y="916" type="line"/>
     </contour>
   </outline>
 </glyph>

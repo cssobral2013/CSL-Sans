@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcaron" format="2">
   <advance width="563"/>
   <unicode hex="0164"/>
   <outline>
     <contour>
-      <point x="300" y="0" type="line"/>
-      <point x="300" y="665" type="line"/>
-      <point x="545" y="665" type="line"/>
-      <point x="545" y="698" type="line"/>
-      <point x="18" y="698" type="line"/>
-      <point x="18" y="665" type="line"/>
-      <point x="263" y="665" type="line"/>
-      <point x="263" y="0" type="line"/>
+      <point x="261" y="780" type="line"/>
+      <point x="137" y="915" type="line"/>
+      <point x="158" y="931" type="line"/>
+      <point x="282" y="806" type="line"/>
+      <point x="406" y="931" type="line"/>
+      <point x="427" y="915" type="line"/>
+      <point x="303" y="780" type="line"/>
     </contour>
     <contour>
-      <point x="303" y="780" type="line"/>
-      <point x="427" y="915" type="line"/>
-      <point x="406" y="931" type="line"/>
-      <point x="282" y="806" type="line"/>
-      <point x="158" y="931" type="line"/>
-      <point x="137" y="915" type="line"/>
-      <point x="261" y="780" type="line"/>
+      <point x="263" y="0" type="line"/>
+      <point x="263" y="665" type="line"/>
+      <point x="18" y="665" type="line"/>
+      <point x="18" y="698" type="line"/>
+      <point x="545" y="698" type="line"/>
+      <point x="545" y="665" type="line"/>
+      <point x="300" y="665" type="line"/>
+      <point x="300" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

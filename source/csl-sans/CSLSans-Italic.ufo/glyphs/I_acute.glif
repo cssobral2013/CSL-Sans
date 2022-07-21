@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iacute" format="2">
   <advance width="261"/>
   <unicode hex="00CD"/>
   <outline>
     <contour>
       <point x="239" y="756" type="line"/>
-      <point x="362" y="914" type="line"/>
-      <point x="294" y="950" type="line"/>
       <point x="190" y="781" type="line"/>
+      <point x="294" y="950" type="line"/>
+      <point x="362" y="914" type="line"/>
     </contour>
     <contour>
       <point x="120" y="0" type="line"/>

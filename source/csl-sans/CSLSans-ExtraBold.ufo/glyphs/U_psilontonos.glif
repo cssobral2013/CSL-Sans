@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilontonos" format="2">
+  <advance width="793"/>
+  <unicode hex="038E"/>
+  <outline>
+    <contour>
+      <point x="80" y="579" type="line"/>
+      <point x="-15" y="593" type="line"/>
+      <point x="20" y="816" type="line"/>
+      <point x="153" y="796" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="0" type="line"/>
+      <point x="392" y="273" type="line"/>
+      <point x="153" y="698" type="line"/>
+      <point x="323" y="698" type="line"/>
+      <point x="473" y="420" type="line"/>
+      <point x="475" y="420" type="line"/>
+      <point x="619" y="698" type="line"/>
+      <point x="784" y="698" type="line"/>
+      <point x="545" y="274" type="line"/>
+      <point x="545" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

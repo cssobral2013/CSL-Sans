@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eng" format="2">
   <advance width="681"/>
   <unicode hex="014A"/>
@@ -19,9 +19,9 @@
       <point x="504" y="49" type="line"/>
       <point x="633" y="698" type="line"/>
       <point x="668" y="698" type="line"/>
-      <point x="497" y="-154" type="line"/>
+      <point x="497" y="-154" type="line" smooth="yes"/>
       <point x="488" y="-200"/>
-      <point x="444" y="-200" type="qcurve"/>
+      <point x="444" y="-200" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

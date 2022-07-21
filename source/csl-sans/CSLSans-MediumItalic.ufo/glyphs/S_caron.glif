@@ -1,9 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scaron" format="2">
-  <advance width="598"/>
+  <advance width="597"/>
   <unicode hex="0160"/>
   <outline>
-  <component base="S"/>
-  <component base="caroncomb" xOffset="376" yOffset="178"/>
+    <component base="S"/>
+    <component base="uni030C" xOffset="375" yOffset="178"/>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>S</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>S</string>
+  </dict>
+  </lib>
 </glyph>

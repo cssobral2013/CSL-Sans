@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Upsilondieresis" format="2">
+  <advance width="575"/>
+  <unicode hex="03AB"/>
+  <outline>
+    <contour>
+      <point x="197" y="800" type="qcurve" smooth="yes"/>
+      <point x="176" y="800"/>
+      <point x="157" y="821"/>
+      <point x="157" y="837" type="qcurve" smooth="yes"/>
+      <point x="157" y="847" type="line" smooth="yes"/>
+      <point x="157" y="863"/>
+      <point x="176" y="884"/>
+      <point x="197" y="884" type="qcurve" smooth="yes"/>
+      <point x="217" y="884"/>
+      <point x="236" y="863"/>
+      <point x="236" y="847" type="qcurve" smooth="yes"/>
+      <point x="236" y="837" type="line" smooth="yes"/>
+      <point x="236" y="821"/>
+      <point x="217" y="800"/>
+    </contour>
+    <contour>
+      <point x="381" y="800" type="qcurve" smooth="yes"/>
+      <point x="361" y="800"/>
+      <point x="342" y="821"/>
+      <point x="342" y="837" type="qcurve" smooth="yes"/>
+      <point x="342" y="847" type="line" smooth="yes"/>
+      <point x="342" y="863"/>
+      <point x="361" y="884"/>
+      <point x="381" y="884" type="qcurve" smooth="yes"/>
+      <point x="402" y="884"/>
+      <point x="421" y="863"/>
+      <point x="421" y="847" type="qcurve" smooth="yes"/>
+      <point x="421" y="837" type="line" smooth="yes"/>
+      <point x="421" y="821"/>
+      <point x="402" y="800"/>
+    </contour>
+    <contour>
+      <point x="257" y="0" type="line"/>
+      <point x="257" y="283" type="line"/>
+      <point x="16" y="698" type="line"/>
+      <point x="84" y="698" type="line"/>
+      <point x="286" y="346" type="line"/>
+      <point x="289" y="346" type="line"/>
+      <point x="491" y="698" type="line"/>
+      <point x="559" y="698" type="line"/>
+      <point x="317" y="286" type="line"/>
+      <point x="317" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

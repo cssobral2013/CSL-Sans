@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota" format="2">
+  <advance width="275"/>
+  <unicode hex="03B9"/>
+  <outline>
+    <contour>
+      <point x="246" y="0" type="line"/>
+      <point x="143" y="0" type="line" smooth="yes"/>
+      <point x="100" y="0"/>
+      <point x="100" y="42" type="qcurve" smooth="yes"/>
+      <point x="100" y="508" type="line"/>
+      <point x="135" y="508" type="line"/>
+      <point x="135" y="31" type="line"/>
+      <point x="246" y="31" type="line"/>
+    </contour>
+  </outline>
+</glyph>

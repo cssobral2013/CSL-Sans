@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -9,24 +9,39 @@
   <key>copyright</key>
   <string>Copyright (c) 2019 IBM Corp. with Reserved Font Name &quot;Plex&quot;  Copyright (c) 2019 The HMI Sans Project Authors (https://github.com/somegoodpixels/hmi-sans) Copyright (c) 2021 The CSL Sans Project Authors (https://github.com/cssobral2013/CSL-Sans) This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL.</string>
   <key>descender</key>
-  <integer>-220</integer>
+  <integer>-302</integer>
   <key>familyName</key>
   <string>CSL Sans</string>
+  <key>guidelines</key>
+  <array>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>m</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>250</integer>
+  </dict>
+  </array>
   <key>italicAngle</key>
-  <real>-11</real>
+  <integer>-11</integer>
+  <key>macintoshFONDName</key>
+  <string>CSL Sans ExtraBold</string>
   <key>openTypeGaspRangeRecords</key>
   <array>
-    <dict>
-      <key>rangeGaspBehavior</key>
+  <dict>
+    <key>rangeGaspBehavior</key>
       <array>
         <integer>0</integer>
         <integer>1</integer>
         <integer>2</integer>
         <integer>3</integer>
       </array>
-      <key>rangeMaxPPEM</key>
-      <integer>65535</integer>
-    </dict>
+    <key>rangeMaxPPEM</key>
+    <integer>65535</integer>
+  </dict>
   </array>
   <key>openTypeHeadCreated</key>
   <string>2019/02/19 12:46:58</string>
@@ -43,15 +58,15 @@
   <key>openTypeHheaAscender</key>
   <integer>1000</integer>
   <key>openTypeHheaCaretOffset</key>
-  <integer>0</integer>
+  <integer>-53</integer>
   <key>openTypeHheaCaretSlopeRise</key>
-  <integer>1000</integer>
+  <integer>36</integer>
   <key>openTypeHheaCaretSlopeRun</key>
-  <integer>200</integer>
+  <integer>7</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-220</integer>
+  <integer>-302</integer>
   <key>openTypeHheaLineGap</key>
-  <integer>0</integer>
+  <integer>-0</integer>
   <key>openTypeNameLicenseURL</key>
   <string>http://scripts.sil.org/OFL</string>
   <key>openTypeNamePreferredFamilyName</key>
@@ -59,9 +74,9 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraBold Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>CSL Sans ExtraBold Italic:Version 2.001</string>
+  <string>Version 2.066;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8);UKWN;CSLSans-ExtraBoldItalic;2019;FL720</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.001;February 3, 2022;FontCreator 14.0.0.2808 64-bit</string>
+  <string>Version 2.066;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8)</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -82,7 +97,7 @@
   <array>
     <integer>0</integer>
     <integer>0</integer>
-    <integer>8</integer>
+    <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
@@ -93,8 +108,6 @@
   </array>
   <key>openTypeOS2Selection</key>
   <array>
-    <integer>0</integer>
-    <integer>5</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>315</integer>
@@ -122,9 +135,9 @@
   <key>openTypeOS2TypoAscender</key>
   <integer>1000</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-220</integer>
+  <integer>-302</integer>
   <key>openTypeOS2TypoLineGap</key>
-  <integer>0</integer>
+  <integer>-0</integer>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
@@ -141,23 +154,42 @@
   <key>openTypeOS2VendorID</key>
   <string>UKWN</string>
   <key>openTypeOS2WeightClass</key>
-  <integer>900</integer>
+  <integer>800</integer>
   <key>openTypeOS2WidthClass</key>
   <integer>5</integer>
   <key>openTypeOS2WinAscent</key>
   <integer>1000</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>220</integer>
+  <integer>302</integer>
+  <key>postscriptBlueFuzz</key>
+  <integer>1</integer>
+  <key>postscriptBlueScale</key>
+  <real>0.039625</real>
+  <key>postscriptBlueShift</key>
+  <integer>7</integer>
+  <key>postscriptBlueValues</key>
+  <array>
+    <integer>-20</integer>
+    <integer>0</integer>
+  </array>
   <key>postscriptFontName</key>
   <string>CSLSans-ExtraBoldItalic</string>
+  <key>postscriptForceBold</key>
+  <false/>
+  <key>postscriptFullName</key>
+  <string>CSL Sans ExtraBold Italic</string>
+  <key>postscriptIsFixedPitch</key>
+  <false/>
   <key>postscriptUnderlinePosition</key>
-  <integer>-175</integer>
+  <integer>-100</integer>
   <key>postscriptUnderlineThickness</key>
-  <integer>100</integer>
+  <integer>50</integer>
+  <key>postscriptWeightName</key>
+  <string>ExtraBold</string>
   <key>styleMapFamilyName</key>
-  <string>CSL Sans Extra</string>
+  <string>CSL Sans ExtraBold</string>
   <key>styleMapStyleName</key>
-  <string>bold italic</string>
+  <string>italic</string>
   <key>styleName</key>
   <string>ExtraBold Italic</string>
   <key>unitsPerEm</key>

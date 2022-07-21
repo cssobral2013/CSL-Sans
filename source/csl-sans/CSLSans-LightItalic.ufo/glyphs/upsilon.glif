@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="upsilon" format="2">
+  <advance width="548"/>
+  <unicode hex="03C5"/>
+  <outline>
+    <contour>
+      <point x="138" y="238" type="line" smooth="yes"/>
+      <point x="133" y="215"/>
+      <point x="128" y="169"/>
+      <point x="128" y="145" type="qcurve" smooth="yes"/>
+      <point x="128" y="89"/>
+      <point x="184" y="38"/>
+      <point x="238" y="38" type="qcurve" smooth="yes"/>
+      <point x="270" y="38"/>
+      <point x="319" y="54"/>
+      <point x="358" y="97"/>
+      <point x="387" y="171"/>
+      <point x="399" y="229" type="qcurve" smooth="yes"/>
+      <point x="456" y="512" type="line"/>
+      <point x="511" y="512" type="line"/>
+      <point x="453" y="225" type="line" smooth="yes"/>
+      <point x="440" y="160"/>
+      <point x="402" y="70"/>
+      <point x="348" y="14"/>
+      <point x="276" y="-12"/>
+      <point x="231" y="-12" type="qcurve" smooth="yes"/>
+      <point x="156" y="-12"/>
+      <point x="74" y="75"/>
+      <point x="74" y="150" type="qcurve" smooth="yes"/>
+      <point x="74" y="170"/>
+      <point x="80" y="222"/>
+      <point x="85" y="248" type="qcurve" smooth="yes"/>
+      <point x="138" y="512" type="line"/>
+      <point x="193" y="512" type="line"/>
+    </contour>
+  </outline>
+</glyph>

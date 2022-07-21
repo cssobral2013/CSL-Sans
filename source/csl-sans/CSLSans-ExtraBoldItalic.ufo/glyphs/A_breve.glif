@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abreve" format="2">
   <advance width="654"/>
   <unicode hex="0102"/>
@@ -20,17 +20,17 @@
       <point x="416" y="290" type="line"/>
     </contour>
     <contour>
-      <point x="422" y="742" type="qcurve"/>
+      <point x="422" y="742" type="qcurve" smooth="yes"/>
       <point x="384" y="742"/>
       <point x="326" y="771"/>
       <point x="285" y="817"/>
       <point x="260" y="877"/>
       <point x="256" y="908" type="qcurve"/>
       <point x="333" y="948" type="line"/>
-      <point x="350" y="911" type="line"/>
+      <point x="350" y="911" type="line" smooth="yes"/>
       <point x="365" y="876"/>
       <point x="399" y="839"/>
-      <point x="430" y="839" type="qcurve"/>
+      <point x="430" y="839" type="qcurve" smooth="yes"/>
       <point x="460" y="839"/>
       <point x="506" y="881"/>
       <point x="536" y="923" type="qcurve"/>

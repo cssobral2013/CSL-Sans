@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam" format="2">
   <advance width="310"/>
   <unicode hex="0021"/>
@@ -12,14 +12,14 @@
       <point x="177" y="216" type="line"/>
     </contour>
     <contour>
-      <point x="102" y="-12" type="qcurve"/>
+      <point x="102" y="-12" type="qcurve" smooth="yes"/>
       <point x="28" y="-12"/>
-      <point x="28" y="44" type="qcurve"/>
+      <point x="28" y="44" type="qcurve" smooth="yes"/>
       <point x="28" y="101"/>
       <point x="77" y="159"/>
-      <point x="131" y="159" type="qcurve"/>
+      <point x="131" y="159" type="qcurve" smooth="yes"/>
       <point x="206" y="159"/>
-      <point x="206" y="103" type="qcurve"/>
+      <point x="206" y="103" type="qcurve" smooth="yes"/>
       <point x="206" y="-12"/>
     </contour>
   </outline>

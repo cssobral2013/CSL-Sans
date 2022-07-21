@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iotatonos" format="2">
+  <advance width="489"/>
+  <unicode hex="038A"/>
+  <outline>
+    <contour>
+      <point x="167" y="580" type="line"/>
+      <point x="87" y="605" type="line"/>
+      <point x="157" y="806" type="line"/>
+      <point x="270" y="778" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="306" y="698" type="line"/>
+      <point x="439" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>

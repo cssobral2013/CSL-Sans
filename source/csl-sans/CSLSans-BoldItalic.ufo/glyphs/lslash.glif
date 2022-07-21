@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
   <advance width="290"/>
   <unicode hex="0142"/>
   <outline>
     <contour>
       <point x="216" y="0" type="line"/>
-      <point x="123" y="0" type="line"/>
+      <point x="123" y="0" type="line" smooth="yes"/>
       <point x="79" y="0"/>
       <point x="38" y="45"/>
-      <point x="38" y="77" type="qcurve"/>
+      <point x="38" y="77" type="qcurve" smooth="yes"/>
       <point x="38" y="87"/>
       <point x="81" y="301" type="qcurve"/>
       <point x="5" y="276" type="line"/>

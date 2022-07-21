@@ -1,40 +1,40 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ccedilla" format="2">
   <advance width="640"/>
   <unicode hex="00C7"/>
   <outline>
     <contour>
-      <point x="349" y="-210" type="qcurve"/>
+      <point x="349" y="-210" type="qcurve" smooth="yes"/>
       <point x="267" y="-210"/>
       <point x="234" y="-167" type="qcurve"/>
       <point x="277" y="-117" type="line"/>
       <point x="300" y="-146"/>
-      <point x="341" y="-146" type="qcurve"/>
+      <point x="341" y="-146" type="qcurve" smooth="yes"/>
       <point x="359" y="-146"/>
       <point x="385" y="-132"/>
-      <point x="385" y="-118" type="qcurve"/>
+      <point x="385" y="-118" type="qcurve" smooth="yes"/>
       <point x="385" y="-102"/>
       <point x="342" y="-80"/>
       <point x="289" y="-75" type="qcurve"/>
       <point x="303" y="-8" type="line"/>
       <point x="187" y="6"/>
       <point x="53" y="178"/>
-      <point x="53" y="347" type="qcurve"/>
+      <point x="53" y="347" type="qcurve" smooth="yes"/>
       <point x="53" y="527"/>
       <point x="218" y="710"/>
-      <point x="352" y="710" type="qcurve"/>
+      <point x="352" y="710" type="qcurve" smooth="yes"/>
       <point x="532" y="710"/>
       <point x="605" y="550" type="qcurve"/>
       <point x="498" y="493" type="line"/>
       <point x="463" y="598"/>
-      <point x="352" y="598" type="qcurve"/>
+      <point x="352" y="598" type="qcurve" smooth="yes"/>
       <point x="270" y="598"/>
       <point x="187" y="490"/>
-      <point x="187" y="403" type="qcurve"/>
-      <point x="187" y="295" type="line"/>
+      <point x="187" y="403" type="qcurve" smooth="yes"/>
+      <point x="187" y="295" type="line" smooth="yes"/>
       <point x="187" y="200"/>
       <point x="275" y="100"/>
-      <point x="352" y="100" type="qcurve"/>
+      <point x="352" y="100" type="qcurve" smooth="yes"/>
       <point x="465" y="100"/>
       <point x="505" y="212" type="qcurve"/>
       <point x="607" y="152" type="line"/>
@@ -43,10 +43,10 @@
       <point x="354" y="-57" type="line"/>
       <point x="357" y="-61" type="line"/>
       <point x="378" y="-54"/>
-      <point x="402" y="-54" type="qcurve"/>
+      <point x="402" y="-54" type="qcurve" smooth="yes"/>
       <point x="430" y="-54"/>
       <point x="473" y="-86"/>
-      <point x="473" y="-122" type="qcurve"/>
+      <point x="473" y="-122" type="qcurve" smooth="yes"/>
       <point x="473" y="-167"/>
       <point x="399" y="-210"/>
     </contour>
