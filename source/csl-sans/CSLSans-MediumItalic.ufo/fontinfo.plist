@@ -80,7 +80,7 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>openTypeNameUniqueID</key>
   <string>Version 2.065;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8);UKWN;CSLSans-MediumItalic;2019;FL800</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.065;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8)</string>
+  <string>Version 2.065;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.4)</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>

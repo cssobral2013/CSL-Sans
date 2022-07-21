@@ -203,372 +203,372 @@
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="9">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="10">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="11">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="12">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="13">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="14">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="15">
       <FeatureTag value="frac"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="9"/>
+        <LookupListIndex index="0" value="10"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="16">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="17">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="18">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="19">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="20">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="21">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="22">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="23">
       <FeatureTag value="liga"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="12"/>
+        <LookupListIndex index="0" value="13"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="24">
       <FeatureTag value="locl"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="4"/>
+        <LookupListIndex index="0" value="3"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="25">
       <FeatureTag value="locl"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="5"/>
+        <LookupListIndex index="0" value="6"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="26">
       <FeatureTag value="locl"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="2"/>
+        <LookupListIndex index="0" value="4"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="27">
       <FeatureTag value="locl"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="3"/>
+        <LookupListIndex index="0" value="5"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="28">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="29">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="30">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="31">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="32">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="33">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="34">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="35">
       <FeatureTag value="ordn"/>
       <Feature>
         <!-- LookupCount=2 -->
-        <LookupListIndex index="0" value="10"/>
-        <LookupListIndex index="1" value="11"/>
+        <LookupListIndex index="0" value="11"/>
+        <LookupListIndex index="1" value="12"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="36">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="37">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="38">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="39">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="40">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="41">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="42">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="43">
       <FeatureTag value="sinf"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="6"/>
+        <LookupListIndex index="0" value="7"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="44">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="45">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="46">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="47">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="48">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="49">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="50">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="51">
       <FeatureTag value="subs"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="8"/>
+        <LookupListIndex index="0" value="9"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="52">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="53">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="54">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="55">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="56">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="57">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="58">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
     <FeatureRecord index="59">
       <FeatureTag value="sups"/>
       <Feature>
         <!-- LookupCount=1 -->
-        <LookupListIndex index="0" value="7"/>
+        <LookupListIndex index="0" value="8"/>
       </Feature>
     </FeatureRecord>
   </FeatureList>
@@ -638,10 +638,10 @@
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
       <SingleSubst index="0" Format="2">
-        <Substitution in="Scedilla" out="uni0218"/>
-        <Substitution in="scedilla" out="uni0219"/>
-        <Substitution in="uni0162" out="uni021A"/>
-        <Substitution in="uni0163" out="uni021B"/>
+        <Substitution in="A" out="ordfeminine"/>
+        <Substitution in="O" out="ordmasculine"/>
+        <Substitution in="a" out="ordfeminine"/>
+        <Substitution in="o" out="ordmasculine"/>
       </SingleSubst>
     </Lookup>
     <Lookup index="3">
@@ -649,10 +649,7 @@
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
       <SingleSubst index="0" Format="2">
-        <Substitution in="Scedilla" out="uni0218"/>
-        <Substitution in="scedilla" out="uni0219"/>
-        <Substitution in="uni0162" out="uni021A"/>
-        <Substitution in="uni0163" out="uni021B"/>
+        <Substitution in="i" out="i.loclTRK"/>
       </SingleSubst>
     </Lookup>
     <Lookup index="4">
@@ -660,7 +657,10 @@
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
       <SingleSubst index="0" Format="2">
-        <Substitution in="i" out="i.loclTRK"/>
+        <Substitution in="Scedilla" out="uni0218"/>
+        <Substitution in="scedilla" out="uni0219"/>
+        <Substitution in="uni0162" out="uni021A"/>
+        <Substitution in="uni0163" out="uni021B"/>
       </SingleSubst>
     </Lookup>
     <Lookup index="5">
@@ -668,10 +668,21 @@
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
       <SingleSubst index="0" Format="2">
-        <Substitution in="i" out="i.loclTRK"/>
+        <Substitution in="Scedilla" out="uni0218"/>
+        <Substitution in="scedilla" out="uni0219"/>
+        <Substitution in="uni0162" out="uni021A"/>
+        <Substitution in="uni0163" out="uni021B"/>
       </SingleSubst>
     </Lookup>
     <Lookup index="6">
+      <LookupType value="1"/>
+      <LookupFlag value="0"/>
+      <!-- SubTableCount=1 -->
+      <SingleSubst index="0" Format="2">
+        <Substitution in="i" out="i.loclTRK"/>
+      </SingleSubst>
+    </Lookup>
+    <Lookup index="7">
       <LookupType value="1"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -688,7 +699,7 @@
         <Substitution in="nine" out="uni2089"/>
       </SingleSubst>
     </Lookup>
-    <Lookup index="7">
+    <Lookup index="8">
       <LookupType value="1"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -705,7 +716,7 @@
         <Substitution in="nine" out="uni2079"/>
       </SingleSubst>
     </Lookup>
-    <Lookup index="8">
+    <Lookup index="9">
       <LookupType value="1"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -722,7 +733,7 @@
         <Substitution in="nine" out="uni2089"/>
       </SingleSubst>
     </Lookup>
-    <Lookup index="9">
+    <Lookup index="10">
       <LookupType value="4"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -757,7 +768,7 @@
         </LigatureSet>
       </LigatureSubst>
     </Lookup>
-    <Lookup index="10">
+    <Lookup index="11">
       <LookupType value="6"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=2 -->
@@ -784,7 +795,7 @@
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
           <SequenceIndex value="0"/>
-          <LookupListIndex value="13"/>
+          <LookupListIndex value="2"/>
         </SubstLookupRecord>
       </ChainContextSubst>
       <ChainContextSubst index="1" Format="3">
@@ -810,11 +821,11 @@
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
           <SequenceIndex value="0"/>
-          <LookupListIndex value="13"/>
+          <LookupListIndex value="2"/>
         </SubstLookupRecord>
       </ChainContextSubst>
     </Lookup>
-    <Lookup index="11">
+    <Lookup index="12">
       <LookupType value="4"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -824,7 +835,7 @@
         </LigatureSet>
       </LigatureSubst>
     </Lookup>
-    <Lookup index="12">
+    <Lookup index="13">
       <LookupType value="4"/>
       <LookupFlag value="0"/>
       <!-- SubTableCount=1 -->
@@ -834,17 +845,6 @@
           <Ligature components="l" glyph="fl"/>
         </LigatureSet>
       </LigatureSubst>
-    </Lookup>
-    <Lookup index="13">
-      <LookupType value="1"/>
-      <LookupFlag value="0"/>
-      <!-- SubTableCount=1 -->
-      <SingleSubst index="0" Format="2">
-        <Substitution in="A" out="ordfeminine"/>
-        <Substitution in="O" out="ordmasculine"/>
-        <Substitution in="a" out="ordfeminine"/>
-        <Substitution in="o" out="ordmasculine"/>
-      </SingleSubst>
     </Lookup>
   </LookupList>
 </GSUB>

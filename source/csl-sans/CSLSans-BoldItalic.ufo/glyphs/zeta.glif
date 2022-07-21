@@ -13,17 +13,26 @@
       <point x="170" y="288"/>
       <point x="158" y="242"/>
       <point x="157" y="218" type="qcurve"/>
-      <point x="157" y="217" type="line"/>
-      <point x="157" y="217"/>
-      <point x="157" y="217" type="qcurve"/>
       <point x="157" y="215" type="line"/>
       <point x="157" y="215"/>
       <point x="157" y="215" type="qcurve"/>
       <point x="157" y="215"/>
-      <point x="157" y="214" type="qcurve"/>
+      <point x="157" y="215" type="qcurve"/>
+      <point x="157" y="215"/>
+      <point x="157" y="215" type="qcurve"/>
+      <point x="157" y="215"/>
+      <point x="157" y="215" type="qcurve"/>
+      <point x="157" y="215"/>
+      <point x="157" y="215" type="qcurve"/>
       <point x="157" y="213" type="line"/>
       <point x="157" y="213"/>
       <point x="157" y="213" type="qcurve"/>
+      <point x="157" y="213"/>
+      <point x="157" y="213" type="qcurve"/>
+      <point x="157" y="213"/>
+      <point x="157" y="212" type="qcurve"/>
+      <point x="157" y="212"/>
+      <point x="157" y="212" type="qcurve"/>
       <point x="157" y="212"/>
       <point x="157" y="212" type="qcurve"/>
       <point x="157" y="207" type="line" smooth="yes"/>
@@ -65,6 +74,14 @@
       <point x="280" y="640"/>
       <point x="276" y="639" type="qcurve"/>
       <point x="138" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="217" type="qcurve"/>
+      <point x="157" y="217"/>
+      <point x="157" y="217" type="qcurve"/>
+      <point x="157" y="217"/>
+      <point x="157" y="217" type="qcurve"/>
+      <point x="157" y="217"/>
     </contour>
   </outline>
 </glyph>

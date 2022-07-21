@@ -14,11 +14,3 @@
       <point x="613" y="614" type="line"/>
       <point x="613" y="350" type="line"/>
       <point x="592" y="350" type="line"/>
-      <point x="592" y="507" type="line"/>
-      <point x="595" y="580" type="line"/>
-      <point x="593" y="581" type="line"/>
-      <point x="517" y="504"/>
-      <point x="118" y="105" type="qcurve"/>
-    </contour>
-  </outline>
-</glyph>

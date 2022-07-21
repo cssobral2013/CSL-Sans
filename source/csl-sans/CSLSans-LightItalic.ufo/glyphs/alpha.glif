@@ -12,11 +12,21 @@
       <point x="441" y="51" type="qcurve"/>
       <point x="441" y="51"/>
       <point x="441" y="51" type="qcurve"/>
+      <point x="441" y="51"/>
+      <point x="441" y="52" type="qcurve"/>
+      <point x="441" y="52"/>
+      <point x="441" y="52" type="qcurve"/>
+      <point x="441" y="52"/>
+      <point x="441" y="52" type="qcurve"/>
+      <point x="441" y="52"/>
+      <point x="441" y="52" type="qcurve"/>
       <point x="441" y="52"/>
       <point x="441" y="52" type="qcurve"/>
       <point x="441" y="52"/>
       <point x="441" y="52" type="qcurve"/>
       <point x="441" y="53" type="line"/>
+      <point x="441" y="53"/>
+      <point x="441" y="53" type="qcurve"/>
       <point x="441" y="53"/>
       <point x="441" y="53" type="qcurve"/>
       <point x="438" y="200" type="line"/>
@@ -70,6 +80,12 @@
       <point x="111" y="175" type="qcurve" smooth="yes"/>
       <point x="111" y="103"/>
       <point x="169" y="38"/>
+    </contour>
+    <contour>
+      <point x="441" y="51" type="qcurve"/>
+      <point x="441" y="51"/>
+      <point x="441" y="51" type="qcurve"/>
+      <point x="441" y="51"/>
     </contour>
   </outline>
 </glyph>

@@ -32,22 +32,31 @@
       <point x="275" y="-86"/>
       <point x="275" y="-86" type="qcurve"/>
       <point x="275" y="-86"/>
-      <point x="275" y="-87" type="qcurve"/>
-      <point x="275" y="-87"/>
-      <point x="275" y="-87" type="qcurve"/>
-      <point x="275" y="-87"/>
-      <point x="275" y="-87" type="qcurve"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-87" type="line"/>
       <point x="275" y="-87"/>
       <point x="275" y="-87" type="qcurve"/>
       <point x="275" y="-88" type="line"/>
-      <point x="275" y="-88"/>
-      <point x="275" y="-88" type="qcurve"/>
       <point x="275" y="-94"/>
       <point x="272" y="-107" type="qcurve" smooth="yes"/>
       <point x="266" y="-133"/>
       <point x="250" y="-164" type="qcurve" smooth="yes"/>
       <point x="234" y="-194"/>
       <point x="210" y="-220" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
+      <point x="275" y="-86" type="qcurve"/>
+      <point x="275" y="-86"/>
     </contour>
   </outline>
 </glyph>
