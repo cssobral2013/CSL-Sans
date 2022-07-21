@@ -82,7 +82,20 @@
       <point x="655" y="198" type="qcurve" smooth="yes"/>
       <point x="760" y="198"/>
       <point x="774" y="271" type="qcurve"/>
+      <point x="774" y="271"/>
+      <point x="774" y="271" type="qcurve"/>
+      <point x="774" y="272"/>
+      <point x="774" y="272" type="qcurve"/>
+      <point x="774" y="272"/>
+      <point x="774" y="272" type="qcurve"/>
+      <point x="774" y="272"/>
+      <point x="774" y="272" type="qcurve"/>
+      <point x="774" y="272"/>
+      <point x="774" y="273" type="qcurve"/>
       <point x="774" y="273"/>
+      <point x="774" y="273" type="qcurve"/>
+      <point x="774" y="274" type="line"/>
+      <point x="774" y="274"/>
       <point x="774" y="274" type="qcurve"/>
       <point x="775" y="279" type="line" smooth="yes"/>
       <point x="776" y="283"/>

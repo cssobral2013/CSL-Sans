@@ -15,8 +15,15 @@
       <point x="242" y="876" type="qcurve" smooth="yes"/>
       <point x="267" y="876"/>
       <point x="267" y="857" type="qcurve"/>
+      <point x="267" y="857"/>
+      <point x="267" y="856" type="qcurve"/>
       <point x="267" y="856"/>
-      <point x="267" y="855" type="qcurve"/>
+      <point x="267" y="856" type="qcurve"/>
+      <point x="267" y="856"/>
+      <point x="267" y="856" type="qcurve"/>
+      <point x="267" y="856"/>
+      <point x="267" y="856" type="qcurve"/>
+      <point x="267" y="855" type="line"/>
       <point x="267" y="851"/>
       <point x="264" y="839" type="qcurve" smooth="yes"/>
       <point x="262" y="829"/>

@@ -33,7 +33,18 @@
       <point x="508" y="286" type="line"/>
       <point x="548" y="375"/>
       <point x="644" y="375" type="qcurve"/>
+      <point x="644" y="375"/>
+      <point x="644" y="375" type="qcurve"/>
+      <point x="644" y="375"/>
+      <point x="644" y="375" type="qcurve"/>
+      <point x="644" y="375"/>
+      <point x="645" y="375" type="qcurve"/>
       <point x="645" y="375"/>
+      <point x="645" y="375" type="qcurve"/>
+      <point x="645" y="375"/>
+      <point x="645" y="375" type="qcurve"/>
+      <point x="646" y="375" type="line"/>
+      <point x="646" y="375"/>
       <point x="646" y="375" type="qcurve"/>
       <point x="696" y="375"/>
       <point x="726" y="348" type="qcurve" smooth="yes"/>

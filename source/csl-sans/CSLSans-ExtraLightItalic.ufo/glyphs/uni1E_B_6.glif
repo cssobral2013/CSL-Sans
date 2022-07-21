@@ -53,8 +53,13 @@
       <point x="238" y="-80" type="qcurve" smooth="yes"/>
       <point x="263" y="-80"/>
       <point x="263" y="-100" type="qcurve"/>
+      <point x="263" y="-100"/>
+      <point x="263" y="-101" type="qcurve"/>
       <point x="263" y="-101"/>
-      <point x="263" y="-102" type="qcurve"/>
+      <point x="263" y="-101" type="qcurve"/>
+      <point x="263" y="-101"/>
+      <point x="263" y="-101" type="qcurve"/>
+      <point x="263" y="-102" type="line"/>
       <point x="263" y="-142"/>
     </contour>
   </outline>

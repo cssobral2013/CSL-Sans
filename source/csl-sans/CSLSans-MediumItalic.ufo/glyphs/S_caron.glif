@@ -6,12 +6,4 @@
     <component base="S"/>
     <component base="uni030C" xOffset="375" yOffset="178"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>S</string>
-  <key>com.fontlab.metricsWidth</key>
-  <string>S</string>
-  </dict>
-  </lib>
 </glyph>

@@ -7,7 +7,12 @@
   <key>capHeight</key>
   <integer>698</integer>
   <key>copyright</key>
-  <string>Copyright (c) 2019 IBM Corp. with Reserved Font Name &quot;Plex&quot;  Copyright (c) 2019 The HMI Sans Project Authors (https://github.com/somegoodpixels/hmi-sans) Copyright (c) 2021 The CSL Sans Project Authors (https://github.com/cssobral2013/CSL-Sans) This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL.</string>
+  <string>Copyright (c) 2019 IBM Corp. with Reserved Font Name &quot;Plex&quot;
+
+Copyright (c) 2019-2021 The HMI Sans Project Authors (https://github.com/somegoodpixels/hmi-sans)
+Copyright (c) 2021-2022 The CSL Sans Project Authors (https://github.com/cssobral2013/CSL-Sans)
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL.</string>
   <key>descender</key>
   <integer>-302</integer>
   <key>familyName</key>
@@ -51,7 +56,6 @@
     <integer>1</integer>
     <integer>2</integer>
     <integer>3</integer>
-    <integer>4</integer>
   </array>
   <key>openTypeHeadLowestRecPPEM</key>
   <integer>8</integer>
@@ -74,7 +78,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraBold Italic</string>
   <key>openTypeNameUniqueID</key>
-  <string>Version 2.066;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8);UKWN;CSLSans-ExtraBoldItalic;2019;FL720</string>
+  <string>Version 2.066;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8);UKWN;CSLSans-ExtraBoldItalic;2019;FL800</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.066;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.3.10-c5d8)</string>
   <key>openTypeOS2CodePageRanges</key>

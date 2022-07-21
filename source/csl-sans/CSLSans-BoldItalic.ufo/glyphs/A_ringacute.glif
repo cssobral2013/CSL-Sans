@@ -4,20 +4,19 @@
   <unicode hex="01FA"/>
   <outline>
     <contour>
-      <point x="463" y="899" type="line"/>
-      <point x="419" y="950" type="line"/>
-      <point x="553" y="1066" type="line"/>
-      <point x="613" y="995" type="line"/>
-    </contour>
-    <contour>
       <point x="418" y="727" type="qcurve" smooth="yes"/>
       <point x="370" y="727"/>
       <point x="296" y="775"/>
       <point x="296" y="828" type="qcurve" smooth="yes"/>
       <point x="296" y="895"/>
-      <point x="392" y="965"/>
-      <point x="457" y="965" type="qcurve" smooth="yes"/>
-      <point x="505" y="965"/>
+      <point x="344" y="930" type="qcurve" smooth="yes"/>
+      <point x="384" y="959"/>
+      <point x="435" y="964" type="qcurve"/>
+      <point x="553" y="1066" type="line"/>
+      <point x="613" y="995" type="line"/>
+      <point x="535" y="945" type="line"/>
+      <point x="538" y="943"/>
+      <point x="542" y="941" type="qcurve" smooth="yes"/>
       <point x="579" y="916"/>
       <point x="579" y="863" type="qcurve" smooth="yes"/>
       <point x="579" y="818"/>
