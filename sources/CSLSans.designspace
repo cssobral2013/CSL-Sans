@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis name="weight" default="400" minimum="100" maximum="800" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="100" input="100"/>
+   <map output="400" input="400"/>
+   <map output="800" input="800"/>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Bold" filename="masters/CSLSans-Bold.ufo" stylename="Bold" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source name="ExtraBold" filename="masters/CSLSans-ExtraBold.ufo" stylename="ExtraBold" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="800"/>
+   </location>
+  </source>
+  <source name="ExtraLight" filename="masters/CSLSans-ExtraLight.ufo" stylename="ExtraLight" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </source>
+  <source name="Light" filename="masters/CSLSans-Light.ufo" stylename="Light" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="300"/>
+   </location>
+  </source>
+  <source name="Medium" filename="masters/CSLSans-Medium.ufo" stylename="Medium" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </source>
+  <source name="Regular" filename="masters/CSLSans-Regular.ufo" stylename="Regular" familyname="CSL Sans">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+  <source name="SemiBold" filename="masters/CSLSans-SemiBold.ufo" stylename="SemiBold" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </source>
+  <source name="Thin" filename="masters/CSLSans-Thin.ufo" stylename="Thin" familyname="CSL Sans">
+   <location>
+    <dimension name="weight" xvalue="100"/>
+   </location>
+  </source>
+ </sources>
+</designspace>

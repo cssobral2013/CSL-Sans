@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecmb" format="2">
+  <unicode hex="0300"/>
+  <outline>
+    <contour>
+      <point x="-112" y="744" type="line"/>
+      <point x="-39" y="779" type="line"/>
+      <point x="46" y="609" type="line"/>
+      <point x="-6" y="585" type="line"/>
+    </contour>
+  </outline>
+</glyph>

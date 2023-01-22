@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dialytikatonos" format="2">
+  <advance width="600"/>
+  <unicode hex="0385"/>
+  <outline>
+    <contour>
+      <point x="273" y="587" type="line"/>
+      <point x="257" y="593" type="line"/>
+      <point x="325" y="751" type="line"/>
+      <point x="346" y="743" type="line"/>
+    </contour>
+    <contour>
+      <point x="209" y="642" type="qcurve" smooth="yes"/>
+      <point x="196" y="642"/>
+      <point x="186" y="655"/>
+      <point x="186" y="663" type="qcurve" smooth="yes"/>
+      <point x="186" y="670" type="line" smooth="yes"/>
+      <point x="186" y="678"/>
+      <point x="196" y="691"/>
+      <point x="209" y="691" type="qcurve" smooth="yes"/>
+      <point x="222" y="691"/>
+      <point x="232" y="678"/>
+      <point x="232" y="670" type="qcurve" smooth="yes"/>
+      <point x="232" y="663" type="line" smooth="yes"/>
+      <point x="232" y="655"/>
+      <point x="222" y="642"/>
+    </contour>
+    <contour>
+      <point x="391" y="642" type="qcurve" smooth="yes"/>
+      <point x="378" y="642"/>
+      <point x="368" y="655"/>
+      <point x="368" y="663" type="qcurve" smooth="yes"/>
+      <point x="368" y="670" type="line" smooth="yes"/>
+      <point x="368" y="678"/>
+      <point x="378" y="691"/>
+      <point x="391" y="691" type="qcurve" smooth="yes"/>
+      <point x="404" y="691"/>
+      <point x="414" y="678"/>
+      <point x="414" y="670" type="qcurve" smooth="yes"/>
+      <point x="414" y="663" type="line" smooth="yes"/>
+      <point x="414" y="655"/>
+      <point x="404" y="642"/>
+    </contour>
+  </outline>
+</glyph>

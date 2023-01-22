@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotbelowcmb" format="2">
+  <unicode hex="0323"/>
+  <outline>
+    <contour>
+      <point x="0" y="-134" type="qcurve" smooth="yes"/>
+      <point x="-23" y="-134"/>
+      <point x="-23" y="-113" type="qcurve" smooth="yes"/>
+      <point x="-23" y="-106" type="line" smooth="yes"/>
+      <point x="-23" y="-85"/>
+      <point x="0" y="-85" type="qcurve" smooth="yes"/>
+      <point x="23" y="-85"/>
+      <point x="23" y="-106" type="qcurve" smooth="yes"/>
+      <point x="23" y="-113" type="line" smooth="yes"/>
+      <point x="23" y="-134"/>
+    </contour>
+  </outline>
+</glyph>

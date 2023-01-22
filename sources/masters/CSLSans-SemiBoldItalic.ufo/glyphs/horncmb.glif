@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horncmb" format="2">
+  <unicode hex="031B"/>
+  <outline>
+    <contour>
+      <point x="16" y="447" type="qcurve" smooth="yes"/>
+      <point x="-117" y="447" type="line"/>
+      <point x="-102" y="522" type="line"/>
+      <point x="5" y="522" type="line"/>
+      <point x="27" y="630" type="line"/>
+      <point x="130" y="630" type="line"/>
+      <point x="110" y="530" type="line" smooth="yes"/>
+      <point x="102" y="486"/>
+      <point x="60" y="447"/>
+    </contour>
+  </outline>
+</glyph>

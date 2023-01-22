@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdot" format="2">
+  <advance width="446"/>
+  <unicode hex="017C"/>
+  <outline>
+    <contour>
+      <point x="224" y="626" type="qcurve" smooth="yes"/>
+      <point x="204" y="626"/>
+      <point x="184" y="646"/>
+      <point x="184" y="662" type="qcurve" smooth="yes"/>
+      <point x="184" y="672" type="line" smooth="yes"/>
+      <point x="184" y="708"/>
+      <point x="224" y="708" type="qcurve" smooth="yes"/>
+      <point x="244" y="708"/>
+      <point x="264" y="688"/>
+      <point x="264" y="672" type="qcurve" smooth="yes"/>
+      <point x="264" y="660" type="line" smooth="yes"/>
+      <point x="264" y="626"/>
+    </contour>
+    <contour>
+      <point x="31" y="0" type="line"/>
+      <point x="31" y="49" type="line"/>
+      <point x="341" y="462" type="line"/>
+      <point x="40" y="462" type="line"/>
+      <point x="40" y="512" type="line"/>
+      <point x="409" y="512" type="line"/>
+      <point x="409" y="467" type="line"/>
+      <point x="95" y="50" type="line"/>
+      <point x="417" y="50" type="line"/>
+      <point x="417" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

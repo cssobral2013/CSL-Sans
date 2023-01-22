@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotbelow" format="2">
+  <advance width="278"/>
+  <unicode hex="1ECA"/>
+  <outline>
+    <contour>
+      <point x="109" y="0" type="line"/>
+      <point x="109" y="698" type="line"/>
+      <point x="169" y="698" type="line"/>
+      <point x="169" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="138" y="-155" type="qcurve"/>
+      <point x="98" y="-152"/>
+      <point x="98" y="-118" type="qcurve" smooth="yes"/>
+      <point x="98" y="-110" type="line" smooth="yes"/>
+      <point x="98" y="-73"/>
+      <point x="138" y="-73" type="qcurve"/>
+      <point x="178" y="-75"/>
+      <point x="178" y="-110" type="qcurve" smooth="yes"/>
+      <point x="178" y="-120" type="line" smooth="yes"/>
+      <point x="178" y="-155"/>
+    </contour>
+  </outline>
+</glyph>

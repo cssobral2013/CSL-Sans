@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Yhookabove" format="2">
+  <advance width="593"/>
+  <unicode hex="1EF6"/>
+  <outline>
+    <contour>
+      <point x="273" y="770" type="line"/>
+      <point x="331" y="874" type="line"/>
+      <point x="213" y="874" type="line"/>
+      <point x="213" y="935" type="line"/>
+      <point x="322" y="935" type="line" smooth="yes"/>
+      <point x="392" y="935"/>
+      <point x="392" y="880" type="qcurve" smooth="yes"/>
+      <point x="392" y="837"/>
+      <point x="343" y="777" type="qcurve" smooth="yes"/>
+      <point x="319" y="747" type="line"/>
+    </contour>
+    <contour>
+      <point x="253" y="0" type="line"/>
+      <point x="253" y="276" type="line"/>
+      <point x="13" y="698" type="line"/>
+      <point x="109" y="698" type="line"/>
+      <point x="295" y="362" type="line"/>
+      <point x="298" y="362" type="line"/>
+      <point x="484" y="698" type="line"/>
+      <point x="580" y="698" type="line"/>
+      <point x="337" y="279" type="line"/>
+      <point x="337" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

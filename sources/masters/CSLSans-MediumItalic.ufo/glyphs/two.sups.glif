@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.sups" format="2">
+  <advance width="339"/>
+  <outline>
+    <contour>
+      <point x="42" y="-388" type="line"/>
+      <point x="56" y="-317" type="line"/>
+      <point x="196" y="-221" type="line" smooth="yes"/>
+      <point x="230" y="-197"/>
+      <point x="268" y="-160"/>
+      <point x="273" y="-135" type="qcurve"/>
+      <point x="275" y="-119" type="line"/>
+      <point x="275" y="-99"/>
+      <point x="246" y="-78"/>
+      <point x="225" y="-78" type="qcurve" smooth="yes"/>
+      <point x="175" y="-78"/>
+      <point x="153" y="-132" type="qcurve"/>
+      <point x="88" y="-106" type="line"/>
+      <point x="130" y="-13"/>
+      <point x="231" y="-13" type="qcurve" smooth="yes"/>
+      <point x="284" y="-13"/>
+      <point x="357" y="-65"/>
+      <point x="357" y="-114" type="qcurve" smooth="yes"/>
+      <point x="357" y="-163"/>
+      <point x="317" y="-204" type="qcurve" smooth="yes"/>
+      <point x="279" y="-241"/>
+      <point x="228" y="-270" type="qcurve"/>
+      <point x="144" y="-326" type="line"/>
+      <point x="324" y="-326" type="line"/>
+      <point x="312" y="-388" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edot" format="2">
+  <advance width="593"/>
+  <unicode hex="0116"/>
+  <outline>
+    <contour>
+      <point x="309" y="768" type="qcurve" smooth="yes"/>
+      <point x="239" y="768"/>
+      <point x="239" y="828" type="qcurve" smooth="yes"/>
+      <point x="239" y="849" type="line" smooth="yes"/>
+      <point x="239" y="909"/>
+      <point x="309" y="909" type="qcurve" smooth="yes"/>
+      <point x="379" y="909"/>
+      <point x="379" y="849" type="qcurve" smooth="yes"/>
+      <point x="379" y="828" type="line" smooth="yes"/>
+      <point x="379" y="768"/>
+    </contour>
+    <contour>
+      <point x="86" y="0" type="line"/>
+      <point x="86" y="698" type="line"/>
+      <point x="533" y="698" type="line"/>
+      <point x="533" y="598" type="line"/>
+      <point x="199" y="598" type="line"/>
+      <point x="199" y="404" type="line"/>
+      <point x="502" y="404" type="line"/>
+      <point x="502" y="304" type="line"/>
+      <point x="199" y="304" type="line"/>
+      <point x="199" y="100" type="line"/>
+      <point x="533" y="100" type="line"/>
+      <point x="533" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

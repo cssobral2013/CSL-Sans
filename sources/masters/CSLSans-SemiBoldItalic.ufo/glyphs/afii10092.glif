@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="afii10092" format="2">
+  <advance width="602"/>
+  <unicode hex="044A"/>
+  <outline>
+    <contour>
+      <point x="343" y="0" type="qcurve" smooth="yes"/>
+      <point x="94" y="0" type="line"/>
+      <point x="180" y="426" type="line"/>
+      <point x="54" y="426" type="line"/>
+      <point x="73" y="522" type="line"/>
+      <point x="315" y="522" type="line"/>
+      <point x="281" y="354" type="line"/>
+      <point x="407" y="354" type="line" smooth="yes"/>
+      <point x="482" y="354"/>
+      <point x="553" y="275"/>
+      <point x="553" y="212" type="qcurve" smooth="yes"/>
+      <point x="553" y="114"/>
+      <point x="434" y="0"/>
+    </contour>
+    <contour>
+      <point x="334" y="89" type="line" smooth="yes"/>
+      <point x="381" y="89"/>
+      <point x="437" y="149"/>
+      <point x="437" y="207" type="qcurve" smooth="yes"/>
+      <point x="437" y="232"/>
+      <point x="403" y="265"/>
+      <point x="369" y="265" type="qcurve" smooth="yes"/>
+      <point x="263" y="265" type="line"/>
+      <point x="228" y="89" type="line"/>
+    </contour>
+  </outline>
+</glyph>

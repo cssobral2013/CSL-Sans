@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresiscyrillic" format="2">
+  <advance width="551"/>
+  <unicode hex="04F0"/>
+  <outline>
+    <contour>
+      <point x="282" y="787" type="qcurve"/>
+      <point x="240" y="788"/>
+      <point x="240" y="822" type="qcurve" smooth="yes"/>
+      <point x="240" y="827"/>
+      <point x="243" y="845" type="qcurve"/>
+      <point x="253" y="892"/>
+      <point x="299" y="892" type="qcurve" smooth="yes"/>
+      <point x="341" y="892"/>
+      <point x="341" y="857" type="qcurve" smooth="yes"/>
+      <point x="341" y="853"/>
+      <point x="338" y="834" type="qcurve"/>
+      <point x="329" y="787"/>
+    </contour>
+    <contour>
+      <point x="464" y="787" type="qcurve"/>
+      <point x="422" y="788"/>
+      <point x="422" y="822" type="qcurve" smooth="yes"/>
+      <point x="422" y="827"/>
+      <point x="425" y="845" type="qcurve"/>
+      <point x="435" y="892"/>
+      <point x="481" y="892" type="qcurve" smooth="yes"/>
+      <point x="523" y="892"/>
+      <point x="523" y="857" type="qcurve" smooth="yes"/>
+      <point x="523" y="853"/>
+      <point x="520" y="834" type="qcurve"/>
+      <point x="511" y="787"/>
+    </contour>
+    <contour>
+      <point x="73" y="0" type="line"/>
+      <point x="87" y="72" type="line"/>
+      <point x="184" y="72" type="line"/>
+      <point x="233" y="158" type="line"/>
+      <point x="107" y="698" type="line"/>
+      <point x="190" y="698" type="line"/>
+      <point x="262" y="391" type="line"/>
+      <point x="286" y="256" type="line"/>
+      <point x="292" y="256" type="line"/>
+      <point x="364" y="393" type="line"/>
+      <point x="537" y="698" type="line"/>
+      <point x="621" y="698" type="line"/>
+      <point x="263" y="72" type="line" smooth="yes"/>
+      <point x="239" y="30"/>
+      <point x="191" y="0"/>
+      <point x="147" y="0" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

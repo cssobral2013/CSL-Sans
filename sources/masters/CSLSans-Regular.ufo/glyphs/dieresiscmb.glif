@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresiscmb" format="2">
+  <unicode hex="0308"/>
+  <outline>
+    <contour>
+      <point x="-92" y="618" type="qcurve" smooth="yes"/>
+      <point x="-141" y="618"/>
+      <point x="-141" y="664" type="qcurve" smooth="yes"/>
+      <point x="-141" y="675" type="line" smooth="yes"/>
+      <point x="-141" y="721"/>
+      <point x="-92" y="721" type="qcurve" smooth="yes"/>
+      <point x="-43" y="721"/>
+      <point x="-43" y="675" type="qcurve" smooth="yes"/>
+      <point x="-43" y="664" type="line" smooth="yes"/>
+      <point x="-43" y="618"/>
+    </contour>
+    <contour>
+      <point x="94" y="618" type="qcurve" smooth="yes"/>
+      <point x="45" y="618"/>
+      <point x="45" y="664" type="qcurve" smooth="yes"/>
+      <point x="45" y="675" type="line" smooth="yes"/>
+      <point x="45" y="721"/>
+      <point x="94" y="721" type="qcurve" smooth="yes"/>
+      <point x="143" y="721"/>
+      <point x="143" y="675" type="qcurve" smooth="yes"/>
+      <point x="143" y="664" type="line" smooth="yes"/>
+      <point x="143" y="618"/>
+    </contour>
+  </outline>
+</glyph>

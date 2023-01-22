@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two.subs" format="2">
+  <advance width="346"/>
+  <outline>
+    <contour>
+      <point x="39" y="470" type="line"/>
+      <point x="39" y="527" type="line"/>
+      <point x="169" y="632" type="line" smooth="yes"/>
+      <point x="198" y="656"/>
+      <point x="231" y="703"/>
+      <point x="231" y="736" type="qcurve" smooth="yes"/>
+      <point x="231" y="793"/>
+      <point x="166" y="793" type="qcurve" smooth="yes"/>
+      <point x="131" y="793"/>
+      <point x="96" y="760"/>
+      <point x="88" y="735" type="qcurve"/>
+      <point x="34" y="755" type="line"/>
+      <point x="46" y="792"/>
+      <point x="110" y="845"/>
+      <point x="170" y="845" type="qcurve" smooth="yes"/>
+      <point x="232" y="845"/>
+      <point x="298" y="784"/>
+      <point x="298" y="736" type="qcurve" smooth="yes"/>
+      <point x="298" y="692"/>
+      <point x="246" y="627"/>
+      <point x="203" y="595" type="qcurve" smooth="yes"/>
+      <point x="106" y="520" type="line"/>
+      <point x="311" y="520" type="line"/>
+      <point x="311" y="470" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mugreek" format="2">
+  <advance width="583"/>
+  <unicode hex="03BC"/>
+  <outline>
+    <contour>
+      <point x="-61" y="-200" type="line"/>
+      <point x="84" y="523" type="line"/>
+      <point x="208" y="523" type="line"/>
+      <point x="146" y="211" type="line" smooth="yes"/>
+      <point x="143" y="197"/>
+      <point x="139" y="167"/>
+      <point x="139" y="156" type="qcurve" smooth="yes"/>
+      <point x="139" y="126"/>
+      <point x="165" y="93"/>
+      <point x="195" y="93" type="qcurve" smooth="yes"/>
+      <point x="223" y="93"/>
+      <point x="271" y="124"/>
+      <point x="307" y="170"/>
+      <point x="330" y="224"/>
+      <point x="335" y="248" type="qcurve" smooth="yes"/>
+      <point x="390" y="523" type="line"/>
+      <point x="514" y="523" type="line"/>
+      <point x="429" y="101" type="line"/>
+      <point x="492" y="101" type="line"/>
+      <point x="472" y="0" type="line"/>
+      <point x="408" y="0" type="line" smooth="yes"/>
+      <point x="387" y="0"/>
+      <point x="349" y="6"/>
+      <point x="320" y="22"/>
+      <point x="302" y="50"/>
+      <point x="302" y="73" type="qcurve" smooth="yes"/>
+      <point x="302" y="81"/>
+      <point x="304" y="98"/>
+      <point x="305" y="103" type="qcurve" smooth="yes"/>
+      <point x="308" y="117" type="line"/>
+      <point x="302" y="117" type="line"/>
+      <point x="270" y="46"/>
+      <point x="208" y="-12"/>
+      <point x="162" y="-12" type="qcurve" smooth="yes"/>
+      <point x="129" y="-12"/>
+      <point x="95" y="23"/>
+      <point x="88" y="58" type="qcurve"/>
+      <point x="83" y="58" type="line"/>
+      <point x="84" y="21"/>
+      <point x="86" y="-35"/>
+      <point x="86" y="-53" type="qcurve" smooth="yes"/>
+      <point x="86" y="-72"/>
+      <point x="85" y="-90" type="qcurve"/>
+      <point x="64" y="-200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

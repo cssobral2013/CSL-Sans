@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ihookabove" format="2">
+  <advance width="306"/>
+  <unicode hex="1EC8"/>
+  <outline>
+    <contour>
+      <point x="189" y="730" type="line"/>
+      <point x="114" y="765" type="line"/>
+      <point x="155" y="857" type="line"/>
+      <point x="33" y="857" type="line"/>
+      <point x="33" y="963" type="line"/>
+      <point x="176" y="963" type="line" smooth="yes"/>
+      <point x="274" y="963"/>
+      <point x="274" y="890" type="qcurve" smooth="yes"/>
+      <point x="274" y="832"/>
+      <point x="217" y="764" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="229" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="77" y="698" type="line"/>
+      <point x="229" y="698" type="line"/>
+    </contour>
+  </outline>
+</glyph>
