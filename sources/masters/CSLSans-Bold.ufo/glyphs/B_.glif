@@ -4,6 +4,28 @@
   <unicode hex="0042"/>
   <outline>
     <contour>
+      <point x="400" y="118" type="line"/>
+      <point x="475" y="121"/>
+      <point x="475" y="189" type="qcurve" smooth="yes"/>
+      <point x="475" y="223" type="line"/>
+      <point x="472" y="268"/>
+      <point x="416" y="295"/>
+      <point x="377" y="295" type="qcurve" smooth="yes"/>
+      <point x="219" y="295" type="line"/>
+      <point x="219" y="118" type="line"/>
+    </contour>
+    <contour>
+      <point x="378" y="409" type="line"/>
+      <point x="450" y="413"/>
+      <point x="450" y="479" type="qcurve" smooth="yes"/>
+      <point x="450" y="510" type="line"/>
+      <point x="446" y="552"/>
+      <point x="398" y="580"/>
+      <point x="353" y="580" type="qcurve" smooth="yes"/>
+      <point x="219" y="580" type="line"/>
+      <point x="219" y="409" type="line"/>
+    </contour>
+    <contour>
       <point x="440" y="0" type="qcurve" smooth="yes"/>
       <point x="80" y="0" type="line"/>
       <point x="80" y="698" type="line"/>
@@ -22,28 +44,6 @@
       <point x="620" y="200" type="qcurve" smooth="yes"/>
       <point x="620" y="117"/>
       <point x="520" y="0"/>
-    </contour>
-    <contour>
-      <point x="378" y="409" type="line"/>
-      <point x="450" y="413"/>
-      <point x="450" y="479" type="qcurve" smooth="yes"/>
-      <point x="450" y="510" type="line"/>
-      <point x="446" y="552"/>
-      <point x="398" y="580"/>
-      <point x="353" y="580" type="qcurve" smooth="yes"/>
-      <point x="219" y="580" type="line"/>
-      <point x="219" y="409" type="line"/>
-    </contour>
-    <contour>
-      <point x="400" y="118" type="line"/>
-      <point x="475" y="121"/>
-      <point x="475" y="189" type="qcurve" smooth="yes"/>
-      <point x="475" y="223" type="line"/>
-      <point x="472" y="268"/>
-      <point x="416" y="295"/>
-      <point x="377" y="295" type="qcurve" smooth="yes"/>
-      <point x="219" y="295" type="line"/>
-      <point x="219" y="118" type="line"/>
     </contour>
   </outline>
 </glyph>

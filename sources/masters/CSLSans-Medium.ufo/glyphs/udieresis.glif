@@ -4,6 +4,27 @@
   <unicode hex="00FC"/>
   <outline>
     <contour>
+      <point x="243" y="-12" type="qcurve" smooth="yes"/>
+      <point x="162" y="-12"/>
+      <point x="73" y="92"/>
+      <point x="73" y="189" type="qcurve" smooth="yes"/>
+      <point x="73" y="520" type="line"/>
+      <point x="182" y="520" type="line"/>
+      <point x="182" y="203" type="line" smooth="yes"/>
+      <point x="182" y="82"/>
+      <point x="282" y="82" type="qcurve" smooth="yes"/>
+      <point x="324" y="82"/>
+      <point x="393" y="126"/>
+      <point x="393" y="172" type="qcurve" smooth="yes"/>
+      <point x="393" y="520" type="line"/>
+      <point x="502" y="520" type="line"/>
+      <point x="502" y="0" type="line"/>
+      <point x="393" y="0" type="line"/>
+      <point x="393" y="86" type="line"/>
+      <point x="389" y="86" type="line"/>
+      <point x="357" y="-12"/>
+    </contour>
+    <contour>
       <point x="189" y="610" type="qcurve" smooth="yes"/>
       <point x="127" y="610"/>
       <point x="127" y="663" type="qcurve" smooth="yes"/>
@@ -26,27 +47,6 @@
       <point x="451" y="681" type="qcurve" smooth="yes"/>
       <point x="451" y="663" type="line" smooth="yes"/>
       <point x="451" y="610"/>
-    </contour>
-    <contour>
-      <point x="243" y="-12" type="qcurve" smooth="yes"/>
-      <point x="162" y="-12"/>
-      <point x="73" y="92"/>
-      <point x="73" y="189" type="qcurve" smooth="yes"/>
-      <point x="73" y="520" type="line"/>
-      <point x="182" y="520" type="line"/>
-      <point x="182" y="203" type="line" smooth="yes"/>
-      <point x="182" y="82"/>
-      <point x="282" y="82" type="qcurve" smooth="yes"/>
-      <point x="324" y="82"/>
-      <point x="393" y="126"/>
-      <point x="393" y="172" type="qcurve" smooth="yes"/>
-      <point x="393" y="520" type="line"/>
-      <point x="502" y="520" type="line"/>
-      <point x="502" y="0" type="line"/>
-      <point x="393" y="0" type="line"/>
-      <point x="393" y="86" type="line"/>
-      <point x="389" y="86" type="line"/>
-      <point x="357" y="-12"/>
     </contour>
   </outline>
 </glyph>

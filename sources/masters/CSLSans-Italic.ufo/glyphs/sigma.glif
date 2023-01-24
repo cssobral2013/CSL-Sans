@@ -4,6 +4,27 @@
   <unicode hex="03C3"/>
   <outline>
     <contour>
+      <point x="313" y="448" type="line" smooth="yes"/>
+      <point x="250" y="448"/>
+      <point x="159" y="365"/>
+      <point x="143" y="286" type="qcurve" smooth="yes"/>
+      <point x="130" y="223" type="line" smooth="yes"/>
+      <point x="125" y="198"/>
+      <point x="125" y="178" type="qcurve" smooth="yes"/>
+      <point x="125" y="124"/>
+      <point x="186" y="57"/>
+      <point x="245" y="57" type="qcurve" smooth="yes"/>
+      <point x="301" y="57"/>
+      <point x="389" y="139"/>
+      <point x="405" y="218" type="qcurve" smooth="yes"/>
+      <point x="418" y="281" type="line" smooth="yes"/>
+      <point x="423" y="306"/>
+      <point x="423" y="326" type="qcurve" smooth="yes"/>
+      <point x="423" y="371"/>
+      <point x="408" y="425"/>
+      <point x="388" y="448" type="qcurve"/>
+    </contour>
+    <contour>
       <point x="446" y="448" type="line"/>
       <point x="444" y="441" type="line"/>
       <point x="499" y="395"/>
@@ -25,27 +46,6 @@
       <point x="313" y="516" type="qcurve" smooth="yes"/>
       <point x="584" y="516" type="line"/>
       <point x="571" y="448" type="line"/>
-    </contour>
-    <contour>
-      <point x="313" y="448" type="line" smooth="yes"/>
-      <point x="250" y="448"/>
-      <point x="159" y="365"/>
-      <point x="143" y="286" type="qcurve" smooth="yes"/>
-      <point x="130" y="223" type="line" smooth="yes"/>
-      <point x="125" y="198"/>
-      <point x="125" y="178" type="qcurve" smooth="yes"/>
-      <point x="125" y="124"/>
-      <point x="186" y="57"/>
-      <point x="245" y="57" type="qcurve" smooth="yes"/>
-      <point x="301" y="57"/>
-      <point x="389" y="139"/>
-      <point x="405" y="218" type="qcurve" smooth="yes"/>
-      <point x="418" y="281" type="line" smooth="yes"/>
-      <point x="423" y="306"/>
-      <point x="423" y="326" type="qcurve" smooth="yes"/>
-      <point x="423" y="371"/>
-      <point x="408" y="425"/>
-      <point x="388" y="448" type="qcurve"/>
     </contour>
   </outline>
 </glyph>

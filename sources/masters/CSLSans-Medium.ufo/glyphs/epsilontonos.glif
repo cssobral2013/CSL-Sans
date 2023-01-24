@@ -4,12 +4,6 @@
   <unicode hex="03AD"/>
   <outline>
     <contour>
-      <point x="304" y="583" type="line"/>
-      <point x="237" y="592" type="line"/>
-      <point x="268" y="789" type="line"/>
-      <point x="361" y="776" type="line"/>
-    </contour>
-    <contour>
       <point x="266" y="-12" type="qcurve" smooth="yes"/>
       <point x="155" y="-12"/>
       <point x="53" y="74"/>
@@ -49,6 +43,12 @@
       <point x="431" y="148" type="qcurve"/>
       <point x="493" y="92" type="line"/>
       <point x="426" y="-12"/>
+    </contour>
+    <contour>
+      <point x="304" y="583" type="line"/>
+      <point x="237" y="592" type="line"/>
+      <point x="268" y="789" type="line"/>
+      <point x="361" y="776" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="299"/>
   <unicode hex="0128"/>
   <outline>
-    <component base="I"/>
-    <component base="tildecmb" xOffset="149" yOffset="173"/>
+    <component base="I" xOffset="-1"/>
+    <component base="tildecomb" xOffset="148" yOffset="173"/>
   </outline>
 </glyph>

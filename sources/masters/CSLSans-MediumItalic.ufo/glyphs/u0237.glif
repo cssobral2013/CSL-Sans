@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u0237" format="2">
+  <advance width="263"/>
+  <unicode hex="0237"/>
+  <outline>
+    <contour>
+      <point x="-91" y="-200" type="line"/>
+      <point x="-74" y="-113" type="line"/>
+      <point x="6" y="-113" type="line"/>
+      <point x="133" y="520" type="line"/>
+      <point x="237" y="520" type="line"/>
+      <point x="115" y="-82" type="line"/>
+      <point x="104" y="-142"/>
+      <point x="42" y="-200"/>
+      <point x="-19" y="-200" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

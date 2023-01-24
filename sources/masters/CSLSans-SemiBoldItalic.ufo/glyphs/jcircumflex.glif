@@ -4,15 +4,6 @@
   <unicode hex="0135"/>
   <outline>
     <contour>
-      <point x="320" y="583" type="line"/>
-      <point x="223" y="699" type="line"/>
-      <point x="87" y="584" type="line"/>
-      <point x="29" y="631" type="line"/>
-      <point x="178" y="783" type="line"/>
-      <point x="289" y="783" type="line"/>
-      <point x="383" y="631" type="line"/>
-    </contour>
-    <contour>
       <point x="-19" y="-200" type="qcurve" smooth="yes"/>
       <point x="-93" y="-200" type="line"/>
       <point x="-74" y="-105" type="line"/>
@@ -22,6 +13,15 @@
       <point x="125" y="-75" type="line" smooth="yes"/>
       <point x="112" y="-140"/>
       <point x="44" y="-200"/>
+    </contour>
+    <contour>
+      <point x="320" y="583" type="line"/>
+      <point x="223" y="699" type="line"/>
+      <point x="87" y="584" type="line"/>
+      <point x="29" y="631" type="line"/>
+      <point x="178" y="783" type="line"/>
+      <point x="289" y="783" type="line"/>
+      <point x="383" y="631" type="line"/>
     </contour>
   </outline>
 </glyph>

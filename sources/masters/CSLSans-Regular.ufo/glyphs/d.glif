@@ -4,6 +4,22 @@
   <unicode hex="0064"/>
   <outline>
     <contour>
+      <point x="282" y="60" type="qcurve" smooth="yes"/>
+      <point x="336" y="60"/>
+      <point x="415" y="116"/>
+      <point x="415" y="165" type="qcurve" smooth="yes"/>
+      <point x="415" y="357" type="line" smooth="yes"/>
+      <point x="415" y="399"/>
+      <point x="336" y="456"/>
+      <point x="282" y="456" type="qcurve" smooth="yes"/>
+      <point x="214" y="456"/>
+      <point x="136" y="371"/>
+      <point x="136" y="302" type="qcurve" smooth="yes"/>
+      <point x="136" y="214" type="line" smooth="yes"/>
+      <point x="136" y="145"/>
+      <point x="214" y="60"/>
+    </contour>
+    <contour>
       <point x="260" y="-12" type="qcurve" smooth="yes"/>
       <point x="164" y="-12"/>
       <point x="50" y="134"/>
@@ -21,22 +37,6 @@
       <point x="415" y="84" type="line"/>
       <point x="411" y="84" type="line"/>
       <point x="364" y="-12"/>
-    </contour>
-    <contour>
-      <point x="282" y="60" type="qcurve" smooth="yes"/>
-      <point x="336" y="60"/>
-      <point x="415" y="116"/>
-      <point x="415" y="165" type="qcurve" smooth="yes"/>
-      <point x="415" y="357" type="line" smooth="yes"/>
-      <point x="415" y="399"/>
-      <point x="336" y="456"/>
-      <point x="282" y="456" type="qcurve" smooth="yes"/>
-      <point x="214" y="456"/>
-      <point x="136" y="371"/>
-      <point x="136" y="302" type="qcurve" smooth="yes"/>
-      <point x="136" y="214" type="line" smooth="yes"/>
-      <point x="136" y="145"/>
-      <point x="214" y="60"/>
     </contour>
   </outline>
 </glyph>

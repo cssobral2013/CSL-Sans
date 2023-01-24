@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis maximum="800" tag="wght" default="400" name="weight" minimum="100">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="100" output="100"/>
+   <map input="400" output="400"/>
+   <map input="800" output="800"/>
+  </axis>
+ </axes>
+ <sources>
+  <source stylename="Bold Italic" name="BoldItalic" familyname="CSL Sans" filename="masters/CSLSans-BoldItalic.ufo">
+   <location>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </source>
+  <source stylename="ExtraBold Italic" name="ExtraBoldItalic" familyname="CSL Sans" filename="masters/CSLSans-ExtraBoldItalic.ufo">
+   <location>
+    <dimension xvalue="800" name="weight"/>
+   </location>
+  </source>
+  <source stylename="ExtraLight Italic" name="ExtraLightItalic" familyname="CSL Sans" filename="masters/CSLSans-ExtraLightItalic.ufo">
+   <location>
+    <dimension xvalue="200" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Italic" name="Italic" familyname="CSL Sans" filename="masters/CSLSans-Italic.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension xvalue="400" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Light Italic" name="LightItalic" familyname="CSL Sans" filename="masters/CSLSans-LightItalic.ufo">
+   <location>
+    <dimension xvalue="300" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Medium Italic" name="MediumItalic" familyname="CSL Sans" filename="masters/CSLSans-MediumItalic.ufo">
+   <location>
+    <dimension xvalue="500" name="weight"/>
+   </location>
+  </source>
+  <source stylename="SemiBold Italic" name="SemiBoldItalic" familyname="CSL Sans" filename="masters/CSLSans-SemiBoldItalic.ufo">
+   <location>
+    <dimension xvalue="600" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Thin Italic" name="ThinItalic" familyname="CSL Sans" filename="masters/CSLSans-ThinItalic.ufo">
+   <location>
+    <dimension xvalue="100" name="weight"/>
+   </location>
+  </source>
+ </sources>
+</designspace>

@@ -56,7 +56,6 @@ This license is copied below, and is also available with a FAQ at: http://script
     <integer>1</integer>
     <integer>2</integer>
     <integer>3</integer>
-    <integer>4</integer>
   </array>
   <key>openTypeHeadLowestRecPPEM</key>
   <integer>8</integer>
@@ -79,9 +78,9 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>ExtraLight</string>
   <key>openTypeNameUniqueID</key>
-  <string>Version 2.065;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.4);UKWN;CSLSans-Regular;2019;FL800</string>
+  <string>CSL Sans:Version 2.065</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.065;May 9, 2022;FontCreator 14.0.0.2814 64-bit; ttfautohint (v1.8.4)</string>
+  <string>Version 2.065;January 24, 2023;FontCreator 14.0.0.2814 64-bit</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>

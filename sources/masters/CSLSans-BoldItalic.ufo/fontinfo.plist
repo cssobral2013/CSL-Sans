@@ -56,7 +56,6 @@ This license is copied below, and is also available with a FAQ at: http://script
     <integer>1</integer>
     <integer>2</integer>
     <integer>3</integer>
-    <integer>4</integer>
   </array>
   <key>openTypeHeadLowestRecPPEM</key>
   <integer>8</integer>
@@ -65,9 +64,9 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>openTypeHheaCaretOffset</key>
   <integer>-53</integer>
   <key>openTypeHheaCaretSlopeRise</key>
-  <integer>100</integer>
+  <integer>5</integer>
   <key>openTypeHheaCaretSlopeRun</key>
-  <integer>20</integer>
+  <integer>1</integer>
   <key>openTypeHheaDescender</key>
   <integer>-302</integer>
   <key>openTypeHheaLineGap</key>
@@ -81,7 +80,7 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>openTypeNameUniqueID</key>
   <string>CSL Sans Italic:Version 2.065</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.065;September 5, 2022;FontCreator 13.0.0.2655 64-bit</string>
+  <string>Version 2.065;January 24, 2023;FontCreator 14.0.0.2814 64-bit</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -102,7 +101,7 @@ This license is copied below, and is also available with a FAQ at: http://script
   <array>
     <integer>2</integer>
     <integer>0</integer>
-    <integer>0</integer>
+    <integer>8</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
