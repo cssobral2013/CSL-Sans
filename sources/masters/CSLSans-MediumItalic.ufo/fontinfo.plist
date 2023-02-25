@@ -29,21 +29,9 @@ This license is copied below, and is also available with a FAQ at: http://script
     <key>y</key>
     <integer>250</integer>
   </dict>
-  <dict>
-    <key>angle</key>
-    <integer>0</integer>
-    <key>name</key>
-    <string>m</string>
-    <key>x</key>
-    <integer>0</integer>
-    <key>y</key>
-    <integer>250</integer>
-  </dict>
   </array>
   <key>italicAngle</key>
   <real>-11.3</real>
-  <key>macintoshFONDName</key>
-  <string>CSL Sans</string>
   <key>openTypeGaspRangeRecords</key>
   <array>
   <dict>
@@ -59,7 +47,7 @@ This license is copied below, and is also available with a FAQ at: http://script
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/24 23:31:55</string>
+  <string>2023/02/25 20:51:09</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -77,31 +65,13 @@ This license is copied below, and is also available with a FAQ at: http://script
   <string>CSL Sans</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Medium Italic</string>
-  <key>openTypeNameUniqueID</key>
-  <string>CSL Sans Italic:Version 2.065</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.065;January 24, 2023;FontCreator 14.0.0.2814 64-bit</string>
-  <key>openTypeOS2CodePageRanges</key>
-  <array>
-    <integer>0</integer>
-    <integer>1</integer>
-    <integer>2</integer>
-    <integer>3</integer>
-    <integer>4</integer>
-    <integer>7</integer>
-    <integer>8</integer>
-    <integer>29</integer>
-  </array>
-  <key>openTypeOS2FamilyClass</key>
-  <array>
-    <integer>0</integer>
-    <integer>0</integer>
-  </array>
   <key>openTypeOS2Panose</key>
   <array>
+    <integer>2</integer>
     <integer>0</integer>
-    <integer>0</integer>
-    <integer>0</integer>
+    <integer>5</integer>
     <integer>0</integer>
     <integer>0</integer>
     <integer>0</integer>
@@ -142,19 +112,6 @@ This license is copied below, and is also available with a FAQ at: http://script
   <integer>-302</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>-0</integer>
-  <key>openTypeOS2UnicodeRanges</key>
-  <array>
-    <integer>0</integer>
-    <integer>1</integer>
-    <integer>2</integer>
-    <integer>7</integer>
-    <integer>9</integer>
-    <integer>29</integer>
-    <integer>32</integer>
-    <integer>33</integer>
-    <integer>36</integer>
-    <integer>60</integer>
-  </array>
   <key>openTypeOS2VendorID</key>
   <string>UKWN</string>
   <key>openTypeOS2WeightClass</key>

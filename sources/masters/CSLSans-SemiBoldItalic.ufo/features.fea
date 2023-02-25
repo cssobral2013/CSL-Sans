@@ -111,10 +111,6 @@ table GDEF {
 } GDEF;
 
 
-
-
-
-
 feature aalt {
 # Access All Alternates
 
@@ -125,17 +121,6 @@ feature aalt {
   feature subs;
 #< feature
 } aalt;
-feature liga {
-# Standard Ligatures
-
-#> feature
-  sub f i by fi;
-  sub f l by fl;
-  sub f f by ff;
-  sub f f i by ffi;
-  sub f f l by ffl;
-#< feature
-} liga;
 feature locl {
 # Localized Forms
 
@@ -143,25 +128,20 @@ feature locl {
   script latn; # Latin
   language MOL; # Moldavian
   sub Scedilla by Scommaaccent;
-  sub scedilla by scommaaccent;
   sub Tcedilla by Tcommaaccent;
+  sub scedilla by scommaaccent;
   sub tcedilla by tcommaaccent;
 
   language ROM; # Romanian
   sub Scedilla by Scommaaccent;
-  sub scedilla by scommaaccent;
   sub Tcedilla by Tcommaaccent;
+  sub scedilla by scommaaccent;
   sub tcedilla by tcommaaccent;
 
   language TRK; # Turkish
   sub i by i.loclTRK;
 #< feature
 } locl;
-
-
-
-
-
 feature sinf {
 # Scientific Inferiors
 
@@ -178,53 +158,38 @@ feature sinf {
   sub zero by zero.inferior;
 #< feature
 } sinf;
-
-
-
-
-
 feature sups {
 # Superscript
 
 #> feature
-  sub eight by eight.superior;
-  sub five by five.superior;
-  sub four by four.superior;
-  sub nine by nine.superior;
+  sub eight by eight.sups;
+  sub five by five.sups;
+  sub four by four.sups;
+  sub nine by nine.sups;
   sub one by onesuperior;
-  sub seven by seven.superior;
-  sub six by six.superior;
+  sub seven by seven.sups;
+  sub six by six.sups;
   sub three by threesuperior;
   sub two by twosuperior;
   sub zero by zero.sups;
 #< feature
 } sups;
-
-
-
-
-
 feature subs {
 # Subscript
 
 #> feature
-  sub eight by eight.inferior;
-  sub five by five.inferior;
-  sub four by four.inferior;
-  sub nine by nine.inferior;
-  sub one by one.inferior;
-  sub seven by seven.inferior;
-  sub six by six.inferior;
-  sub three by three.inferior;
-  sub two by two.inferior;
+  sub eight by eight.subs;
+  sub five by five.subs;
+  sub four by four.subs;
+  sub nine by nine.subs;
+  sub one by one.subs;
+  sub seven by seven.subs;
+  sub six by six.subs;
+  sub three by three.subs;
+  sub two by two.subs;
   sub zero by zero.subs;
 #< feature
 } subs;
-
-
-
-
-
 feature frac {
 # Fractions
 
@@ -252,11 +217,6 @@ lookup frac_precomposed {
 } frac_precomposed;
 #< feature
 } frac;
-
-
-
-
-
 feature ordn {
 # Ordinals
 
@@ -266,8 +226,14 @@ feature ordn {
   sub N o period by numero;
 #< feature
 } ordn;
+feature liga {
+# Standard Ligatures
 
-
-
-
-
+#> feature
+  sub f i by fi;
+  sub f l by fl;
+  sub f f by ff;
+  sub f f i by ffi;
+  sub f f l by ffl;
+#< feature
+} liga;

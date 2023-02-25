@@ -1544,6 +1544,12 @@
   <string>twothirds.glif</string>
   <key>u</key>
   <string>u.glif</string>
+  <key>u0394</key>
+  <string>u0394.glif</string>
+  <key>u03A9</key>
+  <string>u03A_9.glif</string>
+  <key>u03BC</key>
+  <string>u03B_C_.glif</string>
   <key>uacute</key>
   <string>uacute.glif</string>
   <key>uacutedblcyr</key>
@@ -1592,6 +1598,10 @@
   <string>uni03A_9.glif</string>
   <key>uni03BC</key>
   <string>uni03B_C_.glif</string>
+  <key>uniF6D7</key>
+  <string>uniF_6D_7.glif</string>
+  <key>uniF6D8</key>
+  <string>uniF_6D_8.glif</string>
   <key>uogonek</key>
   <string>uogonek.glif</string>
   <key>upsilon</key>

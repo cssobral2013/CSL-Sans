@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="2">
-  <advance width="304"/>
+  <advance width="300"/>
   <unicode hex="002E"/>
   <outline>
     <contour>
-      <point x="100" y="-11" type="qcurve" smooth="yes"/>
-      <point x="60" y="-11"/>
-      <point x="27" y="24"/>
-      <point x="27" y="47" type="qcurve" smooth="yes"/>
-      <point x="27" y="71"/>
-      <point x="38" y="113"/>
-      <point x="62" y="145"/>
-      <point x="100" y="164"/>
-      <point x="127" y="164" type="qcurve" smooth="yes"/>
-      <point x="167" y="164"/>
-      <point x="201" y="127"/>
-      <point x="201" y="106" type="qcurve" smooth="yes"/>
-      <point x="201" y="102"/>
-      <point x="200" y="95"/>
-      <point x="200" y="91" type="qcurve"/>
-      <point x="194" y="61" type="line" smooth="yes"/>
-      <point x="187" y="29"/>
-      <point x="142" y="-11"/>
+      <point x="76" y="-11" type="qcurve" smooth="yes"/>
+      <point x="36" y="-11"/>
+      <point x="3" y="24"/>
+      <point x="3" y="47" type="qcurve" smooth="yes"/>
+      <point x="3" y="71"/>
+      <point x="14" y="113"/>
+      <point x="38" y="145"/>
+      <point x="76" y="164"/>
+      <point x="103" y="164" type="qcurve" smooth="yes"/>
+      <point x="143" y="164"/>
+      <point x="177" y="127"/>
+      <point x="177" y="106" type="qcurve" smooth="yes"/>
+      <point x="177" y="102"/>
+      <point x="176" y="95"/>
+      <point x="176" y="91" type="qcurve"/>
+      <point x="170" y="61" type="line" smooth="yes"/>
+      <point x="163" y="29"/>
+      <point x="118" y="-11"/>
     </contour>
   </outline>
 </glyph>

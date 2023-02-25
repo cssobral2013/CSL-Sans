@@ -19,6 +19,10 @@
   </dict>
   <key>com.typemytype.robofont.italicSlantOffset</key>
   <real>-56</real>
+  <key>com.fontlab.masterFilename</key>
+  <string>CSLSans-Italic</string>
+  <key>com.typemytype.robofont.italicSlantOffset</key>
+  <integer>-56</integer>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -865,6 +869,14 @@
     <string>ff</string>
     <string>ffi</string>
     <string>ffl</string>
+    <string>.null</string>
+    <string>glyph818</string>
+    <string>glyph819</string>
+    <string>glyph823</string>
+    <string>uni00AD</string>
+    <string>uni0394</string>
+    <string>uni03A9</string>
+    <string>uni03BC</string>
   </array>
 </dict>
 </plist>

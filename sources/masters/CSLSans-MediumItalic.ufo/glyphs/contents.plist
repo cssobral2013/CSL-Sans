@@ -4,6 +4,8 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
+  <key>.null</key>
+  <string>_null.glif</string>
   <key>A</key>
   <string>A_.glif</string>
   <key>AE</key>
@@ -1008,6 +1010,12 @@
   <string>geupcyr.glif</string>
   <key>gjecyr</key>
   <string>gjecyr.glif</string>
+  <key>glyph818</key>
+  <string>glyph818.glif</string>
+  <key>glyph819</key>
+  <string>glyph819.glif</string>
+  <key>glyph823</key>
+  <string>glyph823.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>gravecomb</key>
@@ -1582,6 +1590,14 @@
   <string>umacroncyr.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
+  <key>uni00AD</key>
+  <string>uni00A_D_.glif</string>
+  <key>uni0394</key>
+  <string>uni0394.glif</string>
+  <key>uni03A9</key>
+  <string>uni03A_9.glif</string>
+  <key>uni03BC</key>
+  <string>uni03B_C_.glif</string>
   <key>uniF6D7</key>
   <string>uniF_6D_7.glif</string>
   <key>uniF6D8</key>

@@ -19,12 +19,13 @@
   </dict>
   <key>com.typemytype.robofont.italicSlantOffset</key>
   <real>-53</real>
+  <key>com.fontlab.masterFilename</key>
+  <string>CSLSans-ExtraLightItalic</string>
   <key>com.typemytype.robofont.italicSlantOffset</key>
-  <real>-53</real>
+  <integer>-53</integer>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
-    <string>.null</string>
     <string>A</string>
     <string>AE</string>
     <string>AEacute</string>
@@ -294,9 +295,6 @@
     <string>gcircumflex</string>
     <string>gdotaccent</string>
     <string>germandbls</string>
-    <string>glyph818</string>
-    <string>glyph819</string>
-    <string>glyph823</string>
     <string>grave</string>
     <string>gravecomb</string>
     <string>greater</string>
@@ -356,7 +354,6 @@
     <string>nine</string>
     <string>nine.subs</string>
     <string>nine.sups</string>
-    <string>softhyphen</string>
     <string>notequal</string>
     <string>ntilde</string>
     <string>nu</string>
@@ -461,17 +458,8 @@
     <string>two.sups</string>
     <string>twothirds</string>
     <string>u</string>
-    <string>uacute</string>
-    <string>ubreve</string>
-    <string>ucircumflex</string>
-    <string>udieresis</string>
-    <string>ugrave</string>
-    <string>uhorn</string>
-    <string>uhungarumlaut</string>
-    <string>umacron</string>
-    <string>underscore</string>
     <string>nbspace</string>
-    <string>uni00AD</string>
+    <string>softhyphen</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
     <string>onesuperior</string>
@@ -511,9 +499,9 @@
     <string>cedillacomb</string>
     <string>ogonekcomb</string>
     <string>questiongreek</string>
-    <string>uni0394</string>
-    <string>uni03A9</string>
-    <string>uni03BC</string>
+    <string>u0394</string>
+    <string>u03A9</string>
+    <string>u03BC</string>
     <string>Iegravecyr</string>
     <string>Iocyr</string>
     <string>Djecyr</string>
@@ -838,6 +826,17 @@
     <string>leftArrowTipUp</string>
     <string>fi</string>
     <string>fl</string>
+    <string>uacute</string>
+    <string>ubreve</string>
+    <string>ucircumflex</string>
+    <string>udieresis</string>
+    <string>ugrave</string>
+    <string>uhorn</string>
+    <string>uhungarumlaut</string>
+    <string>umacron</string>
+    <string>underscore</string>
+    <string>uniF6D7</string>
+    <string>uniF6D8</string>
     <string>uogonek</string>
     <string>upsilon</string>
     <string>upsilondieresis</string>
@@ -870,6 +869,14 @@
     <string>ff</string>
     <string>ffi</string>
     <string>ffl</string>
+    <string>.null</string>
+    <string>glyph818</string>
+    <string>glyph819</string>
+    <string>glyph823</string>
+    <string>uni00AD</string>
+    <string>uni0394</string>
+    <string>uni03A9</string>
+    <string>uni03BC</string>
   </array>
 </dict>
 </plist>
