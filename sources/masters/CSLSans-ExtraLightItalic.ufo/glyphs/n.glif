@@ -12,12 +12,25 @@
       <point x="438" y="352"/>
       <point x="438" y="382" type="qcurve" smooth="yes"/>
       <point x="438" y="489"/>
-      <point x="334" y="489" type="qcurve" smooth="yes"/>
+      <point x="334" y="489" type="qcurve"/>
+      <point x="334" y="489"/>
+      <point x="334" y="489" type="qcurve"/>
+      <point x="334" y="489"/>
+      <point x="334" y="489" type="qcurve"/>
+      <point x="334" y="489"/>
+      <point x="334" y="489" type="qcurve"/>
+      <point x="333" y="489" type="line"/>
+      <point x="333" y="489"/>
+      <point x="333" y="489" type="qcurve"/>
+      <point x="333" y="489"/>
+      <point x="333" y="489" type="qcurve"/>
+      <point x="333" y="489"/>
+      <point x="333" y="489" type="qcurve"/>
       <point x="332" y="489" type="line" smooth="yes"/>
       <point x="260" y="489"/>
       <point x="208" y="432" type="qcurve" smooth="yes"/>
       <point x="160" y="378"/>
-      <point x="144" y="306" type="qcurve"/>
+      <point x="144" y="306" type="qcurve" smooth="yes"/>
       <point x="83" y="0" type="line"/>
       <point x="49" y="0" type="line"/>
       <point x="151" y="508" type="line"/>
@@ -32,6 +45,21 @@
       <point x="439" y="485" type="qcurve" smooth="yes"/>
       <point x="473" y="449"/>
       <point x="473" y="386" type="qcurve" smooth="yes"/>
+      <point x="473" y="385" type="line"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
+      <point x="473" y="385"/>
+      <point x="473" y="385" type="qcurve"/>
       <point x="473" y="379" type="line" smooth="yes"/>
       <point x="473" y="352"/>
       <point x="466" y="320" type="qcurve" smooth="yes"/>

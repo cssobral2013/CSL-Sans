@@ -3,43 +3,7 @@
   <advance width="643"/>
   <unicode hex="00DB"/>
   <outline>
-    <contour>
-      <point x="275" y="-12" type="qcurve" smooth="yes"/>
-      <point x="184" y="-12"/>
-      <point x="133" y="31" type="qcurve" smooth="yes"/>
-      <point x="82" y="74"/>
-      <point x="82" y="158" type="qcurve" smooth="yes"/>
-      <point x="82" y="212"/>
-      <point x="99" y="280" type="qcurve"/>
-      <point x="182" y="698" type="line"/>
-      <point x="218" y="698" type="line"/>
-      <point x="133" y="271" type="line"/>
-      <point x="118" y="202"/>
-      <point x="118" y="160" type="qcurve" smooth="yes"/>
-      <point x="118" y="95"/>
-      <point x="157" y="58" type="qcurve" smooth="yes"/>
-      <point x="196" y="22"/>
-      <point x="277" y="21" type="qcurve"/>
-      <point x="281" y="21" type="line" smooth="yes"/>
-      <point x="385" y="21"/>
-      <point x="436" y="77" type="qcurve"/>
-      <point x="490" y="134"/>
-      <point x="516" y="274" type="qcurve" smooth="yes"/>
-      <point x="601" y="698" type="line"/>
-      <point x="637" y="698" type="line"/>
-      <point x="552" y="272" type="line"/>
-      <point x="524" y="114"/>
-      <point x="462" y="51" type="qcurve" smooth="yes"/>
-      <point x="400" y="-12"/>
-    </contour>
-    <contour>
-      <point x="450" y="903" type="line"/>
-      <point x="305" y="779" type="line"/>
-      <point x="285" y="796" type="line"/>
-      <point x="433" y="930" type="line"/>
-      <point x="473" y="930" type="line"/>
-      <point x="574" y="794" type="line"/>
-      <point x="552" y="779" type="line"/>
-    </contour>
+    <component base="U"/>
+    <component base="circumflexcomb" xOffset="412" yOffset="182"/>
   </outline>
 </glyph>
