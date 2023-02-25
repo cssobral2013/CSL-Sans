@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ercyr" format="2">
+  <advance width="656"/>
+  <unicode hex="0420"/>
+  <outline>
+    <contour>
+      <point x="389" y="384" type="line"/>
+      <point x="462" y="386"/>
+      <point x="462" y="453" type="qcurve" smooth="yes"/>
+      <point x="462" y="497" type="line" smooth="yes"/>
+      <point x="462" y="531"/>
+      <point x="423" y="566"/>
+      <point x="389" y="566" type="qcurve" smooth="yes"/>
+      <point x="229" y="566" type="line"/>
+      <point x="229" y="384" type="line"/>
+    </contour>
+    <contour>
+      <point x="77" y="0" type="line"/>
+      <point x="77" y="698" type="line"/>
+      <point x="407" y="698" type="line" smooth="yes"/>
+      <point x="505" y="698"/>
+      <point x="619" y="573"/>
+      <point x="619" y="475" type="qcurve" smooth="yes"/>
+      <point x="619" y="375"/>
+      <point x="505" y="252"/>
+      <point x="407" y="252" type="qcurve" smooth="yes"/>
+      <point x="229" y="252" type="line"/>
+      <point x="229" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

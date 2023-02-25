@@ -1,3 +1,22 @@
+#> classes
+#/> otclasses
+@ordn_sinf_subs_sups = [zero one two three four five six seven eight nine];
+@sinf = [zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior];
+@subs = [zero.subs one.subs two.subs three.subs four.subs five.subs six.subs seven.subs eight.subs nine.subs];
+@sups = [zero.sups one.sups two.sups three.sups four.sups five.sups six.sups seven.sups eight.sups nine.sups];
+#/< otclasses
+#< classes
+
+#> languagesystem
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn MOL;
+languagesystem latn ROM;
+languagesystem latn TRK;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+#< languagesystem
+
 
 
 @GDEF_Simple = [\A \AE \AEacute \Aacute \Abreve \Acircumflex \Adieresis \Agrave 
@@ -45,41 +64,41 @@
 	\questiondown \quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft 
 	\quoteright \quotesinglbase \quotesingle \r \racute \radical \rcaron 
 	\registered \rho \ring \s \sacute \scaron \scedilla \scircumflex \section 
-	\semicolon \seven \seven.subs \seven.sups \seveneighths \sigma \sigma1 \six 
+	\semicolon \seven \seven.subs \seven.sups \seveneighths \sigma \sigmafinal \six 
 	\six.subs \six.sups \slash \space \sterling \summation \t \tau \tbar \tcaron 
 	\theta \thorn \three \three.subs \three.sups \threeeighths \threequarters 
-	\tilde \tildecomb \tonos \trademark \two \two.subs \two.sups \twothirds \u \u00A0 
-	\u00AD \u00B2 \u00B3 \u00B9 \u0122 \u0123 \u0136 \u0137 \u013B \u013C \u0145 \u0146 
-	\u0156 \u0157 \u0162 \u0163 \u018F \u0218 \u0219 \u021A \u021B \u0237 \u0259 \u02BB 
-	\u02BC \u0302 \u0304 \u0306 \u0307 \u0308 \u030A \u030B \u030C \u0312 \u0315 \u031B 
-	\u0326 \u0327 \u0328 \u037E \u0394 \u03A9 \u03BC \u0400 \u0401 \u0402 \u0403 \u0404 
-	\u0405 \u0406 \u0407 \u0408 \u0409 \u040A \u040B \u040C \u040D \u040E \u040F \u0410 
-	\u0411 \u0412 \u0413 \u0414 \u0415 \u0416 \u0417 \u0418 \u0419 \u041A \u041B \u041C 
-	\u041D \u041E \u041F \u0420 \u0421 \u0422 \u0423 \u0424 \u0425 \u0426 \u0427 \u0428 
-	\u0429 \u042A \u042B \u042C \u042D \u042E \u042F \u0430 \u0431 \u0432 \u0433 \u0434 
-	\u0435 \u0436 \u0437 \u0438 \u0439 \u043A \u043B \u043C \u043D \u043E \u043F \u0440 
-	\u0441 \u0442 \u0443 \u0444 \u0445 \u0446 \u0447 \u0448 \u0449 \u044A \u044B \u044C 
-	\u044D \u044E \u044F \u0450 \u0451 \u0452 \u0453 \u0454 \u0455 \u0456 \u0457 \u0458 
-	\u0459 \u045A \u045B \u045C \u045D \u045E \u045F \u0472 \u0473 \u0490 \u0491 \u0492 
-	\u0493 \u0494 \u0495 \u0496 \u0497 \u0498 \u0499 \u049A \u049B \u049C \u049D \u04A0 
-	\u04A1 \u04A2 \u04A3 \u04A4 \u04A5 \u04AA \u04AB \u04AE \u04AF \u04B0 \u04B1 \u04B2 
-	\u04B3 \u04B6 \u04B7 \u04B8 \u04B9 \u04BA \u04BB \u04C0 \u04C1 \u04C2 \u04CF \u04D0 
-	\u04D1 \u04D2 \u04D3 \u04D4 \u04D5 \u04D6 \u04D7 \u04D8 \u04D9 \u04DC \u04DD \u04DE 
-	\u04DF \u04E2 \u04E3 \u04E4 \u04E5 \u04E6 \u04E7 \u04E8 \u04E9 \u04EE \u04EF \u04F0 
-	\u04F1 \u04F2 \u04F3 \u04F4 \u04F5 \u04F8 \u04F9 \u0E3F \u1E9E \u1EA0 \u1EA1 \u1EA2 
-	\u1EA3 \u1EA4 \u1EA5 \u1EA6 \u1EA7 \u1EA8 \u1EA9 \u1EAA \u1EAB \u1EAC \u1EAD \u1EAE 
-	\u1EAF \u1EB0 \u1EB1 \u1EB2 \u1EB3 \u1EB4 \u1EB5 \u1EB6 \u1EB7 \u1EB8 \u1EB9 \u1EBA 
-	\u1EBB \u1EBC \u1EBD \u1EBE \u1EBF \u1EC0 \u1EC1 \u1EC2 \u1EC3 \u1EC4 \u1EC5 \u1EC6 
-	\u1EC7 \u1EC8 \u1EC9 \u1ECA \u1ECB \u1ECC \u1ECD \u1ECE \u1ECF \u1ED0 \u1ED1 \u1ED2 
-	\u1ED3 \u1ED4 \u1ED5 \u1ED6 \u1ED7 \u1ED8 \u1ED9 \u1EDA \u1EDB \u1EDC \u1EDD \u1EDE 
-	\u1EDF \u1EE0 \u1EE1 \u1EE2 \u1EE3 \u1EE4 \u1EE5 \u1EE6 \u1EE7 \u1EE8 \u1EE9 \u1EEA 
-	\u1EEB \u1EEC \u1EED \u1EEE \u1EEF \u1EF0 \u1EF1 \u1EF4 \u1EF5 \u1EF6 \u1EF7 \u1EF8 
-	\u1EF9 \u2070 \u2074 \u2075 \u2076 \u2077 \u2078 \u2079 \u2080 \u2081 \u2082 \u2083 
-	\u2084 \u2085 \u2086 \u2087 \u2088 \u2089 \u20A6 \u20A8 \u20A9 \u20AA \u20AD \u20AE 
-	\u20B1 \u20B2 \u20B4 \u20B5 \u20B8 \u20B9 \u20BA \u20BD \u20BF \u2113 \u2116 \u2150 
-	\u2151 \u2155 \u2156 \u2157 \u2158 \u2159 \u215A \u2196 \u2197 \u2198 \u2199 \u21A9 
-	\u21AA \u21B0 \u21B1 \u21B2 \u21B3 \u21B6 \u21B7 \u21BA \u21BB \u21C4 \u21C6 \u2713 
-	\u274C \u2B0E \u2B0F \u2B10 \u2B11 \uFB01 \uFB02 \uacute \ubreve \ucircumflex 
+	\tilde \tildecomb \tonos \trademark \two \two.subs \two.sups \twothirds \u \nbspace 
+	\softhyphen \twosuperior \threesuperior \onesuperior \Gcommaaccent \gcommaaccent \Kcommaaccent \kcommaaccent \Lcommaaccent \lcommaaccent \Ncommaaccent \ncommaaccent 
+	\Rcommaaccent \rcommaaccent \Tcedilla \tcedilla \Schwa \Scommaaccent \scommaaccent \Tcommaaccent \tcommaaccent \dotlessj \schwa \commaturnedmod 
+	\apostrophemod \circumflexcomb \macroncomb \brevecomb \dotaccentcomb \dieresiscomb \ringcomb \hungarumlautcomb \caroncomb \commaturnedabovecomb \commaaboverightcomb \horncomb 
+	\commaaccentcomb \cedillacomb \ogonekcomb \questiongreek \u0394 \u03A9 \u03BC \Iegravecyr \Iocyr \Djecyr \Gjecyr \Eukrcyr 
+	\Dzecyr \Iukrcyr \Yukrcyr \Jecyr \Ljecyr \Njecyr \Tshecyr \Kjecyr \Igravecyr \Ushortcyr \Dzhecyr \Acyr 
+	\Becyr \Vecyr \Gecyr \Decyr \Iecyr \Zhecyr \Zecyr \Icyr \Ishortcyr \Kacyr \Elcyr \Emcyr 
+	\Encyr \Ocyr \Pecyr \Ercyr \Escyr \Tecyr \Ucyr \Efcyr \Hacyr \Tsecyr \Checyr \Shacyr 
+	\Shchacyr \Hardcyr \Ylongcyr \Softcyr \Ereversedcyr \Yucyr \Yacyr \acyr \becyr \vecyr \gecyr \decyr 
+	\iecyr \zhecyr \zecyr \icyr \ishortcyr \kacyr \elcyr \emcyr \encyr \ocyr \pecyr \ercyr 
+	\escyr \tecyr \ucyr \efcyr \hacyr \tsecyr \checyr \shacyr \shchacyr \hardcyr \ylongcyr \softcyr 
+	\ereversedcyr \yucyr \yacyr \iegravecyr \iocyr \djecyr \gjecyr \eukrcyr \dzecyr \iukrcyr \yukrcyr \jecyr 
+	\ljecyr \njecyr \tshecyr \kjecyr \igravecyr \ushortcyr \dzhecyr \Fitacyr \fitacyr \Geupcyr \geupcyr \Gestrokecyr 
+	\gestrokecyr \Gehookcyr \gehookcyr \Zhetailcyr \zhetailcyr \Zetailcyr \zetailcyr \Katailcyr \katailcyr \Kaverticalstrokecyr \kaverticalstrokecyr \Kabashkcyr 
+	\kabashkcyr \Entailcyr \entailcyr \Engecyr \engecyr \Estailcyr \estailcyr \Ustraightcyr \ustraightcyr \Ustraightstrokecyr \ustraightstrokecyr \Xatailcyr 
+	\xatailcyr \Chetailcyr \chetailcyr \Chevertcyr \chevertcyr \Shhacyr \shhacyr \Palochkacyr \Zhebrevecyr \zhebrevecyr \palochkacyr \Abrevecyr 
+	\abrevecyr \Adieresiscyr \adieresiscyr \Aiecyr \aiecyr \Iebrevecyr \iebrevecyr \Schwacyr \schwacyr \Zhedieresiscyr \zhedieresiscyr \Zedieresiscyr 
+	\zedieresiscyr \Imacroncyr \imacroncyr \Idieresiscyr \idieresiscyr \Odieresiscyr \odieresiscyr \Obarcyr \obarcyr \Umacroncyr \umacroncyr \Udieresiscyr 
+	\udieresiscyr \Uacutedblcyr \uacutedblcyr \Chedieresiscyr \chedieresiscyr \Ylongdieresiscyr \ylongdieresiscyr \baht-thai \Germandbls \Adotbelow \adotbelow \Ahoi 
+	\ahoi \Acircumflexacute \acircumflexacute \Acircumflexgrave \acircumflexgrave \Acircumflexhoi \acircumflexhoi \Acircumflextilde \acircumflextilde \Acircumflexdotbelow \acircumflexdotbelow \Abreveacute 
+	\abreveacute \Abrevegrave \abrevegrave \Abrevehoi \abrevehoi \Abrevetilde \abrevetilde \Abrevedotbelow \abrevedotbelow \Edotbelow \edotbelow \Ehoi 
+	\ehoi \Etilde \etilde \Ecircumflexacute \ecircumflexacute \Ecircumflexgrave \ecircumflexgrave \Ecircumflexhoi \ecircumflexhoi \Ecircumflextilde \ecircumflextilde \Ecircumflexdotbelow 
+	\ecircumflexdotbelow \Ihoi \ihoi \Idotbelow \idotbelow \Odotbelow \odotbelow \Ohoi \ohoi \Ocircumflexacute \ocircumflexacute \Ocircumflexgrave 
+	\ocircumflexgrave \Ocircumflexhoi \ocircumflexhoi \Ocircumflextilde \ocircumflextilde \Ocircumflexdotbelow \ocircumflexdotbelow \Ohornacute \ohornacute \Ohorngrave \ohorngrave \Ohornhoi 
+	\ohornhoi \Ohorntilde \ohorntilde \Ohorndotbelow \ohorndotbelow \Udotbelow \udotbelow \Uhoi \uhoi \Uhornacute \uhornacute \Uhorngrave 
+	\uhorngrave \Uhornhoi \uhornhoi \Uhorntilde \uhorntilde \Uhorndotbelow \uhorndotbelow \Ydotbelow \ydotbelow \Yhoi \yhoi \Ytilde 
+	\ytilde \zero.superior \four.superior \five.superior \six.superior \seven.superior \eight.superior \nine.superior \zero.inferior \one.inferior \two.inferior \three.inferior 
+	\four.inferior \five.inferior \six.inferior \seven.inferior \eight.inferior \nine.inferior \naira \rupee \won \newsheqel \kip \tugrik 
+	\peso \guarani \hryvnia \cedi \tenge \indianrupee \turkishlira \ruble \bitcoin \litre \numero \oneseventh 
+	\oneninth \onefifth \twofifths \threefifths \fourfifths \onesixth \fivesixths \arrowNW \arrowNE \arrowSE \arrowSW \arrowlefthook 
+	\arrowrighthook \arrowleftuptip \arrowuprighttip \arrowleftdowntip \arrowrightdowntip \arrowanticlockwisesemicircle \arrowclockwisesemicircle \arrowanticlockwiseopencircle \arrowclockwiseopencircle \rightarrowoverleftarrow \leftarrowoverrightarrow \check 
+	\crossMark \rightTipDownArrow \rightTipUpArrow \leftArrowTipDown \leftArrowTipUp \fi \fl \uacute \ubreve \ucircumflex 
 	\udieresis \ugrave \uhorn \uhungarumlaut \umacron \underscore \uniF6D7 \uniF6D8 
 	\uogonek \upsilon \upsilondieresis \upsilondieresistonos \upsilontonos \uring 
 	\utilde \v \w \wacute \wcircumflex \wdieresis \wgrave \x \xi \y \yacute 
@@ -90,4 +109,190 @@ table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
 
 } GDEF;
+
+
+
+
+
+
+
+
+
+feature aalt {
+# Access All Alternates
+
+#> feature
+  feature locl;
+  feature sinf;
+  feature sups;
+  feature subs;
+#< feature
+} aalt;
+feature liga {
+# Standard Ligatures
+
+#> feature
+  sub f i by fi;
+  sub f l by fl;
+  sub f f by ff;
+  sub f f i by ffi;
+  sub f f l by ffl;
+#< feature
+} liga;
+
+
+
+
+feature locl {
+# Localized Forms
+
+#> feature
+  script latn; # Latin
+  language MOL; # Moldavian
+  sub Scedilla by Scommaaccent;
+  sub scedilla by scommaaccent;
+  sub Tcedilla by Tcommaaccent;
+  sub tcedilla by tcommaaccent;
+
+  language ROM; # Romanian
+  sub Scedilla by Scommaaccent;
+  sub scedilla by scommaaccent;
+  sub Tcedilla by Tcommaaccent;
+  sub tcedilla by tcommaaccent;
+
+  language TRK; # Turkish
+  sub i by i.loclTRK;
+#< feature
+} locl;
+
+
+
+
+
+
+
+
+feature sinf {
+# Scientific Inferiors
+
+#> feature
+  sub eight by eight.inferior;
+  sub five by five.inferior;
+  sub four by four.inferior;
+  sub nine by nine.inferior;
+  sub one by one.inferior;
+  sub seven by seven.inferior;
+  sub six by six.inferior;
+  sub three by three.inferior;
+  sub two by two.inferior;
+  sub zero by zero.inferior;
+#< feature
+} sinf;
+
+
+
+
+
+
+
+
+feature sups {
+# Superscript
+
+#> feature
+  sub eight by eight.superior;
+  sub five by five.superior;
+  sub four by four.superior;
+  sub nine by nine.superior;
+  sub one by onesuperior;
+  sub seven by seven.superior;
+  sub six by six.superior;
+  sub three by threesuperior;
+  sub two by twosuperior;
+  sub zero by zero.sups;
+#< feature
+} sups;
+
+
+
+
+
+
+
+
+feature subs {
+# Subscript
+
+#> feature
+  sub eight by eight.inferior;
+  sub five by five.inferior;
+  sub four by four.inferior;
+  sub nine by nine.inferior;
+  sub one by one.inferior;
+  sub seven by seven.inferior;
+  sub six by six.inferior;
+  sub three by three.inferior;
+  sub two by two.inferior;
+  sub zero by zero.subs;
+#< feature
+} subs;
+
+
+
+
+
+
+
+
+feature frac {
+# Fractions
+
+#> feature
+lookup frac_precomposed {
+
+  sub one slash four by onequarter;
+  sub one slash two by onehalf;
+  sub three slash four by threequarters;
+  sub one slash three by onethird;
+  sub two slash three by twothirds;
+  sub one slash eight by oneeighth;
+  sub three slash eight by threeeighths;
+  sub five slash eight by fiveeighths;
+  sub seven slash eight by seveneighths;
+  sub one fraction four by onequarter;
+  sub one fraction two by onehalf;
+  sub three fraction four by threequarters;
+  sub one fraction three by onethird;
+  sub two fraction three by twothirds;
+  sub one fraction eight by oneeighth;
+  sub three fraction eight by threeeighths;
+  sub five fraction eight by fiveeighths;
+  sub seven fraction eight by seveneighths;
+} frac_precomposed;
+#< feature
+} frac;
+
+
+
+
+
+
+
+
+feature ordn {
+# Ordinals
+
+#> feature
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+  sub N o period by numero;
+#< feature
+} ordn;
+
+
+
+
+
+
+
 

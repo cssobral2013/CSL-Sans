@@ -9,19 +9,19 @@
   </axis>
  </axes>
  <sources>
-  <source stylename="Bold Italic" name="BoldItalic" familyname="CSL Sans" filename="masters/CSLSans-BoldItalic.ufo">
+    <source stylename="Thin Italic" name="ThinItalic" familyname="CSL Sans" filename="masters/CSLSans-ThinItalic.ufo">
    <location>
-    <dimension xvalue="700" name="weight"/>
-   </location>
-  </source>
-  <source stylename="ExtraBold Italic" name="ExtraBoldItalic" familyname="CSL Sans" filename="masters/CSLSans-ExtraBoldItalic.ufo">
-   <location>
-    <dimension xvalue="800" name="weight"/>
+    <dimension xvalue="100" name="weight"/>
    </location>
   </source>
   <source stylename="ExtraLight Italic" name="ExtraLightItalic" familyname="CSL Sans" filename="masters/CSLSans-ExtraLightItalic.ufo">
    <location>
     <dimension xvalue="200" name="weight"/>
+   </location>
+  </source>
+  <source stylename="Light Italic" name="LightItalic" familyname="CSL Sans" filename="masters/CSLSans-LightItalic.ufo">
+   <location>
+    <dimension xvalue="300" name="weight"/>
    </location>
   </source>
   <source stylename="Italic" name="Italic" familyname="CSL Sans" filename="masters/CSLSans-Italic.ufo">
@@ -31,11 +31,6 @@
    <features copy="1"/>
    <location>
     <dimension xvalue="400" name="weight"/>
-   </location>
-  </source>
-  <source stylename="Light Italic" name="LightItalic" familyname="CSL Sans" filename="masters/CSLSans-LightItalic.ufo">
-   <location>
-    <dimension xvalue="300" name="weight"/>
    </location>
   </source>
   <source stylename="Medium Italic" name="MediumItalic" familyname="CSL Sans" filename="masters/CSLSans-MediumItalic.ufo">
@@ -48,9 +43,14 @@
     <dimension xvalue="600" name="weight"/>
    </location>
   </source>
-  <source stylename="Thin Italic" name="ThinItalic" familyname="CSL Sans" filename="masters/CSLSans-ThinItalic.ufo">
+  <source stylename="Bold Italic" name="BoldItalic" familyname="CSL Sans" filename="masters/CSLSans-BoldItalic.ufo">
    <location>
-    <dimension xvalue="100" name="weight"/>
+    <dimension xvalue="700" name="weight"/>
+   </location>
+  </source>
+  <source stylename="ExtraBold Italic" name="ExtraBoldItalic" familyname="CSL Sans" filename="masters/CSLSans-ExtraBoldItalic.ufo">
+   <location>
+    <dimension xvalue="800" name="weight"/>
    </location>
   </source>
  </sources>

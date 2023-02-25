@@ -2,6 +2,6 @@
 <glyph name="seven.subs" format="2">
   <advance width="344"/>
   <outline>
-    <component base="u2087" xOffset="-1" yOffset="329"/>
+    <component base="seven.inferior" xOffset="-1" yOffset="329"/>
   </outline>
 </glyph>

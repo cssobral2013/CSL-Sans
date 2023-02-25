@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ffl" format="2">
+  <advance width="918"/>
+  <unicode hex="FB04"/>
+  <outline>
+    <contour>
+      <point x="-11" y="-200" type="qcurve" smooth="yes"/>
+      <point x="-85" y="-200" type="line"/>
+      <point x="-63" y="-96" type="line"/>
+      <point x="32" y="-96" type="line"/>
+      <point x="136" y="420" type="line"/>
+      <point x="64" y="420" type="line"/>
+      <point x="84" y="523" type="line"/>
+      <point x="156" y="523" type="line"/>
+      <point x="171" y="597" type="line" smooth="yes"/>
+      <point x="185" y="669"/>
+      <point x="272" y="740"/>
+      <point x="350" y="740" type="qcurve" smooth="yes"/>
+      <point x="427" y="740" type="line"/>
+      <point x="405" y="636" type="line"/>
+      <point x="307" y="636" type="line"/>
+      <point x="285" y="523" type="line"/>
+      <point x="457" y="523" type="line"/>
+      <point x="472" y="597" type="line" smooth="yes"/>
+      <point x="486" y="669"/>
+      <point x="573" y="740"/>
+      <point x="651" y="740" type="qcurve" smooth="yes"/>
+      <point x="936" y="740" type="line"/>
+      <point x="808" y="104" type="line"/>
+      <point x="873" y="104" type="line"/>
+      <point x="853" y="0" type="line"/>
+      <point x="763" y="0" type="line" smooth="yes"/>
+      <point x="718" y="0"/>
+      <point x="677" y="44"/>
+      <point x="677" y="77" type="qcurve" smooth="yes"/>
+      <point x="677" y="86"/>
+      <point x="787" y="636" type="qcurve"/>
+      <point x="608" y="636" type="line"/>
+      <point x="586" y="523" type="line"/>
+      <point x="688" y="523" type="line"/>
+      <point x="667" y="420" type="line"/>
+      <point x="565" y="420" type="line"/>
+      <point x="470" y="-57" type="line" smooth="yes"/>
+      <point x="455" y="-129"/>
+      <point x="374" y="-200"/>
+      <point x="300" y="-200" type="qcurve" smooth="yes"/>
+      <point x="216" y="-200" type="line"/>
+      <point x="238" y="-96" type="line"/>
+      <point x="334" y="-96" type="line"/>
+      <point x="437" y="420" type="line"/>
+      <point x="264" y="420" type="line"/>
+      <point x="169" y="-57" type="line"/>
+      <point x="153" y="-129"/>
+      <point x="66" y="-200"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>f</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>l</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

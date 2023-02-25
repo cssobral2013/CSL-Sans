@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ffi" format="2">
+  <advance width="758"/>
+  <unicode hex="FB03"/>
+  <outline>
+    <contour>
+      <point x="-65" y="-200" type="line"/>
+      <point x="-59" y="-169" type="line"/>
+      <point x="36" y="-169" type="line"/>
+      <point x="164" y="477" type="line"/>
+      <point x="68" y="477" type="line"/>
+      <point x="74" y="508" type="line"/>
+      <point x="170" y="508" type="line"/>
+      <point x="205" y="688" type="line" smooth="yes"/>
+      <point x="210" y="715"/>
+      <point x="222" y="727" type="qcurve"/>
+      <point x="236" y="740"/>
+      <point x="265" y="740" type="qcurve" smooth="yes"/>
+      <point x="355" y="740" type="line"/>
+      <point x="349" y="709" type="line"/>
+      <point x="243" y="709" type="line"/>
+      <point x="204" y="508" type="line"/>
+      <point x="403" y="508" type="line"/>
+      <point x="438" y="688" type="line"/>
+      <point x="444" y="715"/>
+      <point x="456" y="727" type="qcurve"/>
+      <point x="470" y="740"/>
+      <point x="500" y="740" type="qcurve" smooth="yes"/>
+      <point x="588" y="740" type="line"/>
+      <point x="582" y="709" type="line"/>
+      <point x="476" y="709" type="line"/>
+      <point x="437" y="508" type="line"/>
+      <point x="700" y="508" type="line"/>
+      <point x="604" y="31" type="line"/>
+      <point x="687" y="31" type="line"/>
+      <point x="680" y="0" type="line"/>
+      <point x="608" y="0" type="line" smooth="yes"/>
+      <point x="572" y="0"/>
+      <point x="572" y="31" type="qcurve"/>
+      <point x="573" y="46"/>
+      <point x="579" y="73" type="qcurve"/>
+      <point x="660" y="477" type="line"/>
+      <point x="431" y="477" type="line"/>
+      <point x="307" y="-148" type="line"/>
+      <point x="303" y="-174"/>
+      <point x="290" y="-187" type="qcurve"/>
+      <point x="278" y="-200"/>
+      <point x="246" y="-200" type="qcurve" smooth="yes"/>
+      <point x="168" y="-200" type="line"/>
+      <point x="174" y="-169" type="line"/>
+      <point x="269" y="-169" type="line"/>
+      <point x="397" y="477" type="line"/>
+      <point x="198" y="477" type="line"/>
+      <point x="74" y="-148" type="line"/>
+      <point x="70" y="-174"/>
+      <point x="57" y="-187" type="qcurve"/>
+      <point x="45" y="-200"/>
+      <point x="15" y="-200" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="716" y="664" type="qcurve" smooth="yes"/>
+      <point x="691" y="664"/>
+      <point x="691" y="685" type="qcurve" smooth="yes"/>
+      <point x="691" y="694"/>
+      <point x="694" y="702" type="qcurve"/>
+      <point x="697" y="726"/>
+      <point x="727" y="726" type="qcurve" smooth="yes"/>
+      <point x="752" y="726"/>
+      <point x="752" y="707" type="qcurve" smooth="yes"/>
+      <point x="752" y="706" type="line"/>
+      <point x="751" y="694" type="line" smooth="yes"/>
+      <point x="749" y="664"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>f</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>i</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fl" format="2">
+  <advance width="651"/>
+  <unicode hex="FB02"/>
+  <outline>
+    <contour>
+      <point x="629" y="0" type="line"/>
+      <point x="561" y="0" type="line" smooth="yes"/>
+      <point x="426" y="0"/>
+      <point x="426" y="132" type="qcurve" smooth="yes"/>
+      <point x="426" y="634" type="line"/>
+      <point x="233" y="634" type="line"/>
+      <point x="233" y="523" type="line"/>
+      <point x="340" y="523" type="line"/>
+      <point x="340" y="417" type="line"/>
+      <point x="233" y="417" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="98" y="0" type="line"/>
+      <point x="98" y="417" type="line"/>
+      <point x="23" y="417" type="line"/>
+      <point x="23" y="523" type="line"/>
+      <point x="98" y="523" type="line"/>
+      <point x="98" y="593" type="line" smooth="yes"/>
+      <point x="98" y="661"/>
+      <point x="169" y="740"/>
+      <point x="247" y="740" type="qcurve" smooth="yes"/>
+      <point x="561" y="740" type="line"/>
+      <point x="561" y="106" type="line"/>
+      <point x="629" y="106" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>f</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>l</string>
+  </dict>
+  </lib>
+</glyph>

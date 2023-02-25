@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ehoi" format="2">
+  <advance width="571"/>
+  <unicode hex="1EBA"/>
+  <outline>
+    <contour>
+      <point x="32" y="0" type="line"/>
+      <point x="172" y="698" type="line"/>
+      <point x="599" y="698" type="line"/>
+      <point x="579" y="602" type="line"/>
+      <point x="261" y="602" type="line"/>
+      <point x="221" y="400" type="line"/>
+      <point x="505" y="400" type="line"/>
+      <point x="486" y="304" type="line"/>
+      <point x="202" y="304" type="line"/>
+      <point x="160" y="96" type="line"/>
+      <point x="492" y="96" type="line"/>
+      <point x="473" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="370" y="768" type="line"/>
+      <point x="430" y="869" type="line"/>
+      <point x="314" y="869" type="line"/>
+      <point x="327" y="947" type="line"/>
+      <point x="451" y="947" type="line" smooth="yes"/>
+      <point x="489" y="947"/>
+      <point x="519" y="915"/>
+      <point x="519" y="895" type="qcurve" smooth="yes"/>
+      <point x="519" y="866"/>
+      <point x="488" y="815"/>
+      <point x="463" y="786" type="qcurve" smooth="yes"/>
+      <point x="423" y="740" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Adieresiscyr" format="2">
+  <advance width="638"/>
+  <unicode hex="04D2"/>
+  <outline>
+    <contour>
+      <point x="391" y="598" type="line"/>
+      <point x="384" y="598" type="line"/>
+      <point x="228" y="283" type="line"/>
+      <point x="424" y="283" type="line"/>
+    </contour>
+    <contour>
+      <point x="455" y="0" type="line"/>
+      <point x="433" y="189" type="line"/>
+      <point x="183" y="189" type="line"/>
+      <point x="86" y="0" type="line"/>
+      <point x="-30" y="0" type="line"/>
+      <point x="337" y="698" type="line"/>
+      <point x="477" y="698" type="line"/>
+      <point x="565" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="323" y="776" type="qcurve" smooth="yes"/>
+      <point x="297" y="776"/>
+      <point x="272" y="798"/>
+      <point x="272" y="816" type="qcurve" smooth="yes"/>
+      <point x="272" y="826"/>
+      <point x="282" y="871"/>
+      <point x="297" y="887" type="qcurve"/>
+      <point x="314" y="902"/>
+      <point x="347" y="902" type="qcurve" smooth="yes"/>
+      <point x="396" y="902"/>
+      <point x="396" y="862" type="qcurve" smooth="yes"/>
+      <point x="396" y="852"/>
+      <point x="387" y="806"/>
+      <point x="355" y="776"/>
+    </contour>
+    <contour>
+      <point x="512" y="776" type="qcurve" smooth="yes"/>
+      <point x="486" y="776"/>
+      <point x="461" y="798"/>
+      <point x="461" y="816" type="qcurve" smooth="yes"/>
+      <point x="461" y="826"/>
+      <point x="471" y="871"/>
+      <point x="486" y="887" type="qcurve"/>
+      <point x="503" y="902"/>
+      <point x="536" y="902" type="qcurve" smooth="yes"/>
+      <point x="585" y="902"/>
+      <point x="585" y="862" type="qcurve" smooth="yes"/>
+      <point x="585" y="852"/>
+      <point x="576" y="806"/>
+      <point x="544" y="776"/>
+    </contour>
+  </outline>
+</glyph>

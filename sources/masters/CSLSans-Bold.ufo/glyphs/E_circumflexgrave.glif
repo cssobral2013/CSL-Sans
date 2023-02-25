@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexgrave" format="2">
+  <advance width="602"/>
+  <unicode hex="1EC0"/>
+  <outline>
+    <contour>
+      <point x="546" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="80" y="698" type="line"/>
+      <point x="546" y="698" type="line"/>
+      <point x="546" y="575" type="line"/>
+      <point x="219" y="575" type="line"/>
+      <point x="219" y="415" type="line"/>
+      <point x="505" y="415" type="line"/>
+      <point x="505" y="292" type="line"/>
+      <point x="219" y="292" type="line"/>
+      <point x="219" y="123" type="line"/>
+      <point x="546" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="889" type="line"/>
+      <point x="15" y="1062" type="line"/>
+      <point x="121" y="1114" type="line"/>
+      <point x="217" y="925" type="line"/>
+    </contour>
+    <contour>
+      <point x="436" y="735" type="line"/>
+      <point x="313" y="840" type="line"/>
+      <point x="190" y="735" type="line"/>
+      <point x="127" y="792" type="line"/>
+      <point x="265" y="937" type="line"/>
+      <point x="361" y="937" type="line"/>
+      <point x="499" y="792" type="line"/>
+    </contour>
+  </outline>
+</glyph>

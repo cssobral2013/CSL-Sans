@@ -29,6 +29,16 @@ This license is copied below, and is also available with a FAQ at: http://script
     <key>y</key>
     <integer>250</integer>
   </dict>
+  <dict>
+    <key>angle</key>
+    <integer>0</integer>
+    <key>name</key>
+    <string>m</string>
+    <key>x</key>
+    <integer>0</integer>
+    <key>y</key>
+    <integer>250</integer>
+  </dict>
   </array>
   <key>italicAngle</key>
   <real>-11.3</real>

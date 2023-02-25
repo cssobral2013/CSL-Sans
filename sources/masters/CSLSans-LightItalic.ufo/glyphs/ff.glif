@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ff" format="2">
+  <advance width="543"/>
+  <unicode hex="FB00"/>
+  <outline>
+    <contour>
+      <point x="-70" y="-200" type="line"/>
+      <point x="-60" y="-151" type="line"/>
+      <point x="33" y="-151" type="line"/>
+      <point x="157" y="463" type="line"/>
+      <point x="66" y="463" type="line"/>
+      <point x="75" y="512" type="line"/>
+      <point x="166" y="512" type="line"/>
+      <point x="195" y="658" type="line"/>
+      <point x="202" y="697"/>
+      <point x="242" y="740"/>
+      <point x="287" y="740" type="qcurve" smooth="yes"/>
+      <point x="372" y="740" type="line"/>
+      <point x="362" y="691" type="line"/>
+      <point x="257" y="691" type="line"/>
+      <point x="221" y="512" type="line"/>
+      <point x="412" y="512" type="line"/>
+      <point x="441" y="658" type="line"/>
+      <point x="448" y="697"/>
+      <point x="488" y="740"/>
+      <point x="533" y="740" type="qcurve" smooth="yes"/>
+      <point x="618" y="740" type="line"/>
+      <point x="608" y="691" type="line"/>
+      <point x="503" y="691" type="line"/>
+      <point x="467" y="512" type="line"/>
+      <point x="570" y="512" type="line"/>
+      <point x="560" y="463" type="line"/>
+      <point x="458" y="463" type="line"/>
+      <point x="342" y="-118" type="line"/>
+      <point x="335" y="-157"/>
+      <point x="294" y="-200"/>
+      <point x="250" y="-200" type="qcurve" smooth="yes"/>
+      <point x="176" y="-200" type="line"/>
+      <point x="186" y="-151" type="line"/>
+      <point x="279" y="-151" type="line"/>
+      <point x="403" y="463" type="line"/>
+      <point x="212" y="463" type="line"/>
+      <point x="96" y="-118" type="line"/>
+      <point x="89" y="-157"/>
+      <point x="48" y="-200"/>
+      <point x="4" y="-200" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>f</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>f</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

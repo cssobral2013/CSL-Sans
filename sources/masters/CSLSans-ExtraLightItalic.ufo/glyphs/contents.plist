@@ -944,6 +944,12 @@
   <string>exclamdown.glif</string>
   <key>f</key>
   <string>f.glif</string>
+  <key>ff</key>
+  <string>ff.glif</string>
+  <key>ffi</key>
+  <string>ffi.glif</string>
+  <key>ffl</key>
+  <string>ffl.glif</string>
   <key>fi</key>
   <string>fi.glif</string>
   <key>fitacyr</key>

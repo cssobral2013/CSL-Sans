@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Kaverticalstrokecyr" format="2">
+  <advance width="642"/>
+  <unicode hex="049C"/>
+  <outline>
+    <contour>
+      <point x="545" y="0" type="line" smooth="yes"/>
+      <point x="514" y="0"/>
+      <point x="496" y="32" type="qcurve"/>
+      <point x="311" y="339" type="line"/>
+      <point x="250" y="339" type="line"/>
+      <point x="250" y="172" type="line"/>
+      <point x="218" y="172" type="line"/>
+      <point x="218" y="339" type="line"/>
+      <point x="141" y="339" type="line"/>
+      <point x="141" y="0" type="line"/>
+      <point x="104" y="0" type="line"/>
+      <point x="104" y="698" type="line"/>
+      <point x="141" y="698" type="line"/>
+      <point x="141" y="371" type="line"/>
+      <point x="218" y="371" type="line"/>
+      <point x="218" y="540" type="line"/>
+      <point x="250" y="540" type="line"/>
+      <point x="250" y="371" type="line"/>
+      <point x="311" y="371" type="line"/>
+      <point x="485" y="663" type="line"/>
+      <point x="496" y="683"/>
+      <point x="519" y="698"/>
+      <point x="536" y="698" type="qcurve" smooth="yes"/>
+      <point x="584" y="698" type="line"/>
+      <point x="584" y="665" type="line"/>
+      <point x="524" y="665" type="line"/>
+      <point x="360" y="390" type="line" smooth="yes"/>
+      <point x="349" y="372"/>
+      <point x="334" y="358"/>
+      <point x="323" y="356" type="qcurve"/>
+      <point x="323" y="353" type="line"/>
+      <point x="348" y="349"/>
+      <point x="368" y="315" type="qcurve" smooth="yes"/>
+      <point x="538" y="33" type="line"/>
+      <point x="598" y="33" type="line"/>
+      <point x="598" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

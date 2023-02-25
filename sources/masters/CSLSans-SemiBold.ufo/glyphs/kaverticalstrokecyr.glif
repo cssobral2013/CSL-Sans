@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kaverticalstrokecyr" format="2">
+  <advance width="636"/>
+  <unicode hex="049D"/>
+  <outline>
+    <contour>
+      <point x="598" y="0" type="line"/>
+      <point x="533" y="0" type="line" smooth="yes"/>
+      <point x="461" y="0"/>
+      <point x="390" y="146"/>
+      <point x="354" y="218" type="qcurve"/>
+      <point x="320" y="218" type="line"/>
+      <point x="320" y="102" type="line"/>
+      <point x="239" y="102" type="line"/>
+      <point x="239" y="218" type="line"/>
+      <point x="197" y="218" type="line"/>
+      <point x="197" y="0" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="75" y="522" type="line"/>
+      <point x="197" y="522" type="line"/>
+      <point x="197" y="315" type="line"/>
+      <point x="239" y="315" type="line"/>
+      <point x="239" y="431" type="line"/>
+      <point x="320" y="431" type="line"/>
+      <point x="320" y="315" type="line"/>
+      <point x="354" y="315" type="line"/>
+      <point x="423" y="447" type="line"/>
+      <point x="443" y="488"/>
+      <point x="492" y="522"/>
+      <point x="530" y="522" type="qcurve" smooth="yes"/>
+      <point x="586" y="522" type="line"/>
+      <point x="586" y="424" type="line"/>
+      <point x="529" y="424" type="line"/>
+      <point x="477" y="323" type="line" smooth="yes"/>
+      <point x="464" y="299"/>
+      <point x="440" y="276"/>
+      <point x="423" y="271" type="qcurve"/>
+      <point x="423" y="267" type="line"/>
+      <point x="443" y="263"/>
+      <point x="469" y="241"/>
+      <point x="482" y="217" type="qcurve"/>
+      <point x="542" y="98" type="line"/>
+      <point x="598" y="98" type="line"/>
+    </contour>
+  </outline>
+</glyph>

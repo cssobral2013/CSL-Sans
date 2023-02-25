@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uhornacute" format="2">
+  <advance width="668"/>
+  <unicode hex="1EE8"/>
+  <outline>
+    <contour>
+      <point x="332" y="-12" type="qcurve" smooth="yes"/>
+      <point x="199" y="-12"/>
+      <point x="93" y="126"/>
+      <point x="93" y="280" type="qcurve" smooth="yes"/>
+      <point x="93" y="698" type="line"/>
+      <point x="153" y="698" type="line"/>
+      <point x="153" y="267" type="line" smooth="yes"/>
+      <point x="153" y="152"/>
+      <point x="232" y="42"/>
+      <point x="334" y="42" type="qcurve" smooth="yes"/>
+      <point x="436" y="42"/>
+      <point x="515" y="152"/>
+      <point x="515" y="267" type="qcurve" smooth="yes"/>
+      <point x="515" y="698" type="line"/>
+      <point x="602" y="698" type="line"/>
+      <point x="602" y="810" type="line"/>
+      <point x="653" y="810" type="line"/>
+      <point x="653" y="708" type="line" smooth="yes"/>
+      <point x="653" y="686"/>
+      <point x="632" y="659"/>
+      <point x="603" y="659" type="qcurve" smooth="yes"/>
+      <point x="575" y="659" type="line"/>
+      <point x="575" y="280" type="line" smooth="yes"/>
+      <point x="575" y="126"/>
+      <point x="466" y="-12"/>
+    </contour>
+    <contour>
+      <point x="292" y="778" type="line"/>
+      <point x="387" y="942" type="line"/>
+      <point x="439" y="916" type="line"/>
+      <point x="329" y="760" type="line"/>
+    </contour>
+  </outline>
+</glyph>

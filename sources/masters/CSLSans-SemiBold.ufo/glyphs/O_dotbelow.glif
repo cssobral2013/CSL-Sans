@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odotbelow" format="2">
+  <advance width="713"/>
+  <unicode hex="1ECC"/>
+  <outline>
+    <contour>
+      <point x="356" y="100" type="qcurve" smooth="yes"/>
+      <point x="430" y="100"/>
+      <point x="525" y="199"/>
+      <point x="525" y="304" type="qcurve" smooth="yes"/>
+      <point x="525" y="403" type="line" smooth="yes"/>
+      <point x="525" y="500"/>
+      <point x="430" y="598"/>
+      <point x="356" y="598" type="qcurve" smooth="yes"/>
+      <point x="272" y="598"/>
+      <point x="188" y="486"/>
+      <point x="188" y="394" type="qcurve" smooth="yes"/>
+      <point x="188" y="295" type="line" smooth="yes"/>
+      <point x="188" y="198"/>
+      <point x="283" y="100"/>
+    </contour>
+    <contour>
+      <point x="356" y="-191" type="qcurve"/>
+      <point x="320" y="-191"/>
+      <point x="287" y="-159"/>
+      <point x="287" y="-134" type="qcurve" smooth="yes"/>
+      <point x="287" y="-114" type="line" smooth="yes"/>
+      <point x="287" y="-60"/>
+      <point x="356" y="-57" type="qcurve"/>
+      <point x="426" y="-57"/>
+      <point x="426" y="-114" type="qcurve" smooth="yes"/>
+      <point x="426" y="-134" type="line" smooth="yes"/>
+      <point x="426" y="-188"/>
+    </contour>
+    <contour>
+      <point x="356" y="-12" type="qcurve" smooth="yes"/>
+      <point x="215" y="-12"/>
+      <point x="53" y="178"/>
+      <point x="53" y="349" type="qcurve" smooth="yes"/>
+      <point x="53" y="518"/>
+      <point x="214" y="710"/>
+      <point x="356" y="710" type="qcurve" smooth="yes"/>
+      <point x="500" y="710"/>
+      <point x="659" y="517"/>
+      <point x="659" y="349" type="qcurve" smooth="yes"/>
+      <point x="659" y="176"/>
+      <point x="494" y="-12"/>
+    </contour>
+  </outline>
+</glyph>

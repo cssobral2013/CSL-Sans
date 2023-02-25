@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflexhoi" format="2">
+  <advance width="553"/>
+  <unicode hex="1EC2"/>
+  <outline>
+    <contour>
+      <point x="54" y="0" type="line"/>
+      <point x="194" y="698" type="line"/>
+      <point x="572" y="698" type="line"/>
+      <point x="568" y="678" type="line"/>
+      <point x="212" y="678" type="line"/>
+      <point x="149" y="364" type="line"/>
+      <point x="493" y="364" type="line"/>
+      <point x="489" y="344" type="line"/>
+      <point x="145" y="344" type="line"/>
+      <point x="80" y="20" type="line"/>
+      <point x="436" y="20" type="line"/>
+      <point x="432" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="510" y="884" type="line"/>
+      <point x="612" y="1009" type="line"/>
+      <point x="472" y="1009" type="line"/>
+      <point x="475" y="1027" type="line"/>
+      <point x="608" y="1027" type="line" smooth="yes"/>
+      <point x="632" y="1027"/>
+      <point x="632" y="1012" type="qcurve" smooth="yes"/>
+      <point x="632" y="1006"/>
+      <point x="620" y="987"/>
+      <point x="605" y="969" type="qcurve" smooth="yes"/>
+      <point x="525" y="875" type="line"/>
+    </contour>
+    <contour>
+      <point x="420" y="898" type="line"/>
+      <point x="272" y="771" type="line"/>
+      <point x="259" y="783" type="line"/>
+      <point x="409" y="915" type="line"/>
+      <point x="433" y="915" type="line"/>
+      <point x="539" y="781" type="line"/>
+      <point x="524" y="771" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uacutedblcyr" format="2">
+  <advance width="495"/>
+  <unicode hex="04F3"/>
+  <outline>
+    <contour>
+      <point x="-24" y="-200" type="line"/>
+      <point x="-7" y="-114" type="line"/>
+      <point x="88" y="-114" type="line"/>
+      <point x="137" y="-22" type="line"/>
+      <point x="58" y="520" type="line"/>
+      <point x="160" y="520" type="line"/>
+      <point x="191" y="289" type="line"/>
+      <point x="210" y="98" type="line"/>
+      <point x="215" y="98" type="line"/>
+      <point x="306" y="289" type="line"/>
+      <point x="425" y="520" type="line"/>
+      <point x="536" y="520" type="line"/>
+      <point x="198" y="-103" type="line"/>
+      <point x="172" y="-154"/>
+      <point x="109" y="-200"/>
+      <point x="55" y="-200" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="171" y="612" type="line"/>
+      <point x="280" y="793" type="line"/>
+      <point x="361" y="749" type="line"/>
+      <point x="230" y="583" type="line"/>
+    </contour>
+    <contour>
+      <point x="345" y="612" type="line"/>
+      <point x="453" y="793" type="line"/>
+      <point x="534" y="749" type="line"/>
+      <point x="403" y="583" type="line"/>
+    </contour>
+  </outline>
+</glyph>
