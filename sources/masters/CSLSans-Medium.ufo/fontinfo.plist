@@ -40,6 +40,25 @@ This license is copied below, and is also available with a FAQ at: http://script
     <key>rangeGaspBehavior</key>
       <array>
         <integer>0</integer>
+        <integer>2</integer>
+      </array>
+    <key>rangeMaxPPEM</key>
+    <integer>8</integer>
+  </dict>
+  <dict>
+    <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>2</integer>
+      </array>
+    <key>rangeMaxPPEM</key>
+    <integer>16</integer>
+  </dict>
+  <dict>
+    <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
         <integer>1</integer>
         <integer>2</integer>
         <integer>3</integer>
@@ -49,7 +68,7 @@ This license is copied below, and is also available with a FAQ at: http://script
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/25 20:49:33</string>
+  <string>2023/03/29 20:18:04</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -86,11 +105,12 @@ This license is copied below, and is also available with a FAQ at: http://script
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
-  <integer>312</integer>
+  <integer>315</integer>
   <key>openTypeOS2StrikeoutSize</key>
-  <integer>77</integer>
+  <integer>100</integer>
   <key>openTypeOS2SubscriptXOffset</key>
   <integer>-0</integer>
   <key>openTypeOS2SubscriptXSize</key>
@@ -164,6 +184,6 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>versionMinor</key>
   <integer>65</integer>
   <key>xHeight</key>
-  <integer>520</integer>
+  <integer>525</integer>
 </dict>
 </plist>

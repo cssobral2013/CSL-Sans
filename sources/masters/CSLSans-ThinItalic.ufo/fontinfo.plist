@@ -31,9 +31,28 @@ This license is copied below, and is also available with a FAQ at: http://script
   </dict>
   </array>
   <key>italicAngle</key>
-  <real>-11.3</real>
+  <integer>-11</integer>
   <key>openTypeGaspRangeRecords</key>
   <array>
+  <dict>
+    <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>2</integer>
+      </array>
+    <key>rangeMaxPPEM</key>
+    <integer>8</integer>
+  </dict>
+  <dict>
+    <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>2</integer>
+      </array>
+    <key>rangeMaxPPEM</key>
+    <integer>16</integer>
+  </dict>
   <dict>
     <key>rangeGaspBehavior</key>
       <array>
@@ -47,14 +66,14 @@ This license is copied below, and is also available with a FAQ at: http://script
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/25 20:51:09</string>
+  <string>2023/03/29 20:27:29</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
   <key>openTypeHheaAscender</key>
   <integer>1000</integer>
   <key>openTypeHheaCaretOffset</key>
-  <integer>-52</integer>
+  <integer>-53</integer>
   <key>openTypeHheaDescender</key>
   <integer>-302</integer>
   <key>openTypeHheaLineGap</key>
@@ -82,11 +101,12 @@ This license is copied below, and is also available with a FAQ at: http://script
   </array>
   <key>openTypeOS2Selection</key>
   <array>
+    <integer>7</integer>
   </array>
   <key>openTypeOS2StrikeoutPosition</key>
-  <integer>303</integer>
+  <integer>315</integer>
   <key>openTypeOS2StrikeoutSize</key>
-  <integer>16</integer>
+  <integer>100</integer>
   <key>openTypeOS2SubscriptXOffset</key>
   <integer>-15</integer>
   <key>openTypeOS2SubscriptXSize</key>
@@ -160,6 +180,6 @@ This license is copied below, and is also available with a FAQ at: http://script
   <key>versionMinor</key>
   <integer>65</integer>
   <key>xHeight</key>
-  <integer>506</integer>
+  <integer>525</integer>
 </dict>
 </plist>
