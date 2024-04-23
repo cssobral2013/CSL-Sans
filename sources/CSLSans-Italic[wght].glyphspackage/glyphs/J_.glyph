@@ -1,0 +1,172 @@
+{
+glyphname = J;
+layers = (
+{
+anchors = (
+{
+name = m.ring;
+position = "{330, 698}";
+},
+{
+name = m.uni02BC_1;
+position = "{-33, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{192, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-33, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-11,133);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(372,698,l),
+(304,209,ls),
+(296,149,o),
+(256,122,o),
+(213,122,cs),
+(167,122,o),
+(143,154,o),
+(141,213,c),
+(-2,185,l),
+(1,68,o),
+(61,-11,o),
+(196,-11,cs),
+(337,-11,o),
+(434,74,o),
+(452,202,cs),
+(521,698,l)
+);
+}
+);
+width = 519;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{332, 698}";
+},
+{
+name = m.uni02BC_1;
+position = "{-31, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{194, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-31, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,87);
+type = Stem;
+},
+{
+place = (15,90);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(395,698,l),
+(325,198,ls),
+(313,115,o),
+(268,75,o),
+(203,75,cs),
+(137,75,o),
+(109,114,o),
+(105,174,c),
+(15,154,l),
+(21,55,o),
+(78,-12,o),
+(190,-12,cs),
+(310,-12,o),
+(401,65,o),
+(418,185,cs),
+(491,698,l)
+);
+}
+);
+width = 519;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{334, 698}";
+},
+{
+name = m.uni02BC_1;
+position = "{-29, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{196, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-29, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,20);
+type = Stem;
+},
+{
+place = (31,20);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,698,l),
+(355,183,ls),
+(339,71,o),
+(281,8,o),
+(183,8,cs),
+(108,8,o),
+(61,56,o),
+(51,119,c),
+(31,113,l),
+(38,39,o),
+(100,-12,o),
+(181,-12,cs),
+(286,-12,o),
+(358,55,o),
+(376,183,cs),
+(449,698,l)
+);
+}
+);
+width = 519;
+}
+);
+leftKerningGroup = J2;
+rightKerningGroup = J;
+unicode = 74;
+}

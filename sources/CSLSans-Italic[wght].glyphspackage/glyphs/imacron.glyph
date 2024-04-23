@@ -1,0 +1,185 @@
+{
+glyphname = imacron;
+layers = (
+{
+anchors = (
+{
+name = m.ring;
+position = "{-37, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-37, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{87, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{127, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (624,103);
+type = Stem;
+},
+{
+place = (16,322);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(233,525,l),
+(90,525,l),
+(16,0,l),
+(160,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(323,624,l),
+(338,727,l),
+(42,727,l),
+(28,624,l)
+);
+}
+);
+width = 257;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-36, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-36, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{88, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{128, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (635,74);
+type = Stem;
+},
+{
+place = (43,281);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,518,l),
+(116,518,l),
+(43,0,l),
+(134,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(314,635,l),
+(324,709,l),
+(51,709,l),
+(41,635,l)
+);
+}
+);
+width = 257;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-35, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-35, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{89, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{129, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (658,18);
+type = Stem;
+},
+{
+place = (57,247);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,506,l),
+(149,506,l),
+(78,0,l),
+(99,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(304,658,l),
+(307,676,l),
+(59,676,l),
+(57,658,l)
+);
+}
+);
+width = 257;
+}
+);
+leftKerningGroup = i2;
+rightKerningGroup = i;
+unicode = 299;
+}

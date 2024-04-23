@@ -1,0 +1,83 @@
+{
+glyphname = tonos.case;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (579,237);
+type = Stem;
+},
+{
+place = (298,193);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(491,796,l),
+(364,816,l),
+(298,593,l),
+(389,579,l)
+);
+}
+);
+width = 600;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (584,203);
+type = Stem;
+},
+{
+place = (316,144);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,774,l),
+(373,787,l),
+(316,592,l),
+(378,584,l)
+);
+}
+);
+width = 600;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (587,164);
+type = Stem;
+},
+{
+place = (329,109);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(438,743,l),
+(418,751,l),
+(329,593,l),
+(344,587,l)
+);
+}
+);
+width = 600;
+}
+);
+}

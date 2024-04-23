@@ -1,0 +1,125 @@
+{
+glyphname = hookabovecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-48, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (857,106);
+type = Stem;
+},
+{
+place = (-37,241);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,857,l),
+(30,765,l),
+(98,730,l),
+(130,764,ls),
+(168,804,o),
+(199,851,o),
+(204,890,cs),
+(209,929,o),
+(192,963,o),
+(118,963,cs),
+(-22,963,l),
+(-37,857,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-47, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (871,69);
+type = Stem;
+},
+{
+place = (-7,188);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(109,871,l),
+(41,769,l),
+(88,744,l),
+(116,775,ls),
+(153,814,o),
+(177,851,o),
+(181,882,cs),
+(185,914,o),
+(170,940,o),
+(116,940,cs),
+(2,940,l),
+(-7,871,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-46, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (899,18);
+type = Stem;
+},
+{
+place = (13,157);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(151,899,l),
+(58,773,l),
+(73,765,l),
+(131,841,l),
+(163,881,o),
+(169,891,o),
+(170,899,cs),
+(172,910,o),
+(165,917,o),
+(150,917,cs),
+(16,917,l),
+(13,899,l)
+);
+}
+);
+width = 0;
+}
+);
+}

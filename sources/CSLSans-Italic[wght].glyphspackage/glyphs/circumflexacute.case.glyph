@@ -1,0 +1,118 @@
+{
+glyphname = circumflexacute.case;
+layers = (
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-57, 698}";
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(304,1127,l),
+(180,933,l),
+(252,894,l),
+(408,1070,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-120,795,l),
+(-62,731,l),
+(74,835,l),
+(181,731,l),
+(256,795,l),
+(135,942,l),
+(43,942,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-55, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (747,327);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,1074,l),
+(184,899,l),
+(234,873,l),
+(366,1035,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-96,784,l),
+(-56,747,l),
+(77,858,l),
+(179,747,l),
+(229,784,l),
+(134,920,l),
+(38,920,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _m.ring;
+position = "{-53, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (771,270);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(309,1041,l),
+(178,887,l),
+(192,877,l),
+(326,1029,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-70,782,l),
+(-58,771,l),
+(83,898,l),
+(189,771,l),
+(204,782,l),
+(97,915,l),
+(74,915,l)
+);
+}
+);
+width = 0;
+}
+);
+}

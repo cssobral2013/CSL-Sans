@@ -1,0 +1,71 @@
+{
+glyphname = scircumflex;
+layers = (
+{
+anchors = (
+{
+name = b.cedilla_2;
+position = "{242, 0}";
+}
+);
+layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+shapes = (
+{
+alignment = -1;
+ref = s;
+},
+{
+alignment = -1;
+pos = (-57,0);
+ref = circumflex;
+}
+);
+width = 490;
+},
+{
+anchors = (
+{
+name = b.cedilla_2;
+position = "{249, 0}";
+}
+);
+layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+shapes = (
+{
+alignment = -1;
+ref = s;
+},
+{
+alignment = -1;
+pos = (-60,0);
+ref = circumflex;
+}
+);
+width = 490;
+},
+{
+anchors = (
+{
+name = b.cedilla_2;
+position = "{260, 0}";
+}
+);
+layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+shapes = (
+{
+alignment = -1;
+ref = s;
+},
+{
+alignment = -1;
+pos = (-63,0);
+ref = circumflex;
+}
+);
+width = 490;
+}
+);
+leftKerningGroup = s2;
+rightKerningGroup = s;
+unicode = 349;
+}

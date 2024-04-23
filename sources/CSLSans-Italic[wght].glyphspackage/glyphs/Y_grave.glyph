@@ -1,0 +1,176 @@
+{
+glyphname = Ygrave;
+layers = (
+{
+anchors = (
+{
+name = m.ring;
+position = "{-35, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-35, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{262, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-35, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(375,274,l),
+(669,698,l),
+(507,698,l),
+(327,420,l),
+(325,420,l),
+(217,698,l),
+(50,698,l),
+(225,273,l),
+(186,0,l),
+(336,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(443,783,l),
+(373,977,l),
+(244,916,l),
+(350,740,l)
+);
+}
+);
+width = 604;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-33, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-33, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{264, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-33, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(347,278,l),
+(643,698,l),
+(537,698,l),
+(317,373,l),
+(314,373,l),
+(184,698,l),
+(76,698,l),
+(252,275,l),
+(213,0,l),
+(308,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(421,780,l),
+(359,954,l),
+(273,914,l),
+(359,752,l)
+);
+}
+);
+width = 604;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-30, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-30, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{267, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-30, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,294,l),
+(608,698,l),
+(584,698,l),
+(309,320,l),
+(306,320,l),
+(138,698,l),
+(114,698,l),
+(293,294,l),
+(252,0,l),
+(273,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(402,777,l),
+(315,931,l),
+(295,919,l),
+(386,767,l)
+);
+}
+);
+width = 604;
+}
+);
+leftKerningGroup = Y2;
+rightKerningGroup = Y;
+unicode = 7922;
+}

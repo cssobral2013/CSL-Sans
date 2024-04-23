@@ -1,0 +1,18 @@
+{
+glyphname = emquad;
+layers = (
+{
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+width = 910;
+},
+{
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+width = 910;
+},
+{
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+width = 910;
+}
+);
+unicode = 8193;
+}

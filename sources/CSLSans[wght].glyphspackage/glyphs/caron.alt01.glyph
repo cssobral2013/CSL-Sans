@@ -1,0 +1,77 @@
+{
+glyphname = caron.alt01;
+layers = (
+{
+anchors = (
+{
+name = _t.ring;
+position = "{300, 540}";
+}
+);
+layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(362,587,l),
+(238,587,l),
+(106,746,l),
+(179,804,l),
+(300,689,l),
+(421,804,l),
+(494,746,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _t.ring;
+position = "{300, 540}";
+}
+);
+layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(352,597,l),
+(248,597,l),
+(133,743,l),
+(182,779,l),
+(300,662,l),
+(418,779,l),
+(467,743,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _t.ring;
+position = "{300, 540}";
+}
+);
+layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(312,603,l),
+(288,603,l),
+(160,736,l),
+(174,747,l),
+(300,620,l),
+(426,747,l),
+(440,736,l)
+);
+}
+);
+width = 600;
+}
+);
+}

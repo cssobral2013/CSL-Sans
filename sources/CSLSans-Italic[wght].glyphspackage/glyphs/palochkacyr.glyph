@@ -1,0 +1,87 @@
+{
+glyphname = palochkacyr;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (9,248);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(9,0,l),
+(153,0,l),
+(257,740,l),
+(113,740,l)
+);
+}
+);
+width = 242;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (36,194);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(36,0,l),
+(126,0,l),
+(230,740,l),
+(140,740,l)
+);
+}
+);
+width = 242;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+place = (70,125);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,0,l),
+(91,0,l),
+(195,740,l),
+(174,740,l)
+);
+}
+);
+width = 242;
+}
+);
+unicode = 1231;
+}

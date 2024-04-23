@@ -1,0 +1,69 @@
+{
+glyphname = apostrophemod;
+layers = (
+{
+anchors = (
+{
+name = _t.uni02BC_1;
+position = "{137, 740}";
+}
+);
+layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,740,l),
+(234,525,l),
+(137,525,l),
+(143,740,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _t.uni02BC_1;
+position = "{137, 740}";
+}
+);
+layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(385,740,l),
+(330,549,l),
+(269,549,l),
+(280,740,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _t.uni02BC_1;
+position = "{74, 740}";
+}
+);
+layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(278,740,l),
+(254,564,l),
+(237,564,l),
+(253,740,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 700;
+}

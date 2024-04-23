@@ -1,0 +1,187 @@
+{
+glyphname = ijacute;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (-200,115);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,525,l),
+(75,525,l),
+(1,0,l),
+(146,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(248,-200,ls),
+(349,-200,o),
+(400,-149,o),
+(413,-56,cs),
+(495,525,l),
+(350,525,l),
+(264,-85,l),
+(187,-85,l),
+(171,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(213,816,l),
+(89,622,l),
+(169,579,l),
+(325,755,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(486,816,l),
+(361,622,l),
+(441,579,l),
+(598,755,l)
+);
+}
+);
+width = 509;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (-200,79);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,518,l),
+(116,518,l),
+(43,0,l),
+(134,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(236,-200,ls),
+(317,-200,o),
+(360,-151,o),
+(371,-75,cs),
+(454,518,l),
+(363,518,l),
+(273,-121,l),
+(192,-121,l),
+(181,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(234,786,l),
+(123,611,l),
+(177,584,l),
+(309,746,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(480,786,l),
+(369,611,l),
+(423,584,l),
+(555,746,l)
+);
+}
+);
+width = 509;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (-200,19);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,506,l),
+(159,506,l),
+(88,0,l),
+(109,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(279,-200,ls),
+(299,-200,o),
+(308,-191,o),
+(311,-171,cs),
+(406,506,l),
+(386,506,l),
+(289,-181,l),
+(206,-181,l),
+(203,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(280,751,l),
+(149,597,l),
+(163,587,l),
+(297,739,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(506,751,l),
+(376,597,l),
+(389,587,l),
+(523,739,l)
+);
+}
+);
+width = 509;
+}
+);
+leftKerningGroup = i2;
+rightKerningGroup = j;
+}

@@ -1,0 +1,81 @@
+{
+glyphname = minute;
+layers = (
+{
+hints = (
+{
+place = (35,242);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(277,698,l),
+(146,698,l),
+(35,346,l),
+(167,346,l)
+);
+}
+);
+width = 247;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (372,326);
+type = Stem;
+},
+{
+place = (66,186);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,698,l),
+(167,698,l),
+(66,372,l),
+(150,372,l)
+);
+}
+);
+width = 247;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (386,312);
+type = Stem;
+},
+{
+place = (100,119);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(219,698,l),
+(199,698,l),
+(100,386,l),
+(119,386,l)
+);
+}
+);
+width = 247;
+}
+);
+leftKerningGroup = minute2;
+rightKerningGroup = minute;
+unicode = 8242;
+}

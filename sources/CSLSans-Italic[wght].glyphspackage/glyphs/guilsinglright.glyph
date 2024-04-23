@@ -1,0 +1,83 @@
+{
+glyphname = guilsinglright;
+layers = (
+{
+hints = (
+{
+place = (26,252);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,49,l),
+(260,209,l),
+(278,335,l),
+(118,495,l),
+(63,403,l),
+(161,273,l),
+(161,271,l),
+(26,141,l)
+);
+}
+);
+width = 306;
+},
+{
+hints = (
+{
+place = (32,240);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,74,l),
+(261,239,l),
+(272,324,l),
+(109,489,l),
+(73,428,l),
+(182,283,l),
+(182,281,l),
+(32,135,l)
+);
+}
+);
+width = 306;
+},
+{
+hints = (
+{
+place = (37,228);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(43,106,l),
+(263,284,l),
+(265,304,l),
+(96,482,l),
+(85,467,l),
+(241,295,l),
+(240,293,l),
+(37,121,l)
+);
+}
+);
+width = 306;
+}
+);
+leftKerningGroup = guillemotright2;
+rightKerningGroup = guillemotright;
+unicode = 8250;
+}

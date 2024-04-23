@@ -1,0 +1,207 @@
+{
+glyphname = Igravecyr;
+layers = (
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (698,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (740,237);
+type = Stem;
+},
+{
+place = (70,148);
+type = Stem;
+},
+{
+place = (207,222);
+type = Stem;
+},
+{
+place = (492,148);
+type = Stem;
+}
+);
+layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,0,l),
+(206,0,l),
+(436,355,l),
+(505,488,l),
+(508,488,l),
+(492,341,l),
+(492,0,l),
+(640,0,l),
+(640,698,l),
+(504,698,l),
+(274,343,l),
+(205,210,l),
+(202,210,l),
+(218,357,l),
+(218,698,l),
+(70,698,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(341,740,l),
+(429,783,l),
+(330,977,l),
+(207,916,l)
+);
+}
+);
+width = 710;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (698,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (752,202);
+type = Stem;
+},
+{
+place = (90,94);
+type = Stem;
+},
+{
+place = (234,170);
+type = Stem;
+},
+{
+place = (526,94);
+type = Stem;
+}
+);
+layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,0,l),
+(177,0,l),
+(462,436,l),
+(532,563,l),
+(535,563,l),
+(526,419,l),
+(526,0,l),
+(620,0,l),
+(620,698,l),
+(534,698,l),
+(247,262,l),
+(177,135,l),
+(174,135,l),
+(184,279,l),
+(184,698,l),
+(90,698,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(345,752,l),
+(404,780,l),
+(316,954,l),
+(234,914,l)
+);
+}
+);
+width = 710;
+},
+{
+hints = (
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (698,-20);
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = (767,164);
+type = Stem;
+},
+{
+place = (117,21);
+type = Stem;
+},
+{
+place = (255,130);
+type = Stem;
+},
+{
+place = (572,21);
+type = Stem;
+}
+);
+layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(117,0,l),
+(136,0,l),
+(532,598,l),
+(573,671,l),
+(576,671,l),
+(572,597,l),
+(572,0,l),
+(593,0,l),
+(593,698,l),
+(574,698,l),
+(178,100,l),
+(137,27,l),
+(134,27,l),
+(138,101,l),
+(138,698,l),
+(117,698,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(370,767,l),
+(385,777,l),
+(274,931,l),
+(255,919,l)
+);
+}
+);
+width = 710;
+}
+);
+unicode = 1037;
+}

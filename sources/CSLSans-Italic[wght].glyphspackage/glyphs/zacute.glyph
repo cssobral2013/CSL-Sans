@@ -1,0 +1,188 @@
+{
+glyphname = zacute;
+layers = (
+{
+anchors = (
+{
+name = m.ring;
+position = "{-30, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-30, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{200, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-30, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,115);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (410,115);
+type = Stem;
+}
+);
+layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+shapes = (
+{
+closed = 1;
+nodes = (
+(424,115,l),
+(166,115,l),
+(459,409,l),
+(475,525,l),
+(68,525,l),
+(52,410,l),
+(294,410,l),
+(2,117,l),
+(-15,0,l),
+(408,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(337,816,l),
+(215,622,l),
+(293,579,l),
+(447,755,l)
+);
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-29, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-29, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{201, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-29, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,79);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (439,79);
+type = Stem;
+}
+);
+layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+shapes = (
+{
+closed = 1;
+nodes = (
+(403,79,l),
+(115,79,l),
+(447,447,l),
+(457,518,l),
+(83,518,l),
+(72,439,l),
+(339,439,l),
+(13,77,l),
+(2,0,l),
+(392,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(344,786,l),
+(235,611,l),
+(288,584,l),
+(417,746,l)
+);
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{-29, 0}";
+},
+{
+name = m.uni02BC_1;
+position = "{-29, 0}";
+},
+{
+name = b.cedilla_2;
+position = "{202, 0}";
+},
+{
+name = b.ogonek_3;
+position = "{-29, 0}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (0,19);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (487,19);
+type = Stem;
+}
+);
+layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(378,19,l),
+(45,19,l),
+(434,485,l),
+(437,506,l),
+(102,506,l),
+(99,487,l),
+(413,487,l),
+(24,21,l),
+(21,0,l),
+(375,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(377,751,l),
+(249,597,l),
+(262,587,l),
+(394,739,l)
+);
+}
+);
+width = 474;
+}
+);
+leftKerningGroup = z2;
+rightKerningGroup = z;
+unicode = 378;
+}
