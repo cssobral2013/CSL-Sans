@@ -5,11 +5,148 @@ layers = (
 anchors = (
 {
 name = b.uni0327;
+position = "{283, 0}";
+},
+{
+name = b.uni0328;
+position = "{364, 0}";
+},
+{
+name = t.ring;
+position = "{283, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,79);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (455,75);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (615,112);
+type = Stem;
+},
+{
+place = (45,97);
+type = Stem;
+},
+{
+place = (130,110);
+type = Stem;
+},
+{
+place = (322,110);
+type = Stem;
+},
+{
+place = (408,99);
+type = Stem;
+}
+);
+layerId = "60C5F73C-DCC8-4257-9908-C46676B4F2D6";
+name = "#instance";
+shapes = (
+{
+closed = 1;
+nodes = (
+(377,-12,o),
+(452,33,o),
+(488,100,c),
+(428,151,l),
+(400,98,o),
+(353,67,o),
+(288,67,cs),
+(195,67,o),
+(142,129,o),
+(142,215,cs),
+(142,236,l),
+(507,236,l),
+(507,275,ls),
+(507,420,o),
+(425,530,o),
+(280,530,cs),
+(136,530,o),
+(45,423,o),
+(45,259,cs),
+(45,95,o),
+(136,-12,o),
+(280,-12,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(358,455,o),
+(408,397,o),
+(408,311,cs),
+(408,301,l),
+(142,301,l),
+(142,308,ls),
+(142,393,o),
+(199,455,o),
+(280,455,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(224,615,o),
+(240,634,o),
+(240,664,cs),
+(240,678,ls),
+(240,708,o),
+(224,727,o),
+(185,727,cs),
+(146,727,o),
+(130,708,o),
+(130,678,cs),
+(130,664,ls),
+(130,634,o),
+(146,615,o),
+(185,615,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(416,615,o),
+(432,634,o),
+(432,664,cs),
+(432,678,ls),
+(432,708,o),
+(416,727,o),
+(377,727,cs),
+(338,727,o),
+(322,708,o),
+(322,678,cs),
+(322,664,ls),
+(322,634,o),
+(338,615,o),
+(377,615,cs)
+);
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = b.uni0327;
 position = "{278, 0}";
 },
 {
 name = b.uni0328;
 position = "{378, 0}";
+},
+{
+name = t.ring;
+position = "{283, 698}";
 }
 );
 hints = (
@@ -45,7 +182,7 @@ place = (368,153);
 type = Stem;
 }
 );
-layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+layerId = "7AA3F0E6-41A7-43FF-9A92-631D90721C2F";
 shapes = (
 {
 closed = 1;
@@ -138,6 +275,10 @@ position = "{283, 0}";
 {
 name = b.uni0328;
 position = "{364, 0}";
+},
+{
+name = t.ring;
+position = "{283, 698}";
 }
 );
 hints = (
@@ -173,7 +314,7 @@ place = (408,99);
 type = Stem;
 }
 );
-layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+layerId = "8E9CA4E0-9900-4C00-AB62-7898C7C10EDA";
 shapes = (
 {
 closed = 1;
@@ -266,6 +407,10 @@ position = "{281, 0}";
 {
 name = b.uni0328;
 position = "{360, 0}";
+},
+{
+name = t.ring;
+position = "{276, 698}";
 }
 );
 hints = (
@@ -301,7 +446,7 @@ place = (459,23);
 type = Stem;
 }
 );
-layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+layerId = "43C84C2D-48F1-4CCB-8D92-E3AB8A629B7A";
 shapes = (
 {
 closed = 1;

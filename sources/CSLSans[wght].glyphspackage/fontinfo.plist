@@ -1,5 +1,8 @@
 {
 .formatVersion = 3;
+DisplayStrings = (
+"ј"
+);
 axes = (
 {
 name = Weight;
@@ -1334,1968 +1337,1071 @@ code = "# GSUB feature: Glyph Composition / Decomposition
 tag = ccmp;
 },
 {
-code = "# GPOS feature: Mark Positioning
-# Lookups: 1
-
-
-  lookup mark {
-  # GPOS lookup 2, type 4 (MarkToBase attachment)
-    markClass tilde <anchor 300 540 > @t.ring;
-    markClass tilde.alt01 <anchor 300 540 > @t.ring;
-    markClass macron <anchor 300 540 > @t.ring;
-    markClass macron.alt01 <anchor 300 540 > @t.ring;
-    markClass dotaccent <anchor 300 540 > @t.ring;
-    markClass dieresis <anchor 300 540 > @t.ring;
-    markClass dieresis.alt01 <anchor 300 540 > @t.ring;
-    markClass hungarumlaut <anchor 300 540 > @t.ring;
-    markClass acute <anchor 300 540 > @t.ring;
-    markClass grave <anchor 300 540 > @t.ring;
-    markClass circumflex <anchor 300 540 > @t.ring;
-    markClass circumflex.alt01 <anchor 300 540 > @t.ring;
-    markClass caron <anchor 300 540 > @t.ring;
-    markClass caron.alt01 <anchor 300 540 > @t.ring;
-    markClass breve <anchor 300 540 > @t.ring;
-    markClass breve.alt01 <anchor 300 540 > @t.ring;
-    markClass ring <anchor 300 540 > @t.ring;
-    markClass ringacute <anchor 300 540 > @t.ring;
-    markClass commaturnedmod <anchor 300 540 > @t.ring;
+code = "#> feature
+# GPOS feature : Mark Positioning
+    markClass grave <anchor 300 540> @t.ring;
+    markClass dieresis <anchor 300 540> @t.ring;
+    markClass macron <anchor 300 540> @t.ring;
+    markClass acute <anchor 300 540> @t.ring;
+    markClass cedilla <anchor 300 0> @b.cedilla_2;
+    markClass commaturnedmod <anchor 300 540> @t.ring;
+    markClass apostrophemod <anchor 137 740> @t.uni02BC_1;
+    markClass circumflex <anchor 300 540> @t.ring;
+    markClass caron <anchor 300 540> @t.ring;
+    markClass breve <anchor 300 540> @t.ring;
+    markClass dotaccent <anchor 300 540> @t.ring;
+    markClass ring <anchor 300 540> @t.ring;
+    markClass ogonek <anchor 300 0> @b.ogonek_3;
+    markClass tilde <anchor 300 540> @t.ring;
+    markClass hungarumlaut <anchor 300 540> @t.ring;
+    markClass gravecomb <anchor 0 540> @t.ring;
+    markClass acutecomb <anchor 0 540> @t.ring;
+    markClass circumflexcomb <anchor 0 540> @t.ring;
     markClass tildecomb <anchor 0 540> @t.ring;
     markClass macroncomb <anchor 0 540> @t.ring;
+    markClass brevecomb <anchor 0 540> @t.ring;
     markClass dotaccentcomb <anchor 0 540> @t.ring;
     markClass dieresiscomb <anchor 0 540> @t.ring;
-    markClass hungarumlautcomb <anchor 0 540> @t.ring;
-    markClass acutecomb <anchor 0 540> @t.ring;
-    markClass gravecomb <anchor 0 540> @t.ring;
-    markClass circumflexcomb <anchor 0 540> @t.ring;
-    markClass caroncomb <anchor 0 540> @t.ring;
-    markClass brevecomb <anchor 0 540> @t.ring;
     markClass ringcomb <anchor 0 540> @t.ring;
-    markClass hookabovecomb <anchor 0 540> @t.ring;
+    markClass hungarumlautcomb <anchor 0 540> @t.ring;
+    markClass caroncomb <anchor 0 540> @t.ring;
     markClass commaturnedabovecomb <anchor 0 540> @t.ring;
-    markClass breveacute <anchor 0 540> @t.ring;
-    markClass brevegrave <anchor 0 540> @t.ring;
-    markClass brevehook <anchor 0 540> @t.ring;
-    markClass brevetilde <anchor 0 540> @t.ring;
-    markClass dieresisacute <anchor 0 540> @t.ring;
-    markClass dieresiscaron <anchor 0 540> @t.ring;
-    markClass dieresisgrave <anchor 0 540> @t.ring;
-    markClass circumflexacute <anchor 0 540> @t.ring;
-    markClass circumflexbreve <anchor 0 540> @t.ring;
-    markClass circumflexgrave <anchor 0 540> @t.ring;
-    markClass circumflexhook <anchor 0 540> @t.ring;
-    markClass dieresismacron <anchor 0 540> @t.ring;
-    markClass circumflextilde <anchor 0 540> @t.ring;
-    markClass tilde.case <anchor 300 698 > @t.ring;
-    markClass tilde.alt01.case <anchor 300 698 > @t.ring;
-    markClass macron.case <anchor 300 698 > @t.ring;
-    markClass dotaccent.case <anchor 300 698 > @t.ring;
-    markClass dieresis.case <anchor 300 698 > @t.ring;
-    markClass hungarumlaut.case <anchor 300 698 > @t.ring;
-    markClass acute.case <anchor 300 698 > @t.ring;
-    markClass grave.case <anchor 300 698 > @t.ring;
-    markClass circumflex.case <anchor 300 698 > @t.ring;
-    markClass caron.case <anchor 300 698 > @t.ring;
-    markClass breve.case <anchor 300 698 > @t.ring;
-    markClass ring.case <anchor 300 698 > @t.ring;
-    markClass ringacute.case <anchor 300 698 > @t.ring;
-    markClass hookabovecomb.case <anchor 0 698> @t.ring;
-    markClass breveacute.case <anchor 0 698> @t.ring;
-    markClass brevegrave.case <anchor 0 698> @t.ring;
-    markClass brevehook.case <anchor 0 698> @t.ring;
-    markClass brevetilde.case <anchor 0 698> @t.ring;
-    markClass dieresisacute.case <anchor 0 698> @t.ring;
-    markClass dieresiscaron.case <anchor 0 698> @t.ring;
-    markClass dieresisgrave.case <anchor 0 698> @t.ring;
-    markClass circumflexacute.case <anchor 0 698> @t.ring;
-    markClass circumflexbreve.case <anchor 0 698> @t.ring;
-    markClass circumflexgrave.case <anchor 0 698> @t.ring;
-    markClass circumflexhook.case <anchor 0 698> @t.ring;
-    markClass dieresismacron.case <anchor 0 698> @t.ring;
-    markClass circumflextilde.case <anchor 0 698> @t.ring;
-    markClass apostrophemod <anchor 300 740 > @t.uni02BC_1;
-    markClass commaaboverightcomb <anchor 0 740 > @t.uni02BC_1;
-    markClass cedilla <anchor 300 0 > @b.cedilla_2;
+    markClass commaaboverightcomb <anchor -132 740> @t.uni02BC_1;
     markClass cedillacomb <anchor 0 0> @b.cedilla_2;
-    markClass dotbelowcomb <anchor 0 0> @b.cedilla_2;
-    markClass commaaccentcomb <anchor 0 0> @b.cedilla_2;
-    markClass ogonek <anchor 328 0 > @b.ogonek_3;
-    markClass ogonekcomb <anchor 0 0> @b.ogonek_3;
-    pos base a
-        <anchor 252 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base a.alt01
-        <anchor 279 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base b
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 308 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base c
-        <anchor 276 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base d
-        <anchor NULL> mark @t.ring
-        <anchor 554 740 > mark @t.uni02BC_1
-        <anchor 273 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base e
-        <anchor 279 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base f
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 154 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base g
-        <anchor 266 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base g.alt01
-        <anchor 278 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base g.alt02
-        <anchor 266 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base h
-        <anchor 127 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base i
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base k
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 292 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base l
-        <anchor 125 740 > mark @t.ring
-        <anchor 224 740 > mark @t.uni02BC_1
-        <anchor 164 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base m
-        <anchor 438 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 438 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base n
-        <anchor 288 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base o
-        <anchor 280 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base p
-        <anchor 308 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base q
-        <anchor 273 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base r
-        <anchor 219 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 127 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base s
-        <anchor 238 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 240 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base t
-        <anchor NULL> mark @t.ring
-        <anchor 263 751  > mark @t.uni02BC_1
-        <anchor 213 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base u
-        <anchor 282 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base v
-        <anchor 246 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 246 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base w
-        <anchor 384 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 384 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base x
-        <anchor 254 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 254 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base y
-        <anchor 250 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base z
-        <anchor 232 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 232 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base A
-        <anchor 322 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base B
-        <anchor 307 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 307 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base C
-        <anchor 338 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 338 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base D
-        <anchor 307 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 307 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base E
-        <anchor 304 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base F
-        <anchor 301 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base G
-        <anchor 355 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 348 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base H
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base I
-        <anchor 200 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base J
-        <anchor 263 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 225 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base K
-        <anchor 321 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 336 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base L
-        <anchor 135 698 > mark @t.ring
-        <anchor 255 740 > mark @t.uni02BC_1
-        <anchor 298 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base M
-        <anchor 406 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 406 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base N
-        <anchor 353 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 353 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base O
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base P
-        <anchor 290 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 290 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Q
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base R
-        <anchor 307 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 324 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base S
-        <anchor 288 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base T
-        <anchor 286 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 286 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base U
-        <anchor 337 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base V
-        <anchor 304 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base W
-        <anchor 446 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 446 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base X
-        <anchor 307 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 307 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Y
-        <anchor 297 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Z
-        <anchor 297 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base aacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base adieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base adotbelow
-        <anchor 252 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base agrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base ahoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base amacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base aogonek
-        <anchor 252 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base aring
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base aringacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base atilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abreveacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abrevedotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abrevegrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abrevehoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base abrevetilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflexdotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base acircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 245 0 > mark @b.cedilla_2
-        <anchor 505 0 > mark @b.ogonek_3;
-    pos base aacute.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abreve.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acaron.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflex.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base adieresis.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base adotbelow.alt01
-        <anchor 278 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base agrave.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base ahoi.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base amacron.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base aogonek.alt01
-        <anchor 278 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base aring.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base aringacute.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base atilde.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abreveacute.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abrevedotbelow.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abrevegrave.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abrevehoi.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base abrevetilde.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflexacute.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflexdotbelow.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflexgrave.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflexhoi.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base acircumflextilde.alt01
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 279 0 > mark @b.cedilla_2
-        <anchor 495 0 > mark @b.ogonek_3;
-    pos base ae
-        <anchor 414 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 414 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base aeacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 414 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base cacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ccaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ccedilla
-        <anchor 276 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ccircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base cdotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base dcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 273 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base dcroat
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 273 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base eth
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 276 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base eacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ebreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base edieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base edotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base edotbelow
-        <anchor 279 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base egrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ehoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base emacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base eogonek
-        <anchor 279 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base etilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflexdotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base ecircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 283 0 > mark @b.cedilla_2
-        <anchor 359 0 > mark @b.ogonek_3;
-    pos base schwa
-        <anchor 267 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 270 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base hbar
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base hcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base dotlessi
-        <anchor 125 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base iacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base ibreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base icaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base icircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base idieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base igrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base ihoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base imacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base itilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 125 0 > mark @b.cedilla_2
-        <anchor 165 0 > mark @b.ogonek_3;
-    pos base dotlessj
-        <anchor 125 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base kgreenlandic
-        <anchor 292 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 292 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base lacute
-        <anchor NULL> mark @t.ring
-        <anchor 224 740 > mark @t.uni02BC_1
-        <anchor 164 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base lcaron
-        <anchor 125 740 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 164 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base lcommaaccent
-        <anchor 125 740 > mark @t.ring
-        <anchor 224 740 > mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base nacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ncaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ncommaaccent
-        <anchor 288 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base napostrophe
-        <anchor 531 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 530 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base eng
-        <anchor 288 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base oacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base obreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base odieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base odotbelow
-        <anchor 280 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ograve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohungarumlaut
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base omacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base oslash
-        <anchor 284 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 284 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base oslashacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 284 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base otilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohorn
-        <anchor 280 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohornacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohorndotbelow
-        <anchor 280 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohorngrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohornhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ohorntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ocircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 280 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base oe
-        <anchor 480 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 480 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base racute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 127 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base rcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 127 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base rcommaaccent
-        <anchor 219 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base sacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 240 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base scaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 240 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base scedilla
-        <anchor 238 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base scircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 240 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base scommaaccent
-        <anchor 238 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base tbar
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 216 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base tcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 213 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base tcommaaccent
-        <anchor NULL> mark @t.ring
-        <anchor 263 751  > mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base ubreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base ucaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base ucircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base udieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base udotbelow
-        <anchor 282 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base ugrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base uhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base uhungarumlaut
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base umacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base uogonek
-        <anchor 282 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uring
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base utilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base uhorn
-        <anchor 282 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uhornacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uhorndotbelow
-        <anchor 282 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uhorngrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uhornhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base uhorntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base udieresismacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base udieresisacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base udieresisgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base udieresiscaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 278 0 > mark @b.cedilla_2
-        <anchor 483 0 > mark @b.ogonek_3;
-    pos base wacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 384 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base wcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 384 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base wdieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 384 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base wgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 384 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base yacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ycircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ydieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ydotbelow
-        <anchor 250 540 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ygrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base yhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base ytilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 392 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base zacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 232 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base zcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 232 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base zdotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 232 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Aacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Adieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Adotbelow
-        <anchor 322 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Agrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Ahoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Amacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Aogonek
-        <anchor 322 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Aring
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Aringacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Atilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abreveacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abrevedotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abrevegrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abrevehoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Abrevetilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflexdotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base Acircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 322 0 > mark @b.cedilla_2
-        <anchor 618 0 > mark @b.ogonek_3;
-    pos base AE
-        <anchor 591 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 470 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base AEacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 470 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Cacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 338 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ccaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 338 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ccedilla
-        <anchor 338 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ccircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 338 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Cdotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 338 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Dcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 307 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Dcroat
-        <anchor 310 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 310 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Eth
-        <anchor 310 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 310 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Eacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ebreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Edieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Edotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Edotbelow
-        <anchor 304 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Egrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ehoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Emacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Eogonek
-        <anchor 304 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Etilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflexdotbelow
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Ecircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 304 0 > mark @b.cedilla_2
-        <anchor 519 0 > mark @b.ogonek_3;
-    pos base Schwa
-        <anchor 353 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 353 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Gbreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 348 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Gcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 348 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Gcommaaccent
-        <anchor 355 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Gdotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 348 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Hbar
-        <anchor 357 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 357 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Hcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Iacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Ibreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Icaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Icircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Idieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Idotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Idotbelow
-        <anchor 200 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Igrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Ihoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Imacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Iogonek
-        <anchor 200 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Itilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 200 0 > mark @b.cedilla_2
-        <anchor 340 0 > mark @b.ogonek_3;
-    pos base Jacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 225 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Jcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 225 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Kcommaaccent
-        <anchor 321 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Lacute
-        <anchor NULL> mark @t.ring
-        <anchor 255 740 > mark @t.uni02BC_1
-        <anchor 298 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Lcaron
-        <anchor 135 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 298 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Lcommaaccent
-        <anchor 135 698 > mark @t.ring
-        <anchor 255 740 > mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Nacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 353 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ncaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 353 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ncommaaccent
-        <anchor 353 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 353 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Eng
-        <anchor 353 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Oacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Obreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Odieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Odotbelow
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ograve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohungarumlaut
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Omacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Oslash
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Oslashacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Otilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohorn
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohornacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohorndotbelow
-        <anchor 354 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohorngrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohornhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ohorntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocircumflexacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocircumflexgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocircumflexhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ocircumflextilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 354 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base OE
-        <anchor 562 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 562 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Racute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 324 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Rcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 324 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Rcommaaccent
-        <anchor 307 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Sacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Scaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Scedilla
-        <anchor 288 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Scircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 287 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Scommaaccent
-        <anchor 288 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Tbar
-        <anchor 291 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 291 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Tcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 286 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Tcommaaccent
-        <anchor 286 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Ubreve
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Ucaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Ucircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Udieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Udotbelow
-        <anchor 337 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Ugrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Uhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Uhungarumlaut
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Umacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Uogonek
-        <anchor 337 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uring
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Utilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Uhorn
-        <anchor 337 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uhornacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uhorndotbelow
-        <anchor 337 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uhorngrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uhornhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Uhorntilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Udieresismacron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Udieresisacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Udieresisgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Udieresiscaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 337 0 > mark @b.cedilla_2
-        <anchor 436 0 > mark @b.ogonek_3;
-    pos base Wacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 446 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Wcircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 446 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Wdieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 446 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Wgrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 446 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Yacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ycircumflex
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ydotbelow
-        <anchor 297 698 > mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor NULL> mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ydieresis
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ygrave
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Yhoi
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Ytilde
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Zacute
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Zcaron
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-    pos base Zdotaccent
-        <anchor NULL> mark @t.ring
-        <anchor NULL> mark @t.uni02BC_1
-        <anchor 297 0 > mark @b.cedilla_2
-        <anchor NULL> mark @b.ogonek_3;
-  } mark;";
+    markClass ogonekcomb <anchor -23 0> @b.ogonek_3;
+    markClass grave.case <anchor 300 698> @t.ring;
+    markClass dieresis.alt01 <anchor 300 540> @t.ring;
+    markClass dieresis.case <anchor 300 698> @t.ring;
+    markClass macron.alt01 <anchor 300 540> @t.ring;
+    markClass macron.case <anchor 300 698> @t.ring;
+    markClass acute.case <anchor 300 698> @t.ring;
+    markClass circumflex.alt01 <anchor 300 540> @t.ring;
+    markClass circumflex.case <anchor 300 698> @t.ring;
+    markClass caron.alt01 <anchor 300 540> @t.ring;
+    markClass caron.case <anchor 300 698> @t.ring;
+    markClass breve.alt01 <anchor 300 540> @t.ring;
+    markClass breve.case <anchor 300 698> @t.ring;
+    markClass dotaccent.case <anchor 300 698> @t.ring;
+    markClass ring.case <anchor 300 698> @t.ring;
+    markClass tilde.alt01 <anchor 300 540> @t.ring;
+    markClass tilde.alt01.case <anchor 300 698> @t.ring;
+    markClass tilde.case <anchor 300 698> @t.ring;
+    markClass hungarumlaut.case <anchor 300 698> @t.ring;
+    markClass ringacute <anchor 300 540> @t.ring;
+    markClass ringacute.case <anchor 300 698> @t.ring;
+
+  lookup markLTR {
+      pos base A
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3
+          <anchor 339 698> mark @t.ring;
+      pos base B
+          <anchor 353 0> mark @b.cedilla_2
+          <anchor 353 698> mark @t.ring;
+      pos base C
+          <anchor 335 0> mark @b.cedilla_2
+          <anchor 355 698> mark @t.ring;
+      pos base D
+          <anchor 323 0> mark @b.cedilla_2
+          <anchor 323 698> mark @t.ring;
+      pos base E
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3
+          <anchor 315 698> mark @t.ring;
+      pos base F
+          <anchor 316 0> mark @b.cedilla_2
+          <anchor 309 698> mark @t.ring;
+      pos base G
+          <anchor 350 0> mark @b.cedilla_2
+          <anchor 358 698> mark @t.ring;
+      pos base H
+          <anchor 362 0> mark @b.cedilla_2
+          <anchor 362 698> mark @t.ring;
+      pos base K
+          <anchor 358 0> mark @b.cedilla_2
+          <anchor 358 698> mark @t.ring;
+      pos base L
+          <anchor 286 0> mark @b.cedilla_2
+          <anchor 153 698> mark @t.ring
+          <anchor 301 740> mark @t.uni02BC_1;
+      pos base M
+          <anchor 409 0> mark @b.cedilla_2
+          <anchor 409 698> mark @t.ring;
+      pos base N
+          <anchor 361 0> mark @b.cedilla_2
+          <anchor 361 698> mark @t.ring;
+      pos base O
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor 357 698> mark @t.ring;
+      pos base P
+          <anchor 324 0> mark @b.cedilla_2
+          <anchor 324 698> mark @t.ring;
+      pos base Q
+          <anchor 340 0> mark @b.cedilla_2
+          <anchor 357 698> mark @t.ring;
+      pos base R
+          <anchor 340 0> mark @b.cedilla_2
+          <anchor 324 698> mark @t.ring;
+      pos base S
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 310 698> mark @t.ring;
+      pos base T
+          <anchor 292 0> mark @b.cedilla_2
+          <anchor 292 698> mark @t.ring;
+      pos base U
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor 347 698> mark @t.ring;
+      pos base V
+          <anchor 325 0> mark @b.cedilla_2
+          <anchor 325 698> mark @t.ring;
+      pos base W
+          <anchor 487 0> mark @b.cedilla_2
+          <anchor 487 698> mark @t.ring;
+      pos base X
+          <anchor 337 0> mark @b.cedilla_2
+          <anchor 337 698> mark @t.ring;
+      pos base Y
+          <anchor 323 0> mark @b.cedilla_2
+          <anchor 325 698> mark @t.ring;
+      pos base Z
+          <anchor 303 0> mark @b.cedilla_2
+          <anchor 303 698> mark @t.ring;
+      pos base b
+          <anchor 317 0> mark @b.cedilla_2;
+      pos base c
+          <anchor 262 0> mark @b.cedilla_2
+          <anchor 274 540> mark @t.ring;
+      pos base d
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 602 740> mark @t.uni02BC_1;
+      pos base e
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3
+          <anchor 287 540> mark @t.ring;
+      pos base f
+          <anchor 170 0> mark @b.cedilla_2;
+      pos base g
+          <anchor 278 540> mark @t.ring;
+      pos base h
+          <anchor 302 0> mark @b.cedilla_2
+          <anchor 143 698> mark @t.ring;
+      pos base i
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base k
+          <anchor 324 0> mark @b.cedilla_2;
+      pos base l
+          <anchor 175 0> mark @b.cedilla_2
+          <anchor 143 740> mark @t.ring
+          <anchor 280 740> mark @t.uni02BC_1;
+      pos base m
+          <anchor 450 0> mark @b.cedilla_2
+          <anchor 450 540> mark @t.ring;
+      pos base n
+          <anchor 302 0> mark @b.cedilla_2
+          <anchor 299 540> mark @t.ring;
+      pos base o
+          <anchor 281 0> mark @b.cedilla_2
+          <anchor 281 540> mark @t.ring;
+      pos base p
+          <anchor 317 540> mark @t.ring;
+      pos base q
+          <anchor 291 540> mark @t.ring;
+      pos base r
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 224 540> mark @t.ring;
+      pos base s
+          <anchor 249 0> mark @b.cedilla_2
+          <anchor 250 540> mark @t.ring;
+      pos base t
+          <anchor 229 0> mark @b.cedilla_2
+          <anchor 308 791> mark @t.uni02BC_1;
+      pos base u
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3
+          <anchor 295 540> mark @t.ring;
+      pos base v
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 269 540> mark @t.ring;
+      pos base w
+          <anchor 421 0> mark @b.cedilla_2
+          <anchor 421 540> mark @t.ring;
+      pos base x
+          <anchor 280 0> mark @b.cedilla_2
+          <anchor 280 540> mark @t.ring;
+      pos base y
+          <anchor 432 0> mark @b.cedilla_2
+          <anchor 271 540> mark @t.ring;
+      pos base z
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor 259 540> mark @t.ring;
+      pos base Agrave
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base Aacute
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base Acircumflex
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base Atilde
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base Adieresis
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base Aring
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base AE
+          <anchor 530 0> mark @b.cedilla_2
+          <anchor 645 698> mark @t.ring;
+      pos base Ccedilla
+          <anchor 355 698> mark @t.ring;
+      pos base Egrave
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base Eacute
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base Ecircumflex
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base Edieresis
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base Eth
+          <anchor 328 0> mark @b.cedilla_2
+          <anchor 328 698> mark @t.ring;
+      pos base Ntilde
+          <anchor 361 0> mark @b.cedilla_2;
+      pos base Ograve
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base Oacute
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base Ocircumflex
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base Otilde
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base Odieresis
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base Oslash
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor 357 698> mark @t.ring;
+      pos base Ugrave
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base Uacute
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base Ucircumflex
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base Udieresis
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base Yacute
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base agrave
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aacute
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflex
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base atilde
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base adieresis
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aring
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base ae
+          <anchor 432 0> mark @b.cedilla_2
+          <anchor 432 540> mark @t.ring;
+      pos base ccedilla
+          <anchor 274 540> mark @t.ring;
+      pos base egrave
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base eacute
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base ecircumflex
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base edieresis
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base igrave
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base iacute
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base icircumflex
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base idieresis
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base eth
+          <anchor 301 0> mark @b.cedilla_2;
+      pos base ntilde
+          <anchor 302 0> mark @b.cedilla_2;
+      pos base ograve
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base oacute
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base ocircumflex
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base otilde
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base odieresis
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base oslash
+          <anchor 285 0> mark @b.cedilla_2
+          <anchor 285 540> mark @t.ring;
+      pos base ugrave
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base uacute
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base ucircumflex
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base udieresis
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base yacute
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base ydieresis
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Amacron
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base amacron
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abreve
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abreve
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Aogonek
+          <anchor 339 698> mark @t.ring;
+      pos base Cacute
+          <anchor 335 0> mark @b.cedilla_2;
+      pos base cacute
+          <anchor 262 0> mark @b.cedilla_2;
+      pos base Ccircumflex
+          <anchor 335 0> mark @b.cedilla_2;
+      pos base ccircumflex
+          <anchor 262 0> mark @b.cedilla_2;
+      pos base Cdotaccent
+          <anchor 335 0> mark @b.cedilla_2;
+      pos base cdotaccent
+          <anchor 262 0> mark @b.cedilla_2;
+      pos base Ccaron
+          <anchor 335 0> mark @b.cedilla_2;
+      pos base ccaron
+          <anchor 262 0> mark @b.cedilla_2;
+      pos base Dcaron
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base dcaron
+          <anchor 291 0> mark @b.cedilla_2;
+      pos base Dcroat
+          <anchor 328 0> mark @b.cedilla_2
+          <anchor 328 698> mark @t.ring;
+      pos base dcroat
+          <anchor 291 0> mark @b.cedilla_2;
+      pos base Emacron
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base emacron
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ebreve
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ebreve
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Edotaccent
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base edotaccent
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Eogonek
+          <anchor 315 698> mark @t.ring;
+      pos base eogonek
+          <anchor 287 540> mark @t.ring;
+      pos base Ecaron
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecaron
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Gcircumflex
+          <anchor 349 0> mark @b.cedilla_2;
+      pos base Gbreve
+          <anchor 349 0> mark @b.cedilla_2;
+      pos base Gdotaccent
+          <anchor 349 0> mark @b.cedilla_2;
+      pos base Gcommaaccent
+          <anchor 358 698> mark @t.ring;
+      pos base Hcircumflex
+          <anchor 362 0> mark @b.cedilla_2;
+      pos base hcircumflex
+          <anchor 302 0> mark @b.cedilla_2;
+      pos base Hbar
+          <anchor 367 0> mark @b.cedilla_2
+          <anchor 367 698> mark @t.ring;
+      pos base hbar
+          <anchor 302 0> mark @b.cedilla_2;
+      pos base itilde
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base imacron
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base ibreve
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base dotlessi
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3
+          <anchor 143 540> mark @t.ring;
+      pos base ij
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base Kcommaaccent
+          <anchor 358 698> mark @t.ring;
+      pos base kgreenlandic
+          <anchor 324 0> mark @b.cedilla_2
+          <anchor 324 540> mark @t.ring;
+      pos base Lacute
+          <anchor 286 0> mark @b.cedilla_2
+          <anchor 301 740> mark @t.uni02BC_1;
+      pos base lacute
+          <anchor 175 0> mark @b.cedilla_2
+          <anchor 280 740> mark @t.uni02BC_1;
+      pos base Lcommaaccent
+          <anchor 153 698> mark @t.ring
+          <anchor 301 740> mark @t.uni02BC_1;
+      pos base lcommaaccent
+          <anchor 143 740> mark @t.ring
+          <anchor 280 740> mark @t.uni02BC_1;
+      pos base Lcaron
+          <anchor 286 0> mark @b.cedilla_2
+          <anchor 153 698> mark @t.ring;
+      pos base lcaron
+          <anchor 175 0> mark @b.cedilla_2
+          <anchor 143 740> mark @t.ring;
+      pos base Ldot
+          <anchor 286 0> mark @b.cedilla_2
+          <anchor 301 740> mark @t.uni02BC_1;
+      pos base ldot
+          <anchor 175 0> mark @b.cedilla_2
+          <anchor 280 740> mark @t.uni02BC_1;
+      pos base Nacute
+          <anchor 361 0> mark @b.cedilla_2;
+      pos base nacute
+          <anchor 302 0> mark @b.cedilla_2;
+      pos base Ncommaaccent
+          <anchor 361 698> mark @t.ring;
+      pos base ncommaaccent
+          <anchor 299 540> mark @t.ring;
+      pos base Ncaron
+          <anchor 361 0> mark @b.cedilla_2;
+      pos base ncaron
+          <anchor 302 0> mark @b.cedilla_2;
+      pos base napostrophe
+          <anchor 554 0> mark @b.cedilla_2
+          <anchor 551 540> mark @t.ring;
+      pos base Eng
+          <anchor 361 698> mark @t.ring;
+      pos base eng
+          <anchor 299 540> mark @t.ring;
+      pos base Omacron
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base omacron
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Obreve
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base obreve
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohungarumlaut
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohungarumlaut
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base OE
+          <anchor 562 0> mark @b.cedilla_2
+          <anchor 562 698> mark @t.ring;
+      pos base oe
+          <anchor 462 0> mark @b.cedilla_2
+          <anchor 462 540> mark @t.ring;
+      pos base Racute
+          <anchor 340 0> mark @b.cedilla_2;
+      pos base racute
+          <anchor 143 0> mark @b.cedilla_2;
+      pos base Rcommaaccent
+          <anchor 324 698> mark @t.ring;
+      pos base rcommaaccent
+          <anchor 224 540> mark @t.ring;
+      pos base Rcaron
+          <anchor 340 0> mark @b.cedilla_2;
+      pos base rcaron
+          <anchor 143 0> mark @b.cedilla_2;
+      pos base Sacute
+          <anchor 310 0> mark @b.cedilla_2;
+      pos base sacute
+          <anchor 249 0> mark @b.cedilla_2;
+      pos base Scircumflex
+          <anchor 310 0> mark @b.cedilla_2;
+      pos base scircumflex
+          <anchor 249 0> mark @b.cedilla_2;
+      pos base Scedilla
+          <anchor 310 698> mark @t.ring;
+      pos base scedilla
+          <anchor 250 540> mark @t.ring;
+      pos base Scaron
+          <anchor 310 0> mark @b.cedilla_2;
+      pos base scaron
+          <anchor 249 0> mark @b.cedilla_2;
+      pos base Tcaron
+          <anchor 292 0> mark @b.cedilla_2;
+      pos base tcaron
+          <anchor 229 0> mark @b.cedilla_2;
+      pos base Tbar
+          <anchor 298 0> mark @b.cedilla_2
+          <anchor 297 698> mark @t.ring;
+      pos base tbar
+          <anchor 233 0> mark @b.cedilla_2;
+      pos base Utilde
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base utilde
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Umacron
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base umacron
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Ubreve
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base ubreve
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Uring
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base uring
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Uhungarumlaut
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base uhungarumlaut
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Uogonek
+          <anchor 347 698> mark @t.ring;
+      pos base uogonek
+          <anchor 295 540> mark @t.ring;
+      pos base Wcircumflex
+          <anchor 487 0> mark @b.cedilla_2;
+      pos base wcircumflex
+          <anchor 421 0> mark @b.cedilla_2;
+      pos base Ycircumflex
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base ycircumflex
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Ydieresis
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base Zacute
+          <anchor 303 0> mark @b.cedilla_2;
+      pos base zacute
+          <anchor 259 0> mark @b.cedilla_2;
+      pos base Zdotaccent
+          <anchor 303 0> mark @b.cedilla_2;
+      pos base zdotaccent
+          <anchor 259 0> mark @b.cedilla_2;
+      pos base Zcaron
+          <anchor 303 0> mark @b.cedilla_2;
+      pos base zcaron
+          <anchor 259 0> mark @b.cedilla_2;
+      pos base Schwa
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor 351 698> mark @t.ring;
+      pos base Ohorn
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor 357 698> mark @t.ring;
+      pos base ohorn
+          <anchor 281 0> mark @b.cedilla_2
+          <anchor 281 540> mark @t.ring;
+      pos base Uhorn
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 347 698> mark @t.ring;
+      pos base uhorn
+          <anchor 294 0> mark @b.cedilla_2
+          <anchor 294 540> mark @t.ring;
+      pos base Acaron
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acaron
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base icaron
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base Ocaron
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ocaron
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ucaron
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base ucaron
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Udieresismacron
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base udieresismacron
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Udieresisacute
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base udieresisacute
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Udieresiscaron
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base udieresiscaron
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Udieresisgrave
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base udieresisgrave
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Aringacute
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base aringacute
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base AEacute
+          <anchor 530 0> mark @b.cedilla_2;
+      pos base aeacute
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Oslashacute
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base oslashacute
+          <anchor 285 0> mark @b.cedilla_2;
+      pos base Scommaaccent
+          <anchor 310 698> mark @t.ring;
+      pos base scommaaccent
+          <anchor 250 540> mark @t.ring;
+      pos base Tcommaaccent
+          <anchor 292 698> mark @t.ring;
+      pos base tcommaaccent
+          <anchor 308 791> mark @t.uni02BC_1;
+      pos base dotlessj
+          <anchor 143 540> mark @t.ring;
+      pos base schwa
+          <anchor 274 0> mark @b.cedilla_2
+          <anchor 274 540> mark @t.ring;
+      pos base Mu
+          <anchor 409 0> mark @b.cedilla_2
+          <anchor 409 698> mark @t.ring;
+      pos base Nu
+          <anchor 361 0> mark @b.cedilla_2
+          <anchor 361 698> mark @t.ring;
+      pos base Iocyr
+          <anchor 308 897> mark @t.ring;
+      pos base Eukrcyr
+          <anchor 330 698> mark @t.ring;
+      pos base Dzecyr
+          <anchor 292 698> mark @t.ring;
+      pos base Iukrcyr
+          <anchor 136 698> mark @t.ring;
+      pos base Acyr
+          <anchor 325 698> mark @t.ring;
+      pos base Iecyr
+          <anchor 306 698> mark @t.ring;
+      pos base Icyr
+          <anchor 354 698> mark @t.ring;
+      pos base Ocyr
+          <anchor 355 698> mark @t.ring;
+      pos base Ucyr
+          <anchor 309 698> mark @t.ring;
+      pos base Ylongcyr
+          <anchor 443 698> mark @t.ring;
+      pos base Ereversedcyr
+          <anchor 309 698> mark @t.ring;
+      pos base Yucyr
+          <anchor 503 698> mark @t.ring;
+      pos base Yacyr
+          <anchor 299 698> mark @t.ring;
+      pos base acyr
+          <anchor 255 540> mark @t.ring;
+      pos base iecyr
+          <anchor 281 540> mark @t.ring;
+      pos base icyr
+          <anchor 297 540> mark @t.ring;
+      pos base ocyr
+          <anchor 280 540> mark @t.ring;
+      pos base ucyr
+          <anchor 432 0> mark @b.cedilla_2
+          <anchor 271 540> mark @t.ring;
+      pos base ylongcyr
+          <anchor 370 540> mark @t.ring;
+      pos base ereversedcyr
+          <anchor 250 525> mark @t.ring;
+      pos base yucyr
+          <anchor 413 525> mark @t.ring;
+      pos base yacyr
+          <anchor 251 525> mark @t.ring;
+      pos base iocyr
+          <anchor 283 698> mark @t.ring;
+      pos base eukrcyr
+          <anchor 267 525> mark @t.ring;
+      pos base iukrcyr
+          <anchor 129 698> mark @t.ring;
+      pos base ushortcyr
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base umacroncyr
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base udieresiscyr
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base uacutedblcyr
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Wgrave
+          <anchor 487 0> mark @b.cedilla_2;
+      pos base wgrave
+          <anchor 421 0> mark @b.cedilla_2;
+      pos base Wacute
+          <anchor 487 0> mark @b.cedilla_2;
+      pos base wacute
+          <anchor 421 0> mark @b.cedilla_2;
+      pos base Wdieresis
+          <anchor 487 0> mark @b.cedilla_2;
+      pos base wdieresis
+          <anchor 421 0> mark @b.cedilla_2;
+      pos base Adotbelow
+          <anchor 665 0> mark @b.ogonek_3
+          <anchor 339 698> mark @t.ring;
+      pos base adotbelow
+          <anchor 539 0> mark @b.ogonek_3
+          <anchor 268 540> mark @t.ring;
+      pos base Ahoi
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base ahoi
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Acircumflexacute
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acircumflexacute
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Acircumflexgrave
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acircumflexgrave
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Acircumflexhoi
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acircumflexhoi
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Acircumflextilde
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acircumflextilde
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Acircumflexdotbelow
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base acircumflexdotbelow
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abreveacute
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abreveacute
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abrevegrave
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abrevegrave
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abrevehoi
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abrevehoi
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abrevetilde
+          <anchor 339 0> mark @b.cedilla_2
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abrevetilde
+          <anchor 269 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Abrevedotbelow
+          <anchor 665 0> mark @b.ogonek_3;
+      pos base abrevedotbelow
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Edotbelow
+          <anchor 552 0> mark @b.ogonek_3
+          <anchor 315 698> mark @t.ring;
+      pos base edotbelow
+          <anchor 383 0> mark @b.ogonek_3
+          <anchor 287 540> mark @t.ring;
+      pos base Ehoi
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ehoi
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Etilde
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base etilde
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ecircumflexacute
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecircumflexacute
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ecircumflexgrave
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecircumflexgrave
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ecircumflexhoi
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecircumflexhoi
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ecircumflextilde
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecircumflextilde
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base Ecircumflexdotbelow
+          <anchor 552 0> mark @b.ogonek_3;
+      pos base ecircumflexdotbelow
+          <anchor 383 0> mark @b.ogonek_3;
+      pos base ihoi
+          <anchor 143 0> mark @b.cedilla_2
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base idotbelow
+          <anchor 217 0> mark @b.ogonek_3;
+      pos base Odotbelow
+          <anchor 357 698> mark @t.ring;
+      pos base odotbelow
+          <anchor 281 540> mark @t.ring;
+      pos base Ohoi
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohoi
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ocircumflexacute
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ocircumflexacute
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ocircumflexgrave
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ocircumflexgrave
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ocircumflexhoi
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ocircumflexhoi
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ocircumflextilde
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ocircumflextilde
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohornacute
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohornacute
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohorngrave
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohorngrave
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohornhoi
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohornhoi
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohorntilde
+          <anchor 357 0> mark @b.cedilla_2;
+      pos base ohorntilde
+          <anchor 281 0> mark @b.cedilla_2;
+      pos base Ohorndotbelow
+          <anchor 357 698> mark @t.ring;
+      pos base ohorndotbelow
+          <anchor 281 540> mark @t.ring;
+      pos base Udotbelow
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor 347 698> mark @t.ring;
+      pos base udotbelow
+          <anchor 528 0> mark @b.ogonek_3
+          <anchor 295 540> mark @t.ring;
+      pos base Uhoi
+          <anchor 347 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3;
+      pos base uhoi
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor 528 0> mark @b.ogonek_3;
+      pos base Uhornacute
+          <anchor 347 0> mark @b.cedilla_2;
+      pos base uhornacute
+          <anchor 294 0> mark @b.cedilla_2;
+      pos base Uhorngrave
+          <anchor 347 0> mark @b.cedilla_2;
+      pos base uhorngrave
+          <anchor 294 0> mark @b.cedilla_2;
+      pos base Uhornhoi
+          <anchor 347 0> mark @b.cedilla_2;
+      pos base uhornhoi
+          <anchor 294 0> mark @b.cedilla_2;
+      pos base Uhorntilde
+          <anchor 347 0> mark @b.cedilla_2;
+      pos base uhorntilde
+          <anchor 294 0> mark @b.cedilla_2;
+      pos base Uhorndotbelow
+          <anchor 347 698> mark @t.ring;
+      pos base uhorndotbelow
+          <anchor 294 540> mark @t.ring;
+      pos base Ygrave
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base ygrave
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Ydotbelow
+          <anchor 325 698> mark @t.ring;
+      pos base ydotbelow
+          <anchor 271 540> mark @t.ring;
+      pos base Yhoi
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base yhoi
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base Ytilde
+          <anchor 323 0> mark @b.cedilla_2;
+      pos base ytilde
+          <anchor 432 0> mark @b.cedilla_2;
+      pos base fi
+          <anchor 474 0> mark @b.cedilla_2
+          <anchor 548 0> mark @b.ogonek_3;
+      pos base fl
+          <anchor 506 0> mark @b.cedilla_2
+          <anchor 474 740> mark @t.ring
+          <anchor 611 740> mark @t.uni02BC_1;
+      pos base a.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3
+          <anchor 315 540> mark @t.ring;
+      pos base g.alt01
+          <anchor 298 540> mark @t.ring;
+      pos base g.alt02
+          <anchor 278 540> mark @t.ring;
+      pos base agrave.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aacute.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflex.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base atilde.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base adieresis.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aring.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base amacron.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abreve.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aogonek.alt01
+          <anchor 315 540> mark @t.ring;
+      pos base acaron.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base aringacute.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base adotbelow.alt01
+          <anchor 539 0> mark @b.ogonek_3
+          <anchor 315 540> mark @t.ring;
+      pos base ahoi.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflexacute.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflexgrave.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflexhoi.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflextilde.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base acircumflexdotbelow.alt01
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abreveacute.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abrevegrave.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abrevehoi.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abrevetilde.alt01
+          <anchor 291 0> mark @b.cedilla_2
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base abrevedotbelow.alt01
+          <anchor 539 0> mark @b.ogonek_3;
+      pos base Jacute
+          <anchor 256 0> mark @b.cedilla_2;
+  } markLTR;
+
+  lookup markLTR;
+#< feature";
 tag = mark;
 },
 {
@@ -3425,7 +2531,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+id = "43C84C2D-48F1-4CCB-8D92-E3AB8A629B7A";
 metricValues = (
 {
 pos = 1025;
@@ -3537,7 +2643,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+id = "8E9CA4E0-9900-4C00-AB62-7898C7C10EDA";
 metricValues = (
 {
 pos = 1025;
@@ -3647,7 +2753,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+id = "7AA3F0E6-41A7-43FF-9A92-631D90721C2F";
 metricValues = (
 {
 pos = 1025;
@@ -3735,7 +2841,7 @@ weightClass = ExtraBold;
 }
 );
 kerningLTR = {
-"1513CFE8-5A13-42D2-8271-7D7365DF70DB" = {
+"43C84C2D-48F1-4CCB-8D92-E3AB8A629B7A" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -17561,7 +16667,7 @@ zcaron = 30;
 zdotaccent = 30;
 };
 };
-"1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1" = {
+"7AA3F0E6-41A7-43FF-9A92-631D90721C2F" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -31387,7 +30493,7 @@ zcaron = 30;
 zdotaccent = 30;
 };
 };
-"9A8FE613-2BB2-428D-A7DB-46DFB705B86D" = {
+"8E9CA4E0-9900-4C00-AB62-7898C7C10EDA" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -45284,7 +44390,7 @@ value = "The CSL Sans Project Authors";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
-"1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1" = {
+"43C84C2D-48F1-4CCB-8D92-E3AB8A629B7A" = {
 HV = 22;
 HH = 20;
 OV = 24;
@@ -45294,7 +44400,7 @@ oH = 19;
 nV = 21;
 tH = 19;
 };
-"1513CFE8-5A13-42D2-8271-7D7365DF70DB" = {
+"8E9CA4E0-9900-4C00-AB62-7898C7C10EDA" = {
 HV = 22;
 HH = 20;
 OV = 24;
@@ -45304,7 +44410,7 @@ oH = 19;
 nV = 21;
 tH = 19;
 };
-"9A8FE613-2BB2-428D-A7DB-46DFB705B86D" = {
+"7AA3F0E6-41A7-43FF-9A92-631D90721C2F" = {
 HV = 332;
 HH = 134;
 OV = 161;

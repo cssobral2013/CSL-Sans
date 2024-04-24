@@ -2,6 +2,12 @@
 glyphname = Ereversedcyr;
 layers = (
 {
+anchors = (
+{
+name = m.ring;
+position = "{221, 698}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -19,7 +25,8 @@ place = (575,135);
 type = Stem;
 }
 );
-layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+layerId = "FB330772-2417-4948-BF75-2D17F90CDBBA";
+name = "#instance";
 shapes = (
 {
 closed = 1;
@@ -59,6 +66,75 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = m.ring;
+position = "{221, 698}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,135);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (286,134);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (575,135);
+type = Stem;
+}
+);
+layerId = "C5FC3DAF-4290-4CD4-AD90-77B56B79BFFD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,286,l),
+(434,286,l),
+(420,184,o),
+(361,123,o),
+(258,123,cs),
+(175,123,o),
+(139,165,o),
+(126,223,c),
+(-7,147,l),
+(28,47,o),
+(102,-12,o),
+(239,-12,cs),
+(433,-12,o),
+(569,118,o),
+(602,354,cs),
+(635,590,o),
+(534,710,o),
+(340,710,cs),
+(209,710,o),
+(126,656,o),
+(55,554,c),
+(169,482,l),
+(200,538,o),
+(238,575,o),
+(321,575,cs),
+(410,575,o),
+(466,513,o),
+(453,420,c),
+(227,420,l)
+);
+}
+);
+width = 622;
+},
+{
+anchors = (
+{
+name = m.ring;
+position = "{219, 698}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -76,7 +152,7 @@ place = (624,86);
 type = Stem;
 }
 );
-layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+layerId = "38727D70-1DA2-45B2-A346-FCEACAA78F51";
 shapes = (
 {
 closed = 1;
@@ -116,6 +192,12 @@ nodes = (
 width = 622;
 },
 {
+anchors = (
+{
+name = m.ring;
+position = "{234, 698}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -137,7 +219,7 @@ place = (50,20);
 type = Stem;
 }
 );
-layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+layerId = "7766A055-9583-43BA-9BBE-7DA8199C50F9";
 shapes = (
 {
 closed = 1;

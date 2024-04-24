@@ -33,7 +33,7 @@ place = (579,103);
 type = Stem;
 }
 );
-layerId = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+layerId = "C5FC3DAF-4290-4CD4-AD90-77B56B79BFFD";
 shapes = (
 {
 closed = 1;
@@ -116,7 +116,7 @@ place = (37,306);
 type = Stem;
 }
 );
-layerId = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+layerId = "38727D70-1DA2-45B2-A346-FCEACAA78F51";
 shapes = (
 {
 closed = 1;
@@ -199,7 +199,7 @@ place = (63,254);
 type = Stem;
 }
 );
-layerId = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+layerId = "7766A055-9583-43BA-9BBE-7DA8199C50F9";
 shapes = (
 {
 closed = 1;

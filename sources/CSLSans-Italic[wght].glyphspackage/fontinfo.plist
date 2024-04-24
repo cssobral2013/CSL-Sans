@@ -1,8 +1,5 @@
 {
 .formatVersion = 3;
-DisplayStrings = (
-"₀₁₂₃₄₅₆₇₈₉"
-);
 axes = (
 {
 name = Weight;
@@ -1365,1968 +1362,2019 @@ code = "# GSUB feature: Glyph Composition / Decomposition
 tag = ccmp;
 },
 {
-code = "# GPOS feature: Mark Positioning
-# Lookups: 1
+code = "#> feature
+# GPOS feature : Mark Positioning
+    markClass grave <anchor 281 540> @m.ring;
+    markClass dieresis <anchor 276 540> @m.ring;
+    markClass macron <anchor 277 540> @m.ring;
+    markClass acute <anchor 281 540> @m.ring;
+    markClass cedilla <anchor 279 0> @b.cedilla_2;
+    markClass commaturnedmod <anchor 261 540> @m.ring;
+    markClass apostrophemod <anchor 261 740> @m.uni02BC_1;
+    markClass circumflex <anchor 275 540> @m.ring;
+    markClass caron <anchor 275 540> @m.ring;
+    markClass breve <anchor 276 540> @m.ring;
+    markClass dotaccent <anchor 283 540> @m.ring;
+    markClass ring <anchor 279 540> @m.ring;
+    markClass ogonek <anchor 308 0> @b.ogonek_3;
+    markClass tilde <anchor 275 540> @m.ring;
+    markClass hungarumlaut <anchor 275 540> @m.ring;
+    markClass gravecomb <anchor -46 540> @m.ring;
+    markClass acutecomb <anchor -46 540> @m.ring;
+    markClass circumflexcomb <anchor -38 540> @m.ring;
+    markClass tildecomb <anchor -52 540> @m.ring;
+    markClass macroncomb <anchor -39 540> @m.ring;
+    markClass brevecomb <anchor -38 540> @m.ring;
+    markClass dotaccentcomb <anchor -38 540> @m.ring;
+    markClass dieresiscomb <anchor -38 540> @m.ring;
+    markClass hookabovecomb <anchor -47 540> @m.ring;
+    markClass ringcomb <anchor -38 540> @m.ring;
+    markClass hungarumlautcomb <anchor -37 540> @m.ring;
+    markClass caroncomb <anchor -38 540> @m.ring;
+    markClass commaturnedabovecomb <anchor -39 540> @m.ring;
+    markClass commaaboverightcomb <anchor -39 740> @m.uni02BC_1;
+    markClass dotbelowcomb <anchor -44 0> @b.cedilla_2;
+    markClass commaaccentcomb <anchor -39 0> @b.cedilla_2;
+    markClass cedillacomb <anchor -39 0> @b.cedilla_2;
+    markClass ogonekcomb <anchor -38 0> @b.ogonek_3;
+    markClass dieresisgrave <anchor -51 540> @m.ring;
+    markClass dieresisacute <anchor -51 540> @m.ring;
+    markClass grave.case <anchor 281 698> @m.ring;
+    markClass dieresis.alt01 <anchor 276 540> @m.ring;
+    markClass dieresis.case <anchor 276 698> @m.ring;
+    markClass macron.alt01 <anchor 277 540> @m.ring;
+    markClass macron.case <anchor 277 698> @m.ring;
+    markClass acute.case <anchor 281 698> @m.ring;
+    markClass circumflex.alt01 <anchor 275 540> @m.ring;
+    markClass circumflex.case <anchor 275 698> @m.ring;
+    markClass caron.alt01 <anchor 275 540> @m.ring;
+    markClass caron.case <anchor 275 698> @m.ring;
+    markClass breve.alt01 <anchor 276 540> @m.ring;
+    markClass breve.case <anchor 276 698> @m.ring;
+    markClass dotaccent.case <anchor 263 698> @m.ring;
+    markClass ring.case <anchor 279 698> @m.ring;
+    markClass tilde.alt01 <anchor 276 540> @m.ring;
+    markClass tilde.alt01.case <anchor 276 698> @m.ring;
+    markClass tilde.case <anchor 275 698> @m.ring;
+    markClass hungarumlaut.case <anchor 275 698> @m.ring;
+    markClass hookabovecomb.case <anchor -47 698> @m.ring;
+    markClass dieresisgrave.case <anchor -51 698> @m.ring;
+    markClass dieresisacute.case <anchor -51 698> @m.ring;
+    markClass breveacute <anchor -51 540> @m.ring;
+    markClass brevegrave <anchor -51 540> @m.ring;
+    markClass brevehook <anchor -51 540> @m.ring;
+    markClass brevetilde <anchor -52 540> @m.ring;
+    markClass circumflexacute <anchor -55 540> @m.ring;
+    markClass circumflexbreve <anchor -51 540> @m.ring;
+    markClass circumflexgrave <anchor -55 540> @m.ring;
+    markClass circumflexhook <anchor -54 540> @m.ring;
+    markClass circumflextilde <anchor -52 540> @m.ring;
+    markClass dieresiscaron <anchor -52 540> @m.ring;
+    markClass dieresismacron <anchor -51 540> @m.ring;
+    markClass ringacute <anchor 279 540> @m.ring;
+    markClass ringacute.case <anchor 278 698> @m.ring;
+    markClass breveacute.case <anchor -51 698> @m.ring;
+    markClass brevegrave.case <anchor -51 698> @m.ring;
+    markClass brevehook.case <anchor -51 698> @m.ring;
+    markClass brevetilde.case <anchor -52 698> @m.ring;
+    markClass dieresiscaron.case <anchor -52 698> @m.ring;
+    markClass circumflexacute.case <anchor -55 698> @m.ring;
+    markClass circumflexbreve.case <anchor -51 698> @m.ring;
+    markClass circumflexgrave.case <anchor -55 698> @m.ring;
+    markClass circumflexhook.case <anchor -54 698> @m.ring;
+    markClass dieresismacron.case <anchor -51 698> @m.ring;
+    markClass circumflextilde.case <anchor -52 698> @m.ring;
 
+  lookup markLTR {
+      pos base A
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor 290 698> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base B
+          <anchor 279 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 279 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base C
+          <anchor 307 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 307 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base D
+          <anchor 279 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 279 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base E
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor 275 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base F
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 272 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base G
+          <anchor 320 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 327 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base H
+          <anchor 327 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 327 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base I
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor 106 698> mark @m.ring
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base J
+          <anchor 194 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 332 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base K
+          <anchor 306 0> mark @b.cedilla_2
+          <anchor -30 0> mark @b.ogonek_3
+          <anchor 291 698> mark @m.ring
+          <anchor -30 0> mark @m.uni02BC_1;
+      pos base L
+          <anchor 267 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 104 698> mark @m.ring
+          <anchor 224 740> mark @m.uni02BC_1;
+      pos base M
+          <anchor 380 0> mark @b.cedilla_2
+          <anchor -26 0> mark @b.ogonek_3
+          <anchor 380 698> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base N
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 326 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base O
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 326 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base P
+          <anchor 261 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 261 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Q
+          <anchor -28 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 326 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base R
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 278 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base S
+          <anchor 256 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 257 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base T
+          <anchor 253 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor 253 698> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base U
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor 310 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base V
+          <anchor 272 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor 272 698> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base W
+          <anchor 417 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 417 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base X
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor 275 698> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Y
+          <anchor 264 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor 264 698> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base Z
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor 265 698> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base a
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor 223 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base b
+          <anchor 280 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base c
+          <anchor 245 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 245 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base d
+          <anchor 246 0> mark @b.cedilla_2
+          <anchor -25 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor 526 740> mark @m.uni02BC_1;
+      pos base e
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor 250 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base f
+          <anchor 120 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base g
+          <anchor -29 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 235 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base h
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 100 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base i
+          <anchor 93 0> mark @b.cedilla_2
+          <anchor 133 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base k
+          <anchor 263 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base l
+          <anchor 131 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor 92 740> mark @m.ring
+          <anchor 191 740> mark @m.uni02BC_1;
+      pos base m
+          <anchor 415 0> mark @b.cedilla_2
+          <anchor -21 0> mark @b.ogonek_3
+          <anchor 415 540> mark @m.ring
+          <anchor -21 0> mark @m.uni02BC_1;
+      pos base n
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 260 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base o
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 250 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base p
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 280 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base q
+          <anchor -25 0> mark @b.cedilla_2
+          <anchor -25 0> mark @b.ogonek_3
+          <anchor 246 540> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base r
+          <anchor 96 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 188 540> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base s
+          <anchor 209 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 207 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base t
+          <anchor 180 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor 229 751> mark @m.uni02BC_1;
+      pos base u
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor 255 540> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base v
+          <anchor 214 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 214 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base w
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor -23 0> mark @b.ogonek_3
+          <anchor 357 540> mark @m.ring
+          <anchor -23 0> mark @m.uni02BC_1;
+      pos base x
+          <anchor 222 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 222 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base y
+          <anchor 359 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 218 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base z
+          <anchor 201 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 201 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Agrave
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Aacute
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Acircumflex
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Atilde
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Adieresis
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Aring
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base AE
+          <anchor 442 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 563 698> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Ccedilla
+          <anchor -30 0> mark @b.cedilla_2
+          <anchor -30 0> mark @b.ogonek_3
+          <anchor 308 698> mark @m.ring
+          <anchor -30 0> mark @m.uni02BC_1;
+      pos base Egrave
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Eacute
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ecircumflex
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Edieresis
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Igrave
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Iacute
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Icircumflex
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Idieresis
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Eth
+          <anchor 279 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 279 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base Ntilde
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Ograve
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Oacute
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Ocircumflex
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Otilde
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Odieresis
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Oslash
+          <anchor 325 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 325 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ugrave
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Uacute
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Ucircumflex
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Udieresis
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Yacute
+          <anchor 264 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base agrave
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base aacute
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base acircumflex
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base atilde
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base adieresis
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 476 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base aring
+          <anchor 217 0> mark @b.cedilla_2
+          <anchor 476 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ae
+          <anchor 389 0> mark @b.cedilla_2
+          <anchor -22 0> mark @b.ogonek_3
+          <anchor 389 540> mark @m.ring
+          <anchor -22 0> mark @m.uni02BC_1;
+      pos base ccedilla
+          <anchor -28 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 246 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base egrave
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base eacute
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ecircumflex
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base edieresis
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 330 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base igrave
+          <anchor 91 0> mark @b.cedilla_2
+          <anchor 131 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base iacute
+          <anchor 91 0> mark @b.cedilla_2
+          <anchor 131 0> mark @b.ogonek_3
+          <anchor -34 0> mark @m.ring
+          <anchor -34 0> mark @m.uni02BC_1;
+      pos base icircumflex
+          <anchor 87 0> mark @b.cedilla_2
+          <anchor 127 0> mark @b.ogonek_3
+          <anchor -37 0> mark @m.ring
+          <anchor -37 0> mark @m.uni02BC_1;
+      pos base idieresis
+          <anchor 88 0> mark @b.cedilla_2
+          <anchor 128 0> mark @b.ogonek_3
+          <anchor -37 0> mark @m.ring
+          <anchor -37 0> mark @m.uni02BC_1;
+      pos base eth
+          <anchor 247 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ntilde
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ograve
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base oacute
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base ocircumflex
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base otilde
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base odieresis
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base oslash
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 254 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base ugrave
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base uacute
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base ucircumflex
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base udieresis
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base yacute
+          <anchor 359 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base ydieresis
+          <anchor 360 0> mark @b.cedilla_2
+          <anchor -30 0> mark @b.ogonek_3
+          <anchor -30 0> mark @m.ring
+          <anchor -30 0> mark @m.uni02BC_1;
+      pos base Amacron
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base amacron
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Abreve
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base abreve
+          <anchor 216 0> mark @b.cedilla_2
+          <anchor 475 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Aogonek
+          <anchor -33 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor 289 698> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base aogonek
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 223 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Cacute
+          <anchor 307 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base cacute
+          <anchor 245 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ccircumflex
+          <anchor 307 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base ccircumflex
+          <anchor 245 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Cdotaccent
+          <anchor 307 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base cdotaccent
+          <anchor 246 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ccaron
+          <anchor 307 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base ccaron
+          <anchor 245 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Dcaron
+          <anchor 279 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base dcaron
+          <anchor 243 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Dcroat
+          <anchor 279 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 279 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base dcroat
+          <anchor 244 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Emacron
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base emacron
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Ebreve
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base ebreve
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Edotaccent
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base edotaccent
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Eogonek
+          <anchor -30 0> mark @b.cedilla_2
+          <anchor -30 0> mark @b.ogonek_3
+          <anchor 274 698> mark @m.ring
+          <anchor -30 0> mark @m.uni02BC_1;
+      pos base eogonek
+          <anchor -28 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 249 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Ecaron
+          <anchor 275 0> mark @b.cedilla_2
+          <anchor 490 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base ecaron
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor 329 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Gcircumflex
+          <anchor 320 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Gbreve
+          <anchor 320 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Gdotaccent
+          <anchor 320 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Gcommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 316 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Hcircumflex
+          <anchor 327 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base hcircumflex
+          <anchor 257 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Hbar
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 326 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base hbar
+          <anchor 258 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Itilde
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base itilde
+          <anchor 87 0> mark @b.cedilla_2
+          <anchor 127 0> mark @b.ogonek_3
+          <anchor -37 0> mark @m.ring
+          <anchor -37 0> mark @m.uni02BC_1;
+      pos base Imacron
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base imacron
+          <anchor 88 0> mark @b.cedilla_2
+          <anchor 128 0> mark @b.ogonek_3
+          <anchor -36 0> mark @m.ring
+          <anchor -36 0> mark @m.uni02BC_1;
+      pos base Ibreve
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base ibreve
+          <anchor 87 0> mark @b.cedilla_2
+          <anchor 127 0> mark @b.ogonek_3
+          <anchor -37 0> mark @m.ring
+          <anchor -37 0> mark @m.uni02BC_1;
+      pos base Iogonek
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 86 698> mark @m.ring
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Idotaccent
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base dotlessi
+          <anchor 94 0> mark @b.cedilla_2
+          <anchor 134 0> mark @b.ogonek_3
+          <anchor 94 540> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base Jcircumflex
+          <anchor 194 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base Kcommaaccent
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor 283 698> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base kgreenlandic
+          <anchor 263 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 263 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Lacute
+          <anchor 267 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor 224 740> mark @m.uni02BC_1;
+      pos base lacute
+          <anchor 131 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor 191 740> mark @m.uni02BC_1;
+      pos base Lcommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 96 698> mark @m.ring
+          <anchor 216 740> mark @m.uni02BC_1;
+      pos base lcommaaccent
+          <anchor -40 0> mark @b.cedilla_2
+          <anchor -40 0> mark @b.ogonek_3
+          <anchor 85 740> mark @m.ring
+          <anchor 184 740> mark @m.uni02BC_1;
+      pos base Lcaron
+          <anchor 267 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 104 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base lcaron
+          <anchor 129 0> mark @b.cedilla_2
+          <anchor -35 0> mark @b.ogonek_3
+          <anchor 90 740> mark @m.ring
+          <anchor -35 0> mark @m.uni02BC_1;
+      pos base Nacute
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base nacute
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Ncommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 314 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ncommaaccent
+          <anchor -40 0> mark @b.cedilla_2
+          <anchor -40 0> mark @b.ogonek_3
+          <anchor 248 540> mark @m.ring
+          <anchor -40 0> mark @m.uni02BC_1;
+      pos base Ncaron
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ncaron
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base napostrophe
+          <anchor 505 0> mark @b.cedilla_2
+          <anchor -22 0> mark @b.ogonek_3
+          <anchor 506 540> mark @m.ring
+          <anchor -22 0> mark @m.uni02BC_1;
+      pos base Eng
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 326 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base eng
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 260 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Omacron
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base omacron
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Obreve
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base obreve
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Ohungarumlaut
+          <anchor 326 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base ohungarumlaut
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base OE
+          <anchor 536 0> mark @b.cedilla_2
+          <anchor -26 0> mark @b.ogonek_3
+          <anchor 536 698> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base oe
+          <anchor 457 0> mark @b.cedilla_2
+          <anchor -20 0> mark @b.ogonek_3
+          <anchor 457 540> mark @m.ring
+          <anchor -20 0> mark @m.uni02BC_1;
+      pos base Racute
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base racute
+          <anchor 95 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base Rcommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 268 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base rcommaaccent
+          <anchor -40 0> mark @b.cedilla_2
+          <anchor -40 0> mark @b.ogonek_3
+          <anchor 179 540> mark @m.ring
+          <anchor -40 0> mark @m.uni02BC_1;
+      pos base Rcaron
+          <anchor 295 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base rcaron
+          <anchor 94 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base Sacute
+          <anchor 256 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base sacute
+          <anchor 209 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Scircumflex
+          <anchor 256 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base scircumflex
+          <anchor 209 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Scedilla
+          <anchor -31 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor 257 698> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base scedilla
+          <anchor -29 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 207 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Scaron
+          <anchor 256 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base scaron
+          <anchor 209 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Tcaron
+          <anchor 253 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base tcaron
+          <anchor 179 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base Tbar
+          <anchor 259 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor 259 698> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base tbar
+          <anchor 184 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+      pos base Utilde
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base utilde
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base Umacron
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base umacron
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base Ubreve
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base ubreve
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base Uring
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base uring
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Uhungarumlaut
+          <anchor 310 0> mark @b.cedilla_2
+          <anchor 409 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base uhungarumlaut
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 455 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base Uogonek
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 310 698> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base uogonek
+          <anchor -27 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 254 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Wcircumflex
+          <anchor 417 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base wcircumflex
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor -23 0> mark @b.ogonek_3
+          <anchor -23 0> mark @m.ring
+          <anchor -23 0> mark @m.uni02BC_1;
+      pos base Ycircumflex
+          <anchor 264 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base ycircumflex
+          <anchor 359 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ydieresis
+          <anchor 264 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base Zacute
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base zacute
+          <anchor 201 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Zdotaccent
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base zdotaccent
+          <anchor 201 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Zcaron
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor -32 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base zcaron
+          <anchor 201 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Schwa
+          <anchor 314 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 314 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ohorn
+          <anchor 325 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 325 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base ohorn
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor -27 0> mark @b.ogonek_3
+          <anchor 251 540> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base Uhorn
+          <anchor 308 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 308 698> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base uhorn
+          <anchor 249 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor 253 540> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Acaron
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acaron
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Icaron
+          <anchor 179 0> mark @b.cedilla_2
+          <anchor 319 0> mark @b.ogonek_3
+          <anchor -21 0> mark @m.ring
+          <anchor -21 0> mark @m.uni02BC_1;
+      pos base icaron
+          <anchor 85 0> mark @b.cedilla_2
+          <anchor 125 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ocaron
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ocaron
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ucaron
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base ucaron
+          <anchor 238 0> mark @b.cedilla_2
+          <anchor 442 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Udieresismacron
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base udieresismacron
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Udieresisacute
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base udieresisacute
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Udieresiscaron
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base udieresiscaron
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Udieresisgrave
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base udieresisgrave
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Aringacute
+          <anchor 290 0> mark @b.cedilla_2
+          <anchor 586 0> mark @b.ogonek_3
+          <anchor -32 0> mark @m.ring
+          <anchor -32 0> mark @m.uni02BC_1;
+      pos base aringacute
+          <anchor 217 0> mark @b.cedilla_2
+          <anchor 476 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base AEacute
+          <anchor 442 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base aeacute
+          <anchor 389 0> mark @b.cedilla_2
+          <anchor -22 0> mark @b.ogonek_3
+          <anchor -22 0> mark @m.ring
+          <anchor -22 0> mark @m.uni02BC_1;
+      pos base Oslashacute
+          <anchor 325 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base oslashacute
+          <anchor 254 0> mark @b.cedilla_2
+          <anchor -28 0> mark @b.ogonek_3
+          <anchor -28 0> mark @m.ring
+          <anchor -28 0> mark @m.uni02BC_1;
+      pos base Scommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 249 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base scommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 198 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Tcommaaccent
+          <anchor -40 0> mark @b.cedilla_2
+          <anchor -40 0> mark @b.ogonek_3
+          <anchor 246 698> mark @m.ring
+          <anchor -40 0> mark @m.uni02BC_1;
+      pos base tcommaaccent
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor 223 751> mark @m.uni02BC_1;
+      pos base dotlessj
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 85 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base schwa
+          <anchor 229 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 226 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Iota
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor 196 698> mark @m.ring
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Iotadieresis
+          <anchor 196 0> mark @b.cedilla_2
+          <anchor 336 0> mark @b.ogonek_3
+          <anchor -4 0> mark @m.uni02BC_1;
+      pos base Iocyr
+          <anchor 249 897> mark @m.ring;
+      pos base Iukrcyr
+          <anchor 59 698> mark @m.ring;
+      pos base Acyr
+          <anchor 258 698> mark @m.ring;
+      pos base Iecyr
+          <anchor 245 698> mark @m.ring;
+      pos base Icyr
+          <anchor 282 698> mark @m.ring;
+      pos base Ocyr
+          <anchor 283 698> mark @m.ring;
+      pos base Ucyr
+          <anchor 232 698> mark @m.ring;
+      pos base Ylongcyr
+          <anchor 369 698> mark @m.ring;
+      pos base Ereversedcyr
+          <anchor 219 698> mark @m.ring;
+      pos base Yucyr
+          <anchor 387 698> mark @m.ring;
+      pos base Yacyr
+          <anchor 300 698> mark @m.ring;
+      pos base acyr
+          <anchor 154 506> mark @m.ring;
+      pos base iecyr
+          <anchor 182 525> mark @m.ring;
+      pos base icyr
+          <anchor 200 518> mark @m.ring;
+      pos base ocyr
+          <anchor 197 518> mark @m.ring;
+      pos base ucyr
+          <anchor 155 518> mark @m.ring;
+      pos base ylongcyr
+          <anchor 272 518> mark @m.ring;
+      pos base ereversedcyr
+          <anchor 139 518> mark @m.ring;
+      pos base yucyr
+          <anchor 276 518> mark @m.ring;
+      pos base yacyr
+          <anchor 167 525> mark @m.ring;
+      pos base iocyr
+          <anchor 224 698> mark @m.ring;
+      pos base eukrcyr
+          <anchor 182 518> mark @m.ring;
+      pos base iukrcyr
+          <anchor 71 698> mark @m.ring;
+      pos base Wgrave
+          <anchor 417 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base wgrave
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor -23 0> mark @b.ogonek_3
+          <anchor -23 0> mark @m.ring
+          <anchor -23 0> mark @m.uni02BC_1;
+      pos base Wacute
+          <anchor 417 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base wacute
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor -23 0> mark @b.ogonek_3
+          <anchor -23 0> mark @m.ring
+          <anchor -23 0> mark @m.uni02BC_1;
+      pos base Wdieresis
+          <anchor 417 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base wdieresis
+          <anchor 357 0> mark @b.cedilla_2
+          <anchor -24 0> mark @b.ogonek_3
+          <anchor -24 0> mark @m.ring
+          <anchor -24 0> mark @m.uni02BC_1;
+      pos base Adotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor 283 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base adotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 465 0> mark @b.ogonek_3
+          <anchor 213 540> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ahoi
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ahoi
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Acircumflexacute
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acircumflexacute
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Acircumflexgrave
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acircumflexgrave
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Acircumflexhoi
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acircumflexhoi
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Acircumflextilde
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acircumflextilde
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Acircumflexdotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base acircumflexdotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 465 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Abreveacute
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base abreveacute
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Abrevegrave
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base abrevegrave
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Abrevehoi
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base abrevehoi
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Abrevetilde
+          <anchor 283 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base abrevetilde
+          <anchor 205 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Abrevedotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 579 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base abrevedotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 465 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Edotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 480 0> mark @b.ogonek_3
+          <anchor 265 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base edotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 319 0> mark @b.ogonek_3
+          <anchor 240 540> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ehoi
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor 480 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ehoi
+          <anchor 243 0> mark @b.cedilla_2
+          <anchor 318 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Etilde
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor 480 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base etilde
+          <anchor 242 0> mark @b.cedilla_2
+          <anchor 317 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ecircumflexacute
+          <anchor 266 0> mark @b.cedilla_2
+          <anchor 481 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base ecircumflexacute
+          <anchor 243 0> mark @b.cedilla_2
+          <anchor 318 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ecircumflexgrave
+          <anchor 266 0> mark @b.cedilla_2
+          <anchor 481 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base ecircumflexgrave
+          <anchor 243 0> mark @b.cedilla_2
+          <anchor 318 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ecircumflexhoi
+          <anchor 266 0> mark @b.cedilla_2
+          <anchor 481 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base ecircumflexhoi
+          <anchor 243 0> mark @b.cedilla_2
+          <anchor 318 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ecircumflextilde
+          <anchor 265 0> mark @b.cedilla_2
+          <anchor 480 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ecircumflextilde
+          <anchor 242 0> mark @b.cedilla_2
+          <anchor 317 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ecircumflexdotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 480 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ecircumflexdotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 319 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ihoi
+          <anchor 179 0> mark @b.cedilla_2
+          <anchor 319 0> mark @b.ogonek_3
+          <anchor -21 0> mark @m.ring
+          <anchor -21 0> mark @m.uni02BC_1;
+      pos base ihoi
+          <anchor 86 0> mark @b.cedilla_2
+          <anchor 126 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Idotbelow
+          <anchor -21 0> mark @b.cedilla_2
+          <anchor 319 0> mark @b.ogonek_3
+          <anchor 179 698> mark @m.ring
+          <anchor -21 0> mark @m.uni02BC_1;
+      pos base Odotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 315 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base odotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 240 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ohoi
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohoi
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ocircumflexacute
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ocircumflexacute
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ocircumflexgrave
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ocircumflexgrave
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ocircumflexhoi
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ocircumflexhoi
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ocircumflextilde
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ocircumflextilde
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ohornacute
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohornacute
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ohorngrave
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohorngrave
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ohornhoi
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohornhoi
+          <anchor 241 0> mark @b.cedilla_2
+          <anchor -37 0> mark @b.ogonek_3
+          <anchor -37 0> mark @m.ring
+          <anchor -37 0> mark @m.uni02BC_1;
+      pos base Ohorntilde
+          <anchor 315 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohorntilde
+          <anchor 240 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ohorndotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 315 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ohorndotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor 241 540> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Udotbelow
+          <anchor -38 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor 299 698> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base udotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor 243 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Uhoi
+          <anchor 299 0> mark @b.cedilla_2
+          <anchor 398 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base uhoi
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor 443 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Uhornacute
+          <anchor 298 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base uhornacute
+          <anchor 238 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Uhorngrave
+          <anchor 298 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base uhorngrave
+          <anchor 238 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Uhornhoi
+          <anchor 298 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base uhornhoi
+          <anchor 239 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Uhorntilde
+          <anchor 298 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base uhorntilde
+          <anchor 238 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Uhorndotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 298 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base uhorndotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 243 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Ygrave
+          <anchor 264 0> mark @b.cedilla_2
+          <anchor -33 0> mark @b.ogonek_3
+          <anchor -33 0> mark @m.ring
+          <anchor -33 0> mark @m.uni02BC_1;
+      pos base ygrave
+          <anchor 359 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base Ydotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 258 698> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ydotbelow
+          <anchor -39 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor 208 540> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base Yhoi
+          <anchor 258 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base yhoi
+          <anchor 350 0> mark @b.cedilla_2
+          <anchor -38 0> mark @b.ogonek_3
+          <anchor -38 0> mark @m.ring
+          <anchor -38 0> mark @m.uni02BC_1;
+      pos base Ytilde
+          <anchor 258 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base ytilde
+          <anchor 349 0> mark @b.cedilla_2
+          <anchor -39 0> mark @b.ogonek_3
+          <anchor -39 0> mark @m.ring
+          <anchor -39 0> mark @m.uni02BC_1;
+      pos base fi
+          <anchor 424 0> mark @b.cedilla_2
+          <anchor 464 0> mark @b.ogonek_3
+          <anchor 299 0> mark @m.ring
+          <anchor 299 0> mark @m.uni02BC_1;
+      pos base a.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor 252 540> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base g.alt01
+          <anchor -26 0> mark @b.cedilla_2
+          <anchor -26 0> mark @b.ogonek_3
+          <anchor 250 540> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base g.alt02
+          <anchor -29 0> mark @b.cedilla_2
+          <anchor -29 0> mark @b.ogonek_3
+          <anchor 235 540> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base agrave.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base aacute.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base acircumflex.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base atilde.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base adieresis.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 468 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base aring.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base amacron.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base abreve.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base aogonek.alt01
+          <anchor -26 0> mark @b.cedilla_2
+          <anchor -26 0> mark @b.ogonek_3
+          <anchor 250 540> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base acaron.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base aringacute.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base adotbelow.alt01
+          <anchor -26 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor 251 540> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base ahoi.alt01
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor 466 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base acircumflexacute.alt01
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor 465 0> mark @b.ogonek_3
+          <anchor -27 0> mark @m.ring
+          <anchor -27 0> mark @m.uni02BC_1;
+      pos base acircumflexgrave.alt01
+          <anchor 251 0> mark @b.cedilla_2
+          <anchor 466 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base acircumflexhoi.alt01
+          <anchor 249 0> mark @b.cedilla_2
+          <anchor 465 0> mark @b.ogonek_3
+          <anchor -30 0> mark @m.ring
+          <anchor -30 0> mark @m.uni02BC_1;
+      pos base acircumflextilde.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base acircumflexdotbelow.alt01
+          <anchor -26 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base abreveacute.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base abrevegrave.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base abrevehoi.alt01
+          <anchor 250 0> mark @b.cedilla_2
+          <anchor 466 0> mark @b.ogonek_3
+          <anchor -29 0> mark @m.ring
+          <anchor -29 0> mark @m.uni02BC_1;
+      pos base abrevetilde.alt01
+          <anchor 252 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -25 0> mark @m.ring
+          <anchor -25 0> mark @m.uni02BC_1;
+      pos base abrevedotbelow.alt01
+          <anchor -26 0> mark @b.cedilla_2
+          <anchor 467 0> mark @b.ogonek_3
+          <anchor -26 0> mark @m.ring
+          <anchor -26 0> mark @m.uni02BC_1;
+      pos base Jacute
+          <anchor 194 0> mark @b.cedilla_2
+          <anchor -31 0> mark @b.ogonek_3
+          <anchor -31 0> mark @m.ring
+          <anchor -31 0> mark @m.uni02BC_1;
+  } markLTR;
 
-  lookup mark {
-  # GPOS lookup 1, type 4 (MarkToBase attachment)
-    markClass grave <anchor 300 540> @m.ring;
-    markClass dieresis <anchor 300 540> @m.ring;
-    markClass macron <anchor 300 540> @m.ring;
-    markClass acute <anchor 300 540> @m.ring;
-    markClass commaturnedmod <anchor 300 540> @m.ring;
-    markClass circumflex <anchor 300 540> @m.ring;
-    markClass caron <anchor 300 540> @m.ring;
-    markClass breve <anchor 300 540> @m.ring;
-    markClass dotaccent <anchor 300 540> @m.ring;
-    markClass ring <anchor 300 540> @m.ring;
-    markClass tilde <anchor 300 540> @m.ring;
-    markClass hungarumlaut <anchor 300 540> @m.ring;
-    markClass gravecomb <anchor 0 540> @m.ring;
-    markClass acutecomb <anchor 0 540> @m.ring;
-    markClass circumflexcomb <anchor 0 540> @m.ring;
-    markClass tildecomb <anchor 0 540> @m.ring;
-    markClass macroncomb <anchor 0 540> @m.ring;
-    markClass brevecomb <anchor 0 540> @m.ring;
-    markClass dotaccentcomb <anchor 0 540> @m.ring;
-    markClass dieresiscomb <anchor 0 540> @m.ring;
-    markClass hookabovecomb <anchor 0 540> @m.ring;
-    markClass ringcomb <anchor 0 540> @m.ring;
-    markClass hungarumlautcomb <anchor 0 540> @m.ring;
-    markClass caroncomb <anchor 0 540> @m.ring;
-    markClass commaturnedabovecomb <anchor 0 540> @m.ring;
-    markClass tilde.alt01 <anchor 300 540> @m.ring;
-    markClass macron.alt01 <anchor 300 540> @m.ring;
-    markClass dieresis.alt01 <anchor 300 540> @m.ring;
-    markClass circumflex.alt01 <anchor 300 540> @m.ring;
-    markClass caron.alt01 <anchor 300 540> @m.ring;
-    markClass breve.alt01 <anchor 300 540> @m.ring;
-    markClass ringacute <anchor 300 540> @m.ring;
-    markClass breveacute <anchor 0 540> @m.ring;
-    markClass brevegrave <anchor 0 540> @m.ring;
-    markClass brevehook <anchor 0 540> @m.ring;
-    markClass brevetilde <anchor 0 540> @m.ring;
-    markClass dieresisacute <anchor 0 540> @m.ring;
-    markClass dieresiscaron <anchor 0 540> @m.ring;
-    markClass dieresisgrave <anchor 0 540> @m.ring;
-    markClass circumflexacute <anchor 0 540> @m.ring;
-    markClass circumflexbreve <anchor 0 540> @m.ring;
-    markClass circumflexgrave <anchor 0 540> @m.ring;
-    markClass circumflexhook <anchor 0 540> @m.ring;
-    markClass dieresismacron <anchor 0 540> @m.ring;
-    markClass circumflextilde <anchor 0 540> @m.ring;
-    markClass tilde.case <anchor 300 698> @m.ring;
-    markClass tilde.alt01.case <anchor 300 698> @m.ring;
-    markClass macron.case <anchor 300 698> @m.ring;
-    markClass dotaccent.case <anchor 300 698> @m.ring;
-    markClass dieresis.case <anchor 300 698> @m.ring;
-    markClass hungarumlaut.case <anchor 300 698> @m.ring;
-    markClass acute.case <anchor 300 698> @m.ring;
-    markClass grave.case <anchor 300 698> @m.ring;
-    markClass circumflex.case <anchor 300 698> @m.ring;
-    markClass caron.case <anchor 300 698> @m.ring;
-    markClass breve.case <anchor 300 698> @m.ring;
-    markClass ring.case <anchor 300 698> @m.ring;
-    markClass ringacute.case <anchor 300 698> @m.ring;
-    markClass hookabovecomb.case <anchor 0 698> @m.ring;
-    markClass breveacute.case <anchor 0 698> @m.ring;
-    markClass brevegrave.case <anchor 0 698> @m.ring;
-    markClass brevehook.case <anchor 0 698> @m.ring;
-    markClass brevetilde.case <anchor 0 698> @m.ring;
-    markClass dieresisacute.case <anchor 0 698> @m.ring;
-    markClass dieresiscaron.case <anchor 0 698> @m.ring;
-    markClass dieresisgrave.case <anchor 0 698> @m.ring;
-    markClass circumflexacute.case <anchor 0 698> @m.ring;
-    markClass circumflexbreve.case <anchor 0 698> @m.ring;
-    markClass circumflexgrave.case <anchor 0 698> @m.ring;
-    markClass circumflexhook.case <anchor 0 698> @m.ring;
-    markClass dieresismacron.case <anchor 0 698> @m.ring;
-    markClass circumflextilde.case <anchor 0 698> @m.ring;
-    markClass apostrophemod <anchor 300 740> @m.uni02BC_1;
-    markClass commaaboverightcomb <anchor 0 740> @m.uni02BC_1;
-    markClass cedilla <anchor 300 0> @b.cedilla_2;
-    markClass dotbelowcomb <anchor 0 0> @b.cedilla_2;
-    markClass commaaccentcomb <anchor 0 0> @b.cedilla_2;
-    markClass cedillacomb <anchor 0 0> @b.cedilla_2;
-    markClass ogonek <anchor 328 0> @b.ogonek_3;
-    markClass ogonekcomb <anchor 0 0> @b.ogonek_3;
-    pos base A
-        <anchor 322 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base B
-        <anchor 307 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 307 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base C
-        <anchor 338 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 338 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base D
-        <anchor 307 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 307 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base E
-        <anchor 304 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base F
-        <anchor 301 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base G
-        <anchor 355 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 348 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base H
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base I
-        <anchor 200 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base J
-        <anchor 263 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 225 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base K
-        <anchor 321 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 336 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base L
-        <anchor 135 698> mark @m.ring
-        <anchor 255 740> mark @m.uni02BC_1
-        <anchor 298 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base M
-        <anchor 406 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 406 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base N
-        <anchor 353 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 353 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base O
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base P
-        <anchor 290 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 290 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Q
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base R
-        <anchor 307 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 324 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base S
-        <anchor 288 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 287 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base T
-        <anchor 286 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 286 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base U
-        <anchor 337 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base V
-        <anchor 304 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base W
-        <anchor 446 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 446 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base X
-        <anchor 307 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 307 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Y
-        <anchor 297 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Z
-        <anchor 297 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base a
-        <anchor 250 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base b
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 305 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base c
-        <anchor 273 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 273 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base d
-        <anchor -1 0> mark @m.ring
-        <anchor 550 740> mark @m.uni02BC_1
-        <anchor 270 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base e
-        <anchor 276 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base f
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 153 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base g
-        <anchor 264 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base h
-        <anchor 126 698> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base i
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 125 0> mark @b.cedilla_2
-        <anchor 165 0> mark @b.ogonek_3;
-    pos base k
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 289 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base l
-        <anchor 124 740> mark @m.ring
-        <anchor 222 740> mark @m.uni02BC_1
-        <anchor 163 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base m
-        <anchor 434 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 434 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base n
-        <anchor 285 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base o
-        <anchor 277 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base p
-        <anchor 305 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base q
-        <anchor 270 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base r
-        <anchor 217 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 126 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base s
-        <anchor 236 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 238 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base t
-        <anchor -1 0> mark @m.ring
-        <anchor 260 751> mark @m.uni02BC_1
-        <anchor 211 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base u
-        <anchor 279 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base v
-        <anchor 243 540> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base w
-        <anchor 380 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 380 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base x
-        <anchor 251 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 251 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base y
-        <anchor 247 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base z
-        <anchor 230 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 230 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Agrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base Aacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base Acircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base Atilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base Adieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base Aring
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base AE
-        <anchor 591 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 470 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ccedilla
-        <anchor 338 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Egrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base Eacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base Ecircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base Edieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base Igrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base Iacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base Icircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base Idieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base Eth
-        <anchor 310 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 310 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ntilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 353 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ograve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Oacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ocircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Otilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Odieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Oslash
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ugrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base Uacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base Ucircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base Udieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base Yacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base agrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base aacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base acircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base atilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base adieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base aring
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base ae
-        <anchor 410 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 410 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ccedilla
-        <anchor 273 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base egrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base eacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base ecircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base edieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 281 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base igrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base iacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base icircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base idieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base eth
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 273 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ntilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ograve
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base oacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ocircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base otilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base odieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 278 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base oslash
-        <anchor 281 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 281 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ugrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base uacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base ucircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base udieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 480 0> mark @b.ogonek_3;
-    pos base yacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base ydieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 389 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Amacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base amacron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Abreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abreve
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Aogonek
-        <anchor 322 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base aogonek
-        <anchor 250 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Cacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 338 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base cacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 273 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ccircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 338 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ccircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 273 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Cdotaccent
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 338 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base cdotaccent
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 274 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ccaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 338 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ccaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 273 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Dcaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 307 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base dcaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 270 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Dcroat
-        <anchor 310 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 310 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base dcroat
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 270 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Emacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base emacron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ebreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ebreve
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Edotaccent
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base edotaccent
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 281 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Eogonek
-        <anchor 304 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base eogonek
-        <anchor 277 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ecaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Gcircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 348 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Gbreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 348 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Gdotaccent
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 348 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Gcommaaccent
-        <anchor 355 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Hcircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base hcircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Hbar
-        <anchor 357 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 357 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base hbar
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Itilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base itilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base Imacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base imacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base Ibreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base ibreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base Iogonek
-        <anchor 200 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Idotaccent
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base dotlessi
-        <anchor 125 540> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 125 0> mark @b.cedilla_2
-        <anchor 165 0> mark @b.ogonek_3;
-    pos base Jcircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 225 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Kcommaaccent
-        <anchor 321 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base kgreenlandic
-        <anchor 289 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 289 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Lacute
-        <anchor 0 0> mark @m.ring
-        <anchor 255 740> mark @m.uni02BC_1
-        <anchor 298 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base lacute
-        <anchor -1 0> mark @m.ring
-        <anchor 222 740> mark @m.uni02BC_1
-        <anchor 163 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Lcommaaccent
-        <anchor 135 698> mark @m.ring
-        <anchor 255 740> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base lcommaaccent
-        <anchor 124 740> mark @m.ring
-        <anchor 222 740> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Lcaron
-        <anchor 135 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 298 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base lcaron
-        <anchor 124 740> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 163 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Nacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 353 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base nacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ncommaaccent
-        <anchor 353 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ncommaaccent
-        <anchor 286 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ncaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 353 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ncaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 284 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base napostrophe
-        <anchor 526 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 525 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Eng
-        <anchor 353 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base eng
-        <anchor 285 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Omacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base omacron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Obreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base obreve
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohungarumlaut
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohungarumlaut
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base OE
-        <anchor 562 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 562 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base oe
-        <anchor 476 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 476 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Racute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 324 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base racute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 126 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Rcommaaccent
-        <anchor 307 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base rcommaaccent
-        <anchor 217 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Rcaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 324 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base rcaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 126 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Sacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 287 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base sacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 238 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Scircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 287 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base scircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 238 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Scedilla
-        <anchor 288 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base scedilla
-        <anchor 236 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Scaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 287 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base scaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 238 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Tcaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 286 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base tcaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 211 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Tbar
-        <anchor 291 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 291 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base tbar
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 214 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Utilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base utilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Umacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base umacron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Ubreve
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base ubreve
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Uring
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base uring
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Uhungarumlaut
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base uhungarumlaut
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Uogonek
-        <anchor 337 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uogonek
-        <anchor 279 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Wcircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 446 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base wcircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 380 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ycircumflex
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ycircumflex
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ydieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Zacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base zacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 230 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Zdotaccent
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base zdotaccent
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 230 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Zcaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base zcaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 230 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Schwa
-        <anchor 353 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 353 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base Ohorn
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohorn
-        <anchor 277 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Uhorn
-        <anchor 337 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhorn
-        <anchor 279 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Acaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Icaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base icaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base Ocaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ocaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ucaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base ucaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Udieresismacron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base udieresismacron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 480 0> mark @b.ogonek_3;
-    pos base Udieresisacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base udieresisacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 480 0> mark @b.ogonek_3;
-    pos base Udieresiscaron
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base udieresiscaron
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 480 0> mark @b.ogonek_3;
-    pos base Udieresisgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base udieresisgrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 480 0> mark @b.ogonek_3;
-    pos base Aringacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base aringacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base AEacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 470 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base aeacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 410 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Oslashacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base oslashacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 281 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Scommaaccent
-        <anchor 288 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base scommaaccent
-        <anchor 236 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Tcommaaccent
-        <anchor 286 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base tcommaaccent
-        <anchor -1 0> mark @m.ring
-        <anchor 261 751> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base dotlessj
-        <anchor 124 540> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base schwa
-        <anchor 264 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 267 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Wgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 446 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base wgrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 380 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Wacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 446 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base wacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 380 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Wdieresis
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 446 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base wdieresis
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 381 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Adotbelow
-        <anchor 322 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base adotbelow
-        <anchor 250 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base Ahoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base ahoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Acircumflexacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acircumflexacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Acircumflexgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acircumflexgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Acircumflexhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acircumflexhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Acircumflextilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acircumflextilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Acircumflexdotbelow
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base acircumflexdotbelow
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base Abreveacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abreveacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Abrevegrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abrevegrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Abrevehoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abrevehoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Abrevetilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 322 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abrevetilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 243 0> mark @b.cedilla_2
-        <anchor 501 0> mark @b.ogonek_3;
-    pos base Abrevedotbelow
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 618 0> mark @b.ogonek_3;
-    pos base abrevedotbelow
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 502 0> mark @b.ogonek_3;
-    pos base Edotbelow
-        <anchor 304 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base edotbelow
-        <anchor 277 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ehoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ehoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Etilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base etilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ecircumflexacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecircumflexacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ecircumflexgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecircumflexgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ecircumflexhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecircumflexhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ecircumflextilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 304 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecircumflextilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 280 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ecircumflexdotbelow
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 519 0> mark @b.ogonek_3;
-    pos base ecircumflexdotbelow
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 356 0> mark @b.ogonek_3;
-    pos base Ihoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 200 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base ihoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 124 0> mark @b.cedilla_2
-        <anchor 164 0> mark @b.ogonek_3;
-    pos base Idotbelow
-        <anchor 200 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 340 0> mark @b.ogonek_3;
-    pos base Odotbelow
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base odotbelow
-        <anchor 278 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ocircumflexacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ocircumflexacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ocircumflexgrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ocircumflexgrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ocircumflexhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ocircumflexhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ocircumflextilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ocircumflextilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohornacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohornacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohorngrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohorngrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohornhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohornhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohorntilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 354 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohorntilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ohorndotbelow
-        <anchor 354 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ohorndotbelow
-        <anchor 278 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Udotbelow
-        <anchor 337 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base udotbelow
-        <anchor 280 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Uhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 436 0> mark @b.ogonek_3;
-    pos base uhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor 479 0> mark @b.ogonek_3;
-    pos base Uhornacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhornacute
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Uhorngrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhorngrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Uhornhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhornhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Uhorntilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 337 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhorntilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 275 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Uhorndotbelow
-        <anchor 337 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base uhorndotbelow
-        <anchor 280 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ygrave
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ygrave
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ydotbelow
-        <anchor 297 698> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 0 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ydotbelow
-        <anchor 247 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Yhoi
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base yhoi
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base Ytilde
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 297 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-    pos base ytilde
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 388 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base a.alt01
-        <anchor 276 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base g.alt01
-        <anchor 275 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base g.alt02
-        <anchor 264 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base aacute.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base abreve.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base acaron.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base acircumflex.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base adieresis.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor 492 0> mark @b.ogonek_3;
-    pos base adotbelow.alt01
-        <anchor 276 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base agrave.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base ahoi.alt01
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 279 0> mark @b.cedilla_2
-        <anchor 495 0> mark @b.ogonek_3;
-    pos base amacron.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base aogonek.alt01
-        <anchor 275 540> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor -1 0> mark @b.ogonek_3;
-    pos base aring.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base aringacute.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 277 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base atilde.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base abreveacute.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base abrevedotbelow.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base abrevegrave.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base abrevehoi.alt01
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 279 0> mark @b.cedilla_2
-        <anchor 495 0> mark @b.ogonek_3;
-    pos base abrevetilde.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base acircumflexacute.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 490 0> mark @b.ogonek_3;
-    pos base acircumflexdotbelow.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor -1 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base acircumflexgrave.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base acircumflexhoi.alt01
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 279 0> mark @b.cedilla_2
-        <anchor 495 0> mark @b.ogonek_3;
-    pos base acircumflextilde.alt01
-        <anchor -1 0> mark @m.ring
-        <anchor -1 0> mark @m.uni02BC_1
-        <anchor 276 0> mark @b.cedilla_2
-        <anchor 491 0> mark @b.ogonek_3;
-    pos base Jacute
-        <anchor 0 0> mark @m.ring
-        <anchor 0 0> mark @m.uni02BC_1
-        <anchor 225 0> mark @b.cedilla_2
-        <anchor 0 0> mark @b.ogonek_3;
-  } mark;";
+  lookup markLTR;
+#< feature";
 tag = mark;
 },
 {
@@ -16582,7 +16630,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "CC8B04B6-4F30-41C2-BC1D-B124A9E292F1";
+id = "7766A055-9583-43BA-9BBE-7DA8199C50F9";
 metricValues = (
 {
 pos = 1025;
@@ -16753,7 +16801,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "E22AC71D-DB87-48BC-8161-A09275C341BE";
+id = "38727D70-1DA2-45B2-A346-FCEACAA78F51";
 metricValues = (
 {
 pos = 1025;
@@ -16932,7 +16980,7 @@ guides = (
 position = "{0, 250}";
 }
 );
-id = "0AD2E2E0-FC0D-4C67-836B-444215FA4DDA";
+id = "C5FC3DAF-4290-4CD4-AD90-77B56B79BFFD";
 metricValues = (
 {
 pos = 1025;
@@ -17033,7 +17081,7 @@ weightClass = ExtraBold;
 }
 );
 kerningLTR = {
-"0AD2E2E0-FC0D-4C67-836B-444215FA4DDA" = {
+"38727D70-1DA2-45B2-A346-FCEACAA78F51" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -31043,7 +31091,7 @@ zcaron = 30;
 zdotaccent = 30;
 };
 };
-"CC8B04B6-4F30-41C2-BC1D-B124A9E292F1" = {
+"7766A055-9583-43BA-9BBE-7DA8199C50F9" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -45053,7 +45101,7 @@ zcaron = 30;
 zdotaccent = 30;
 };
 };
-"E22AC71D-DB87-48BC-8161-A09275C341BE" = {
+"C5FC3DAF-4290-4CD4-AD90-77B56B79BFFD" = {
 "@MMK_L_A" = {
 "@MMK_R_A2" = 15;
 "@MMK_R_C2" = -20;
@@ -59169,19 +59217,19 @@ name = Vstem;
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
-"CC8B04B6-4F30-41C2-BC1D-B124A9E292F1" = {
+"7766A055-9583-43BA-9BBE-7DA8199C50F9" = {
 HH = 20;
 OH = 20;
 oH = 19;
 tH = 19;
 };
-"E22AC71D-DB87-48BC-8161-A09275C341BE" = {
+"38727D70-1DA2-45B2-A346-FCEACAA78F51" = {
 HH = 86;
 OH = 86;
 oH = 80;
 tH = 79;
 };
-"0AD2E2E0-FC0D-4C67-836B-444215FA4DDA" = {
+"C5FC3DAF-4290-4CD4-AD90-77B56B79BFFD" = {
 HH = 134;
 OH = 135;
 oH = 117;

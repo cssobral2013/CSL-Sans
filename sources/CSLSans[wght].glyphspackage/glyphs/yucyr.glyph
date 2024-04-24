@@ -2,6 +2,12 @@
 glyphname = yucyr;
 layers = (
 {
+anchors = (
+{
+name = t.ring;
+position = "{411, 525}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -43,7 +49,8 @@ place = (615,154);
 type = Stem;
 }
 );
-layerId = "9A8FE613-2BB2-428D-A7DB-46DFB705B86D";
+layerId = "60C5F73C-DCC8-4257-9908-C46676B4F2D6";
+name = "#instance";
 shapes = (
 {
 closed = 1;
@@ -92,6 +99,108 @@ nodes = (
 width = 789;
 },
 {
+anchors = (
+{
+name = t.ring;
+position = "{411, 525}";
+}
+);
+hints = (
+{
+horizontal = 1;
+place = (-12,117);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (0,21);
+target = up;
+type = BottomGhost;
+},
+{
+horizontal = 1;
+place = (209,115);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (420,117);
+type = Stem;
+},
+{
+horizontal = 1;
+place = (525,-20);
+target = down;
+type = TopGhost;
+},
+{
+place = (52,148);
+type = Stem;
+},
+{
+place = (290,151);
+type = Stem;
+},
+{
+place = (615,154);
+type = Stem;
+}
+);
+layerId = "7AA3F0E6-41A7-43FF-9A92-631D90721C2F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(682,-12,o),
+(769,94,o),
+(769,263,cs),
+(769,432,o),
+(682,537,o),
+(528,537,cs),
+(393,537,o),
+(310,457,o),
+(291,324,c),
+(200,324,l),
+(200,525,l),
+(52,525,l),
+(52,0,l),
+(200,0,l),
+(200,209,l),
+(290,209,l),
+(307,71,o),
+(391,-12,o),
+(528,-12,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(470,105,o),
+(441,143,o),
+(441,209,cs),
+(441,316,ls),
+(441,382,o),
+(470,420,o),
+(528,420,cs),
+(586,420,o),
+(615,382,o),
+(615,316,cs),
+(615,209,ls),
+(615,143,o),
+(586,105,o),
+(528,105,cs)
+);
+}
+);
+width = 789;
+},
+{
+anchors = (
+{
+name = t.ring;
+position = "{413, 525}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -133,7 +242,7 @@ place = (645,99);
 type = Stem;
 }
 );
-layerId = "1513CFE8-5A13-42D2-8271-7D7365DF70DB";
+layerId = "8E9CA4E0-9900-4C00-AB62-7898C7C10EDA";
 shapes = (
 {
 closed = 1;
@@ -182,6 +291,12 @@ nodes = (
 width = 789;
 },
 {
+anchors = (
+{
+name = t.ring;
+position = "{417, 525}";
+}
+);
 hints = (
 {
 horizontal = 1;
@@ -223,7 +338,7 @@ place = (678,23);
 type = Stem;
 }
 );
-layerId = "1F8C5CD1-3431-41E3-A60F-01FCBC1C5BC1";
+layerId = "43C84C2D-48F1-4CCB-8D92-E3AB8A629B7A";
 shapes = (
 {
 closed = 1;
