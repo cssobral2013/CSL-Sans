@@ -1,6 +1,6 @@
-Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+Copyright 2017 IBM Corp. with Reserved Font Name "Plex"
 Copyright 2019-2021 The HMI Sans Project Authors (https://github.com/somegoodpixels/HMI-Sans)
-Copyright 2021-2022 The CSL Sans Project Authors (https://github.com/cssobral2013/CSL-Sans)
+Copyright 2021-2025 The CSL Sans Project Authors (https://github.com/cssobral2013/CSL-Sans)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
