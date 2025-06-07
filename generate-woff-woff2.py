@@ -148,8 +148,21 @@ woffPath = './web/CSLSans-ExtraBoldItalic.woff'
 with TTFont(srcPath) as font:
     font.flavor = 'woff'
     font.save(woffPath)
+    
+srcPath  = './ttf/CSLSans-Black.ttf'
+woffPath = './web/CSLSans-Black.woff'
 
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
+ 
+ 
+srcPath  = './ttf/CSLSans-BlackItalic.ttf'
+woffPath = './web/CSLSans-BlackItalic.woff'
 
+with TTFont(srcPath) as font:
+    font.flavor = 'woff'
+    font.save(woffPath)
 
 '''Generate WOFF2 from TTF or OTF font.'''
 
@@ -292,9 +305,24 @@ with TTFont(srcPath) as font:
     font.flavor = 'woff2'
     font.save(woff2Path)    
 
-    
+ 
 srcPath  = './ttf/CSLSans-ExtraBoldItalic.ttf'
 woff2Path = './web/CSLSans-ExtraBoldItalic.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woff2Path)
+    
+srcPath  = './ttf/CSLSans-Black.ttf'
+woff2Path = './web/CSLSans-Black.woff2'
+
+with TTFont(srcPath) as font:
+    font.flavor = 'woff2'
+    font.save(woff2Path)    
+
+ 
+srcPath  = './ttf/CSLSans-BlackItalic.ttf'
+woff2Path = './web/CSLSans-BlackItalic.woff2'
 
 with TTFont(srcPath) as font:
     font.flavor = 'woff2'

@@ -157,3 +157,23 @@
     font-style: italic;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'CSL Sans';
+    src: url('web/CSLSans-Black.woff2') format('woff2'),
+        url('web/CSLSans-Black.woff') format('woff'),
+        url('ttf/CSLSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CSL Sans';
+    src: url('web/CSLSans-BlackItalic.woff2') format('woff2'),
+        url('web/CSLSans-BlackItalic.woff') format('woff'),
+        url('ttf/CSLSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
